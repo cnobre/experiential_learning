@@ -38,14 +38,22 @@ if (chartType.length < 2)
 // Reading annotation Image
 // console.log(image.trim())
 let annotation = await Jimp.read(image.trim());
-annotation = annotation.resize(860,816); // Resizing annotation image
+
   
 // // Reading original chart
 // console.log(chartType)
-console.log('chart', chartType)
+// console.log('chart', chartType)
 
  let chart = await Jimp.read('charts/' + chartType + '.png');
-   annotation = await annotation
+
+let width =  chart.bitmap.width; //  width of the image
+let height  = chart.bitmap.height; // height of the image
+
+annotation = annotation.resize(width,height); // Resizing annotation image to match the underlying chart
+
+    // console.log(question, width,height)
+
+//    annotation = await annotation
    chart.composite(annotation, 0, 0, {
       mode: Jimp.BLEND_SOURCE_OVER,
       opacityDest: 1,
