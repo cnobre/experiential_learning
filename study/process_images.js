@@ -3,30 +3,27 @@
 const Jimp = require('jimp');
 const fs = require('fs');
  
-// // User-Defined Function to read the images
-// async function main() {
-//     const image = await Jimp.read(
-// 'vlat_annotations/ACQ1 - Annotate/R_24f9i6OOOaJR6Vr_signature.png');
-//     // rotate Function having rotation as 55
-//     image.resize(860,816)
-//         .write('resize2.png');
-// }
- 
-// main();
-// console.log("Image Processing Completed");
+async function imageOverlay(image) { 
 
-
-
-async function imageOverlay(image) { // Function name is same as of file
+//e.g. image =  'vlat_annotations/SB100Q3 - annotate/R_bQabCwyyuq5L81b_signature.png'
 
 let fileName = image.split('/')[2];
+// e.g. fileName = 'R_bQabCwyyuq5L81b_signature.png'
+
 
 // if file is not a signature.png exit
 if (!fileName || !fileName.includes('signature'))
     return;
 
+let id = fileName.split('_signature')[0];
+// e.g id = 'R_bQabCwyyuq5L81b'
+
+
 let question = image.split('/')[1].split('-')[0];
+//e.g question = SB100Q3
+
 let chartType = question.split('Q')[0];
+//e.g chartType = SB100
 
 
 
@@ -59,7 +56,7 @@ annotation = annotation.resize(width,height); // Resizing annotation image to ma
       opacityDest: 1,
       opacitySource: 1
    })
-   await chart.writeAsync('composite_annotations/' + question + '/'+fileName);
+   await chart.writeAsync('composite_annotations/' + question + '_'+id + '.png');
 }
 
 
@@ -84,10 +81,11 @@ function getFiles(dir, files = []) {
 }
 
 const files = getFiles('vlat_annotations');
+// console.log(files)
 files.map(file=>{
     imageOverlay(file);
 })
-// console.log(filesInTheFolder)
+// // console.log(filesInTheFolder)
 
 // Calling this function using async
 
