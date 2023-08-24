@@ -18,7 +18,7 @@ let objData = []
 let questionMap = {};
 
 
-fs.createReadStream('vlat_pilot.csv')
+fs.createReadStream('vlat_pilot_2.csv')
 
     .pipe(csv.parse({ headers: false }))
     .on('error', error => console.error(error))
@@ -58,7 +58,7 @@ fs.createReadStream('vlat_pilot.csv')
         // console.log(objData.filter(d=>d.ResponseId == 'R_2V3XbGtRx4AsXtW'))
         
 
-        const files = getFiles('vlat_annotations');
+        const files = getFiles('vlat_pilot2_annotations');
         // console.log(files)
         // imageOverlay(files[20]);
 

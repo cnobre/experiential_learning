@@ -1,0 +1,1505 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Consent Question,Consent Timing_First Click,Consent Timing_Last Click,Consent Timing_Page Submit,Consent Timing_Click Count,TQ1 - Trial ,TQ1 - time_First Click,TQ1 - time_Last Click,TQ1 - time_Page Submit,TQ1 - time_Click Count,TQ2 - time_First Click,TQ2 - time_Last Click,TQ2 - time_Page Submit,TQ2 - time_Click Count,TQ3 - Draw Practice_Id,TQ3 - Draw Practice_Name,TQ3 - Draw Practice_Size,TQ3 - Draw Practice_Type,TQ3 - textbox,TQ3 - time_First Click,TQ3 - time_Last Click,TQ3 - time_Page Submit,TQ3 - time_Click Count,TQ4 - time_First Click,TQ4 - time_Last Click,TQ4 - time_Page Submit,TQ4 - time_Click Count,SBQ1,SBQ1 - time_First Click,SBQ1 - time_Last Click,SBQ1 - time_Page Submit,SBQ1 - time_Click Count,SBQ1 - annotate_Id,SBQ1 - annotate_Name,SBQ1 - annotate_Size,SBQ1 - annotate_Type,SBQ1 - textbox,SBQ1 - explain time_First Click,SBQ1 - explain time_Last Click,SBQ1 - explain time_Page Submit,SBQ1 - explain time_Click Count,SBQ2,SBQ2 - time_First Click,SBQ2 - time_Last Click,SBQ2 - time_Page Submit,SBQ2 - time_Click Count,SBQ2 - annotate_Id,SBQ2 - annotate_Name,SBQ2 - annotate_Size,SBQ2 - annotate_Type,SBQ2 - textbox,SBQ2 - explain time_First Click,SBQ2 - explain time_Last Click,SBQ2 - explain time_Page Submit,SBQ2 - explain time_Click Count,SBQ3,SBQ3 - time_First Click,SBQ3 - time_Last Click,SBQ3 - time_Page Submit,SBQ3 - time_Click Count,SBQ3 - annotate_Id,SBQ3 - annotate_Name,SBQ3 - annotate_Size,SBQ3 - annotate_Type,SBQ3 - textbox,SBQ3 - explain time_First Click,SBQ3 - explain time_Last Click,SBQ3 - explain time_Page Submit,SBQ3 - explain time_Click Count,SBQ4,SBQ4 - time_First Click,SBQ4 - time_Last Click,SBQ4 - time_Page Submit,SBQ4 - time_Click Count,SBQ4 - annotate_Id,SBQ4 - annotate_Name,SBQ4 - annotate_Size,SBQ4 - annotate_Type,SBQ4 - textbox,SBQ4 - explain time_First Click,SBQ4 - explain time_Last Click,SBQ4 - explain time_Page Submit,SBQ4 - explain time_Click Count,SBQ5,SBQ5 - time_First Click,SBQ5 - time_Last Click,SBQ5 - time_Page Submit,SBQ5 - time_Click Count,SBQ5 - annotate_Id,SBQ5 - annotate_Name,SBQ5 - annotate_Size,SBQ5 - annotate_Type,SBQ5 - textbox,SBQ5 - explain time_First Click,SBQ5 - explain time_Last Click,SBQ5 - explain time_Page Submit,SBQ5 - explain time_Click Count,SAQ1,SAQ1 - time_First Click,SAQ1 - time_Last Click,SAQ1 - time_Page Submit,SAQ1 - time_Click Count,SAQ1 - annotate_Id,SAQ1 - annotate_Name,SAQ1 - annotate_Size,SAQ1 - annotate_Type,SAQ1 - textbox,SAQ1 - explain time_First Click,SAQ1 - explain time_Last Click,SAQ1 - explain time_Page Submit,SAQ1 - explain time_Click Count,SAQ2,SAQ2 - time_First Click,SAQ2 - time_Last Click,SAQ2 - time_Page Submit,SAQ2 - time_Click Count,SAQ2 - annotate_Id,SAQ2 - annotate_Name,SAQ2 - annotate_Size,SAQ2 - annotate_Type,SAQ2 - textbox,SAQ2 - explain time_First Click,SAQ2 - explain time_Last Click,SAQ2 - explain time_Page Submit,SAQ2 - explain time_Click Count,SAQ3,SAQ3 - time_First Click,SAQ3 - time_Last Click,SAQ3 - time_Page Submit,SAQ3 - time_Click Count,SAQ3 - annotate_Id,SAQ3 - annotate_Name,SAQ3 - annotate_Size,SAQ3 - annotate_Type,SAQ3 - textbox,SAQ3 - explain time_First Click,SAQ3 - explain time_Last Click,SAQ3 - explain time_Page Submit,SAQ3 - explain time_Click Count,SAQ4,SAQ4 - time_First Click,SAQ4 - time_Last Click,SAQ4 - time_Page Submit,SAQ4 - time_Click Count,SAQ4 - annotate_Id,SAQ4 - annotate_Name,SAQ4 - annotate_Size,SAQ4 - annotate_Type,SAQ4 - textbox,SQ4 - explain time_First Click,SQ4 - explain time_Last Click,SQ4 - explain time_Page Submit,SQ4 - explain time_Click Count,SAQ5,SAQ5 - time_First Click,SAQ5 - time_Last Click,SAQ5 - time_Page Submit,SAQ5 - time_Click Count,SAQ5 - annotate_Id,SAQ5 - annotate_Name,SAQ5 - annotate_Size,SAQ5 - annotate_Type,SAQ5 - textbox,SAQ5 - explain time_First Click,SAQ5 - explain time_Last Click,SAQ5 - explain time_Page Submit,SAQ5 - explain time_Click Count,SPQ1,SPQ1 - time_First Click,SPQ1 - time_Last Click,SPQ1 - time_Page Submit,SPQ1 - time_Click Count,SPQ1 - annotate_Id,SPQ1 - annotate_Name,SPQ1 - annotate_Size,SPQ1 - annotate_Type,SPQ1 - textbox,SPQ1 - explain time_First Click,SPQ1 - explain time_Last Click,SPQ1 - explain time_Page Submit,SPQ1 - explain time_Click Count,SPQ2,SPQ2 - time_First Click,SPQ2 - time_Last Click,SPQ2 - time_Page Submit,SPQ2 - time_Click Count,SPQ2 - annotate_Id,SPQ2 - annotate_Name,SPQ2 - annotate_Size,SPQ2 - annotate_Type,SPQ2 - textbox,SPQ2 - explain time_First Click,SPQ2 - explain time_Last Click,SPQ2 - explain time_Page Submit,SPQ2 - explain time_Click Count,SPQ3_1,SPQ3_2,SPQ3 - time_First Click,SPQ3 - time_Last Click,SPQ3 - time_Page Submit,SPQ3 - time_Click Count,SPQ3 - annotate_Id,SPQ3 - annotate_Name,SPQ3 - annotate_Size,SPQ3 - annotate_Type,SPQ3 - textbox,SPQ3 - explain time_First Click,SPQ3 - explain time_Last Click,SPQ3 - explain time_Page Submit,SPQ3 - explain time_Click Count,SPQ4,SPQ4 - time_First Click,SPQ4 - time_Last Click,SPQ4 - time_Page Submit,SPQ4 - time_Click Count,SPQ4 - annotate_Id,SPQ4 - annotate_Name,SPQ4 - annotate_Size,SPQ4 - annotate_Type,SPQ4 - textbox,SPQ4 - explain time_First Click,SPQ4 - explain time_Last Click,SPQ4 - explain time_Page Submit,SPQ4 - explain time_Click Count,SPQ5,SPQ5 - time_First Click,SPQ5 - time_Last Click,SPQ5 - time_Page Submit,SPQ5 - time_Click Count,SPQ5 - annotate_Id,SPQ5 - annotate_Name,SPQ5 - annotate_Size,SPQ5 - annotate_Type,SPQ5 - textbox,SPQ5 - explain time_First Click,SPQ5 - explain time_Last Click,SPQ5 - explain time_Page Submit,SPQ5 - explain time_Click Count,SPQ6,SPQ6 - time_First Click,SPQ6 - time_Last Click,SPQ6 - time_Page Submit,SPQ6 - time_Click Count,SPQ6 - annotate_Id,SPQ6 - annotate_Name,SPQ6 - annotate_Size,SPQ6 - annotate_Type,SPQ6 - textbox,SPQ6 - explain time_First Click,SPQ6 - explain time_Last Click,SPQ6 - explain time_Page Submit,SPQ6 - explain time_Click Count,LCQ1,LCQ1 - time_First Click,LCQ1 - time_Last Click,LCQ1 - time_Page Submit,LCQ1 - time_Click Count,LCQ1 - annotate_Id,LCQ1 - annotate_Name,LCQ1 - annotate_Size,LCQ1 - annotate_Type,LCQ1 - textbox,LCQ1 - explain time_First Click,LCQ1 - explain time_Last Click,LCQ1 - explain time_Page Submit,LCQ1 - explain time_Click Count,LCQ2,LCQ2 - time_First Click,LCQ2 - time_Last Click,LCQ2 - time_Page Submit,LCQ2 - time_Click Count,LCQ2 - annotate_Id,LCQ2 - annotate_Name,LCQ2 - annotate_Size,LCQ2 - annotate_Type,LCQ2 - textbox,LCQ2 - explain time_First Click,LCQ2 - explain time_Last Click,LCQ2 - explain time_Page Submit,LCQ2 - explain time_Click Count,LCQ3_1,LCQ3_2,LCQ3 - time_First Click,LCQ3 - time_Last Click,LCQ3 - time_Page Submit,LCQ3 - time_Click Count,LCQ3 - annotate_Id,LCQ3 - annotate_Name,LCQ3 - annotate_Size,LCQ3 - annotate_Type,LCQ3 - textbox,LCQ3 - explain time_First Click,LCQ3 - explain time_Last Click,LCQ3 - explain time_Page Submit,LCQ3 - explain time_Click Count,LCQ4,LCQ4 - time_First Click,LCQ4 - time_Last Click,LCQ4 - time_Page Submit,LCQ4 - time_Click Count,LCQ4 - annotate_Id,LCQ4 - annotate_Name,LCQ4 - annotate_Size,LCQ4 - annotate_Type,LCQ4 - textbox,LCQ4 - explain time_First Click,LCQ4 - explain time_Last Click,LCQ4 - explain time_Page Submit,LCQ4 - explain time_Click Count,LCQ5,LCQ5 - time_First Click,LCQ5 - time_Last Click,LCQ5 - time_Page Submit,LCQ5 - time_Click Count,LCQ5 - annotate_Id,LCQ5 - annotate_Name,LCQ5 - annotate_Size,LCQ5 - annotate_Type,LCQ5 - textbox,LCQ5 - explain time_First Click,LCQ5 - explain time_Last Click,LCQ5 - explain time_Page Submit,LCQ5 - explain time_Click Count,BuCQ1,BuCQ1 - time_First Click,BuCQ1 - time_Last Click,BuCQ1 - time_Page Submit,BuCQ1 - time_Click Count,BuCQ1 - annotate_Id,BuCQ1 - annotate_Name,BuCQ1 - annotate_Size,BuCQ1 - annotate_Type,BuCQ1 - textbox,BuCQ1 - explain time_First Click,BuCQ1 - explain time_Last Click,BuCQ1 - explain time_Page Submit,BuCQ1 - explain time_Click Count,BuCQ2_4,BuCQ2_5,BuCQ2 - time_First Click,BuCQ2 - time_Last Click,BuCQ2 - time_Page Submit,BuCQ2 - time_Click Count,BuCQ2 - annotate_Id,BuCQ2 - annotate_Name,BuCQ2 - annotate_Size,BuCQ2 - annotate_Type,BuCQ2 - textbox,BuCQ2 - explain time_First Click,BuCQ2 - explain time_Last Click,BuCQ2 - explain time_Page Submit,BuCQ2 - explain time_Click Count,BuCQ3,BuCQ3 - annotate_Id,BuCQ3 - annotate_Name,BuCQ3 - annotate_Size,BuCQ3 - annotate_Type,BuCQ3 - textbox,BuCQ3 - explain time_First Click,BuCQ3 - explain time_Last Click,BuCQ3 - explain time_Page Submit,BuCQ3 - explain time_Click Count,BuCQ4,BuCQ4 - time_First Click,BuCQ4 - time_Last Click,BuCQ4 - time_Page Submit,BuCQ4 - time_Click Count,BuCQ4 - annotate_Id,BuCQ4 - annotate_Name,BuCQ4 - annotate_Size,BuCQ4 - annotate_Type,BuCQ4 - textbox,BuCQ4 - explain time_First Click,BuCQ4 - explain time_Last Click,BuCQ4 - explain time_Page Submit,BuCQ4 - explain time_Click Count,BuCQ5,BuCQ5 - time_First Click,BuCQ5 - time_Last Click,BuCQ5 - time_Page Submit,BuCQ5 - time_Click Count,BuCQ5 - annotate_Id,BuCQ5 - annotate_Name,BuCQ5 - annotate_Size,BuCQ5 - annotate_Type,BuCQ5 - textbox,BuCQ5 - explain time_First Click,BuCQ5 - explain time_Last Click,BuCQ5 - explain time_Page Submit,BuCQ5 - explain time_Click Count,BuCQ6,BuCQ6 - time_First Click,BuCQ6 - time_Last Click,BuCQ6 - time_Page Submit,BuCQ6 - time_Click Count,BuCQ6 - annotate_Id,BuCQ6 - annotate_Name,BuCQ6 - annotate_Size,BuCQ6 - annotate_Type,BuCQ6 - textbox,BuCQ6 - explain time_First Click,BuCQ6 - explain time_Last Click,BuCQ6 - explain time_Page Submit,BuCQ6 - explain time_Click Count,ACQ1,ACQ1 - time_First Click,ACQ1 - time_Last Click,ACQ1 - time_Page Submit,ACQ1 - time_Click Count,ACQ1 - annotate_Id,ACQ1 - annotate_Name,ACQ1 - annotate_Size,ACQ1 - annotate_Type,ACQ1 - textbox,ACQ1 - explain time_First Click,ACQ1 - explain time_Last Click,ACQ1 - explain time_Page Submit,ACQ1 - explain time_Click Count,ACQ2,ACQ2_1_TEXT,ACQ2 - time_First Click,ACQ2 - time_Last Click,ACQ2 - time_Page Submit,ACQ2 - time_Click Count,ACQ2 - annotate_Id,ACQ2 - annotate_Name,ACQ2 - annotate_Size,ACQ2 - annotate_Type,ACQ2 - textbox,ACQ2 - explain time_First Click,ACQ2 - explain time_Last Click,ACQ2 - explain time_Page Submit,ACQ2 - explain time_Click Count,ACQ3_1,ACQ3_2,ACQ3 - time_First Click,ACQ3 - time_Last Click,ACQ3 - time_Page Submit,ACQ3 - time_Click Count,ACQ3 - annotate_Id,ACQ3 - annotate_Name,ACQ3 - annotate_Size,ACQ3 - annotate_Type,ACQ3 - textbox,ACQ3 - explain time_First Click,ACQ3 - explain time_Last Click,ACQ3 - explain time_Page Submit,ACQ3 - explain time_Click Count,ACQ4,ACQ4 - time_First Click,ACQ4 - time_Last Click,ACQ4 - time_Page Submit,ACQ4 - time_Click Count,ACQ4 - annotate_Id,ACQ4 - annotate_Name,ACQ4 - annotate_Size,ACQ4 - annotate_Type,ACQ4 - textbox,ACQ4 - explain time_First Click,ACQ4 - explain time_Last Click,ACQ4 - explain time_Page Submit,ACQ4 - explain time_Click Count,CCQ1,CCQ1 - time_First Click,CCQ1 - time_Last Click,CCQ1 - time_Page Submit,CCQ1 - time_Click Count,CCQ1 - annotate_Id,CCQ1 - annotate_Name,CCQ1 - annotate_Size,CCQ1 - annotate_Type,CCQ1 - textbox,CCQ1 - explain time_First Click,CCQ1 - explain time_Last Click,CCQ1 - explain time_Page Submit,CCQ1 - explain time_Click Count,CCQ2,CCQ2 - time_First Click,CCQ2 - time_Last Click,CCQ2 - time_Page Submit,CCQ2 - time_Click Count,CCQ2 - annotate_Id,CCQ2 - annotate_Name,CCQ2 - annotate_Size,CCQ2 - annotate_Type,CCQ2 - textbox,CCQ2 - explain time_First Click,CCQ2 - explain time_Last Click,CCQ2 - explain time_Page Submit,CCQ2 - explain time_Click Count,CCQ3,CCQ3 - time_First Click,CCQ3 - time_Last Click,CCQ3 - time_Page Submit,CCQ3 - time_Click Count,CCQ3 - annotate_Id,CCQ3 - annotate_Name,CCQ3 - annotate_Size,CCQ3 - annotate_Type,CCQ3 - textbox,CCQ3 - explain time_First Click,CCQ3 - explain time_Last Click,CCQ3 - explain time_Page Submit,CCQ3 - explain time_Click Count,HCQ1,HCQ1 - time_First Click,HCQ1 - time_Last Click,HCQ1 - time_Page Submit,HCQ1 - time_Click Count,HCQ1 - annotate_Id,HCQ1 - annotate_Name,HCQ1 - annotate_Size,HCQ1 - annotate_Type,HCQ1 - textbox,HCQ1 - explain time_First Click,HCQ1 - explain time_Last Click,HCQ1 - explain time_Page Submit,HCQ1 - explain time_Click Count,HCQ2,HCQ2 - time_First Click,HCQ2 - time_Last Click,HCQ2 - time_Page Submit,HCQ2 - time_Click Count,HCQ2 - annotate_Id,HCQ2 - annotate_Name,HCQ2 - annotate_Size,HCQ2 - annotate_Type,HCQ2 - textbox,HCQ2 - explain time_First Click,HCQ2 - explain time_Last Click,HCQ2 - explain time_Page Submit,HCQ2 - explain time_Click Count,HCQ3,HCQ3 - time_First Click,HCQ3 - time_Last Click,HCQ3 - time_Page Submit,HCQ3 - time_Click Count,HCQ3 - annotate_Id,HCQ3 - annotate_Name,HCQ3 - annotate_Size,HCQ3 - annotate_Type,HCQ3 - textbox,HCQ3 - explain time_First Click,HCQ3 - explain time_Last Click,HCQ3 - explain time_Page Submit,HCQ3 - explain time_Click Count,TMQ1,TMQ1 - time_First Click,TMQ1 - time_Last Click,TMQ1 - time_Page Submit,TMQ1 - time_Click Count,TMQ1 - annotate_Id,TMQ1 - annotate_Name,TMQ1 - annotate_Size,TMQ1 - annotate_Type,TMQ1 - textbox,TMQ1 - explain time_First Click,TMQ1 - explain time_Last Click,TMQ1 - explain time_Page Submit,TMQ1 - explain time_Click Count,TMQ2,TMQ2 - time_First Click,TMQ2 - time_Last Click,TMQ2 - time_Page Submit,TMQ2 - time_Click Count,TMQ2 - annotate_Id,TMQ2 - annotate_Name,TMQ2 - annotate_Size,TMQ2 - annotate_Type,TMQ2 - textbox,TMQ2 - explain time_First Click,TMQ2 - explain time_Last Click,TMQ2 - explain time_Page Submit,TMQ2 - explain time_Click Count,TMQ3,TMQ3 - time_First Click,TMQ3 - time_Last Click,TMQ3 - time_Page Submit,TMQ3 - time_Click Count,TMQ3 - annotate_Id,TMQ3 - annotate_Name,TMQ3 - annotate_Size,TMQ3 - annotate_Type,TMQ3 - textbox,TMQ3 - explain time_First Click,TMQ3 - explain time_Last Click,TMQ3 - explain time_Page Submit,TMQ3 - explain time_Click Count,PCQ1,PCQ1 - time_First Click,PCQ1 - time_Last Click,PCQ1 - time_Page Submit,PCQ1 - time_Click Count,PCQ1 - annotate_Id,PCQ1 - annotate_Name,PCQ1 - annotate_Size,PCQ1 - annotate_Type,PCQ1 - textbox,PCQ1 - explain time_First Click,PCQ1 - explain time_Last Click,PCQ1 - explain time_Page Submit,PCQ1 - explain time_Click Count,PCQ2,PCQ2 - time_First Click,PCQ2 - time_Last Click,PCQ2 - time_Page Submit,PCQ2 - time_Click Count,PCQ2 - annotate_Id,PCQ2 - annotate_Name,PCQ2 - annotate_Size,PCQ2 - annotate_Type,PCQ2 - textbox,PCQ2 - explain time_First Click,PCQ2 - explain time_Last Click,PCQ2 - explain time_Page Submit,PCQ2 - explain time_Click Count,PCQ3,PCQ3 - time_First Click,PCQ3 - time_Last Click,PCQ3 - time_Page Submit,PCQ3 - time_Click Count,PCQ3 - annotate_Id,PCQ3 - annotate_Name,PCQ3 - annotate_Size,PCQ3 - annotate_Type,PCQ3 - textbox,PCQ3 - explain time_First Click,PCQ3 - explain time_Last Click,PCQ3 - explain time_Page Submit,PCQ3 - explain time_Click Count,SB100Q1,SB100Q1 - time_First Click,SB100Q1 - time_Last Click,SB100Q1 - time_Page Submit,SB100Q1 - time_Click Count,SB100Q1 - annotate_Id,SB100Q1 - annotate_Name,SB100Q1 - annotate_Size,SB100Q1 - annotate_Type,SB100Q1 - textbox,SB100Q1-explain time_First Click,SB100Q1-explain time_Last Click,SB100Q1-explain time_Page Submit,SB100Q1-explain time_Click Count,SB100Q2,SB100Q2 - time_First Click,SB100Q2 - time_Last Click,SB100Q2 - time_Page Submit,SB100Q2 - time_Click Count,SB100Q2 - annotate_Id,SB100Q2 - annotate_Name,SB100Q2 - annotate_Size,SB100Q2 - annotate_Type,SB100Q2 - textbox,SB100Q2-explain time_First Click,SB100Q2-explain time_Last Click,SB100Q2-explain time_Page Submit,SB100Q2-explain time_Click Count,SB100Q3,SB100Q3 - time_First Click,SB100Q3 - time_Last Click,SB100Q3 - time_Page Submit,SB100Q3 - time_Click Count,SB100Q3 - annotate_Id,SB100Q3 - annotate_Name,SB100Q3 - annotate_Size,SB100Q3 - annotate_Type,SB100Q3 - textbox,SB100Q3-explain time_First Click,SB100Q3-explain time_Last Click,SB100Q3-explain time_Page Submit,SB100Q3-explain time_Click Count,BCQ1,BCQ1 - time_First Click,BCQ1 - time_Last Click,BCQ1 - time_Page Submit,BCQ1 - time_Click Count,BCQ1 - annotate_Id,BCQ1 - annotate_Name,BCQ1 - annotate_Size,BCQ1 - annotate_Type,BCQ1 - textbox,BCQ1 - explain time_First Click,BCQ1 - explain time_Last Click,BCQ1 - explain time_Page Submit,BCQ1 - explain time_Click Count,BCQ2,BCQ2 - annotate_Id,BCQ2 - annotate_Name,BCQ2 - annotate_Size,BCQ2 - annotate_Type,BCQ2 - textbox,BCQ2 - explain time_First Click,BCQ2 - explain time_Last Click,BCQ2 - explain time_Page Submit,BCQ2 - explain time_Click Count,BCQ3_1,BCQ3_2,BCQ3 - time_First Click,BCQ3 - time_Last Click,BCQ3 - time_Page Submit,BCQ3 - time_Click Count,BCQ3 - annotate_Id,BCQ3 - annotate_Name,BCQ3 - annotate_Size,BCQ3 - annotate_Type,BCQ3 - textbox,BCQ3 - explain time_First Click,BCQ3 - explain time_Last Click,BCQ3 - explain time_Page Submit,BCQ3 - explain time_Click Count,BCQ4,BCQ4 - time_First Click,BCQ4 - time_Last Click,BCQ4 - time_Page Submit,BCQ4 - time_Click Count,BCQ4 - annotate_Id,BCQ4 - annotate_Name,BCQ4 - annotate_Size,BCQ4 - annotate_Type,BCQ4 - textbox,BCQ4 - explain time_First Click,BCQ4 - explain time_Last Click,BCQ4 - explain time_Page Submit,BCQ4 - explain time_Click Count,PSQ1,PSQ2,PSQ3,PSQ3_3_TEXT,PSQ4,PSQ5,PSQ6,PSQ6_8_TEXT,PS - time_First Click,PS - time_Last Click,PS - time_Page Submit,PS - time_Click Count,Pilot Question,PROLIFIC_PID,chart_AC,chart_BC,chart_BuC,chart_CC,chart_HC,chart_LC,chart_PC,chart_SA,chart_SB,chart_SB100,chart_SP,chart_TM
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Consent Form for Participation in a Research Study
+
+ 
+
+Principal Investigators:Dr. Carolina Nobre, Assistant Professor at University of Toronto and Johanna Beyer, Research Scientist at Harvard University
+
+Study Title: Visual Literacy Assessment Test
+
+Supported By: University of Toronto and Harvard University
+
+ 
+
+WHAT IS THIS FORM?
+
+This form is called a Consent Form. It will give you information about the study so you can make an informed decision about participation in this research. We encourage you to take some time to think this over and ask questions now and at any other time. If you decide to participate, you will be asked to sign this form and you will be given a copy for your records.
+ 
+
+WHAT ARE SOME OF THE IMPORTANT ASPECTS OF THIS RESEARCH STUDY THAT I SHOULD BE AWARE OF?
+
+
+	
+	Whether or not you take part is up to you.
+	
+	
+	You can choose not to take part.
+	
+	
+	You can agree to take part and later change your mind.
+	
+	
+	Your decision will not be held against you.
+	
+
+ 
+
+WHY ARE WE DOING THIS RESEARCH STUDY?
+
+The purpose of our study is to explore how people read information from visualizations.  
+ 
+
+WHO CAN PARTICIPATE IN THIS RESEARCH STUDY?
+
+Any person who is at least 18 years of age may participate in this research study.
+ 
+
+HOW MANY PEOPLE WILL PARTICIPATE?
+
+We expect about 600 people will be in this research study.
+ 
+
+WHAT WILL I BE ASKED TO DO AND HOW MUCH TIME WILL IT TAKE?
+
+You will be shown different visualizations and you will be asked questions about the data shown in the visualization. We expect this research study to take around 30 minutes. 
+ 
+
+WILL BEING IN THIS RESEARCH STUDY HELP ME IN ANY WAY? 
+
+You are not likely to have any direct benefit from being in this research study. The potential benefits to you from participation may include learning about how data visualization research is conducted, and you may learn about issues of current interest in data visualization.
+ 
+
+WHAT ARE MY RISKS OF BEING IN THIS RESEARCH STUDY? 
+
+Your participation in this study does not involve any risks other than what you would encounter in daily life. The effects of participating should be comparable to those you would experience from viewing a computer monitor and using a keyboard. You may withdraw at any time.
+ 
+
+HOW WILL MY PERSONAL INFORMATION BE PROTECTED? 
+
+Efforts will be made to limit the use and disclosure of your personal information, including research study records, to people who have a need to review this information. 
+
+ 
+
+Data Sharing: De-identified data from this study will be shared among the Harvard and University of Toronto research teams, as well as the research community at large to advance science and health. We will remove or code any personal information that could identify you before files are shared with other researchers to ensure that, by current scientific standards and known methods, no one will be able to identify you from the information we share. 
+ 
+
+WHO CAN I TALK TO IF I HAVE QUESTIONS?
+
+If you have questions about this project or if you have a research-related problem, you may contact the Principal Investigator, Dr. Carolina Nobre, at cnobre@cs.toronto.edu. 
+
+ 
+
+WHAT HAPPENS IF I SAY YES, BUT I CHANGE MY MIND LATER?
+
+You can decide not to participate in this research or you can start and then decide to leave the research at any time and it will not be held against you. To do so, simply exit the experiment.  Any data already collected will not be saved.
+
+ 
+
+By clicking “I agree” below you are indicating that you are at least 18 years old, have read this consent form, and agree to participate in this research study. Please print a copy of this page for your records.",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"This section is a quick demo on the types of questions you will see in this study.
+
+
+
+Here is an example question: What is the height of the heaviest person in this chart? 
+
+
+
+
+
+   
+
+
+
+
+
+
+
+For questions that ask for a numeric value (such as this one)  please only input the number (no units).",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Your Turn! Draw on the image to show your own thought process. 
+
+In the question ""What is the height of the heaviest person in this chart?""
+
+you answered: [QID162-ChoiceTextEntryValue]
+
+
+
+
+Please draw on the image (by clicking and dragging your mouse)  to show how/where you found your answer. 
+Notice that you can clear your drawing and start again by using the ""clear"" button on the bottom right. - Id","Your Turn! Draw on the image to show your own thought process. 
+
+In the question ""What is the height of the heaviest person in this chart?""
+
+you answered: [QID162-ChoiceTextEntryValue]
+
+
+
+
+Please draw on the image (by clicking and dragging your mouse)  to show how/where you found your answer. 
+Notice that you can clear your drawing and start again by using the ""clear"" button on the bottom right. - Name","Your Turn! Draw on the image to show your own thought process. 
+
+In the question ""What is the height of the heaviest person in this chart?""
+
+you answered: [QID162-ChoiceTextEntryValue]
+
+
+
+
+Please draw on the image (by clicking and dragging your mouse)  to show how/where you found your answer. 
+Notice that you can clear your drawing and start again by using the ""clear"" button on the bottom right. - Size","Your Turn! Draw on the image to show your own thought process. 
+
+In the question ""What is the height of the heaviest person in this chart?""
+
+you answered: [QID162-ChoiceTextEntryValue]
+
+
+
+
+Please draw on the image (by clicking and dragging your mouse)  to show how/where you found your answer. 
+Notice that you can clear your drawing and start again by using the ""clear"" button on the bottom right. - Type",You may also be asked to explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What percentage of the room service cost comes from the sandwich in Copenhagen?    
+
+(Please enter a number between 1 and 100, representing the percentage (%))",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What percentage of the room service cost comes from the sandwich in Copenhagen?
+
+Your answer: [QID129-ChoiceTextEntryValue]
+
+
+
+Please draw on the image (with your mouse) to show how/where you found your answer. - Id","What percentage of the room service cost comes from the sandwich in Copenhagen?
+
+Your answer: [QID129-ChoiceTextEntryValue]
+
+
+
+Please draw on the image (with your mouse) to show how/where you found your answer. - Name","What percentage of the room service cost comes from the sandwich in Copenhagen?
+
+Your answer: [QID129-ChoiceTextEntryValue]
+
+
+
+Please draw on the image (with your mouse) to show how/where you found your answer. - Size","What percentage of the room service cost comes from the sandwich in Copenhagen?
+
+Your answer: [QID129-ChoiceTextEntryValue]
+
+
+
+Please draw on the image (with your mouse) to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,In which city is the cost of soda the highest?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In which city is the cost of soda the highest?
+
+Your answer:  [QID131-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","In which city is the cost of soda the highest?
+
+Your answer:  [QID131-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","In which city is the cost of soda the highest?
+
+Your answer:  [QID131-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","In which city is the cost of soda the highest?
+
+Your answer:  [QID131-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The cost of vodka in Helsinki is higher than that of Toronto. 
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The cost of vodka in Helsinki is higher than that of Toronto.
+True or False?
+
+Your answer:  [QID133-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","The cost of vodka in Helsinki is higher than that of Toronto.
+True or False?
+
+Your answer:  [QID133-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","The cost of vodka in Helsinki is higher than that of Toronto.
+True or False?
+
+Your answer:  [QID133-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","The cost of vodka in Helsinki is higher than that of Toronto.
+True or False?
+
+Your answer:  [QID133-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The ratio of the cost of Soda to the cost of Water is higher in N.Y.C than in Stockholm.
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The ratio of the cost of Soda to the cost of Water is higher in N.Y.C than in Stockholm. True or False?
+
+Your answer:  [QID137-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","The ratio of the cost of Soda to the cost of Water is higher in N.Y.C than in Stockholm. True or False?
+
+Your answer:  [QID137-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","The ratio of the cost of Soda to the cost of Water is higher in N.Y.C than in Stockholm. True or False?
+
+Your answer:  [QID137-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","The ratio of the cost of Soda to the cost of Water is higher in N.Y.C than in Stockholm. True or False?
+
+Your answer:  [QID137-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the cost of peanuts in room service in Seoul?
+
+
+
+
+
+   
+(Please enter number only)",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the cost of peanuts in room service in Seoul?
+
+Your answer: [QID139-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the cost of peanuts in room service in Seoul?
+
+Your answer: [QID139-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the cost of peanuts in room service in Seoul?
+
+Your answer: [QID139-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the cost of peanuts in room service in Seoul?
+
+Your answer: [QID139-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the number of girls named 'Amelia' in 2010 in the UK?
+
+
+
+
+
+   
+(Please enter number only)",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the number of girls named 'Amelia' in 2010 in the UK?
+
+Your answer: [QID115-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What was the number of girls named 'Amelia' in 2010 in the UK?
+
+Your answer: [QID115-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What was the number of girls named 'Amelia' in 2010 in the UK?
+
+Your answer: [QID115-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What was the number of girls named 'Amelia' in 2010 in the UK?
+
+Your answer: [QID115-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Over the course of years between 2009 and 2014, the number of girls named 'Isla' was always more than 'Amelia'.
+
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Over the course of years between 2009 and 2014, the number of girls named 'Isla' was always more than 'Amelia'. True or False?
+
+Your answer:  [QID125-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","Over the course of years between 2009 and 2014, the number of girls named 'Isla' was always more than 'Amelia'. True or False?
+
+Your answer:  [QID125-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","Over the course of years between 2009 and 2014, the number of girls named 'Isla' was always more than 'Amelia'. True or False?
+
+Your answer:  [QID125-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","Over the course of years between 2009 and 2014, the number of girls named 'Isla' was always more than 'Amelia'. True or False?
+
+Your answer:  [QID125-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Over the course of years between 2009 and 2014, when was the number of girls named 'Amelia' at the maximum?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Over the course of years between 2009 and 2014, when was the number of girls named 'Amelia' at the maximum?
+
+Your answer:  [QID117-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","Over the course of years between 2009 and 2014, when was the number of girls named 'Amelia' at the maximum?
+
+Your answer:  [QID117-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","Over the course of years between 2009 and 2014, when was the number of girls named 'Amelia' at the maximum?
+
+Your answer:  [QID117-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","Over the course of years between 2009 and 2014, when was the number of girls named 'Amelia' at the maximum?
+
+Your answer:  [QID117-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,The number of girls named 'Isla' was __________ from 2009 to 2012.,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The number of girls named 'Isla' was __________ from 2009 to 2012.
+
+Your answer:  [QID119-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","The number of girls named 'Isla' was __________ from 2009 to 2012.
+
+Your answer:  [QID119-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","The number of girls named 'Isla' was __________ from 2009 to 2012.
+
+Your answer:  [QID119-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","The number of girls named 'Isla' was __________ from 2009 to 2012.
+
+Your answer:  [QID119-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In the UK, the number of girls named ‘Isla’ in 2014 was more than it was in 2013. 
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In the UK, the number of girls named ‘Isla’ in 2014 was more than it was in 2013.
+True or False?
+
+Your answer:  [QID121-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","In the UK, the number of girls named ‘Isla’ in 2014 was more than it was in 2013.
+True or False?
+
+Your answer:  [QID121-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","In the UK, the number of girls named ‘Isla’ in 2014 was more than it was in 2013.
+True or False?
+
+Your answer:  [QID121-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","In the UK, the number of girls named ‘Isla’ in 2014 was more than it was in 2013.
+True or False?
+
+Your answer:  [QID121-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the weight for the person who is 161 cm tall?
+
+   
+(Please enter a numeric value (no units))",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the weight for the person who is 161 cm tall?
+
+Your answer: [QID79-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the weight for the person who is 161 cm tall?
+
+Your answer: [QID79-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the weight for the person who is 161 cm tall?
+
+Your answer: [QID79-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the weight for the person who is 161 cm tall?
+
+Your answer: [QID79-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the height for the tallest person among the 85 individuals?
+
+   
+(Please enter number only)",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the height for the tallest person among the 85 individuals?'
+
+Your answer: [QID90-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the height for the tallest person among the 85 individuals?'
+
+Your answer: [QID90-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the height for the tallest person among the 85 individuals?'
+
+Your answer: [QID90-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the height for the tallest person among the 85 individuals?'
+
+Your answer: [QID90-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the range in weight for the 85 individuals?
+
+ 
+(Please enter number only) - Upper range","What is the range in weight for the 85 individuals?
+
+ 
+(Please enter number only) - Lower range",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the range in weight for the 85 individuals?
+
+Your answer:  
+Lower range [QID83-ChoiceTextEntryValue-1]
+Upper range [QID83-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the range in weight for the 85 individuals?
+
+Your answer:  
+Lower range [QID83-ChoiceTextEntryValue-1]
+Upper range [QID83-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the range in weight for the 85 individuals?
+
+Your answer:  
+Lower range [QID83-ChoiceTextEntryValue-1]
+Upper range [QID83-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the range in weight for the 85 individuals?
+
+Your answer:  
+Lower range [QID83-ChoiceTextEntryValue-1]
+Upper range [QID83-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"There is a group of individuals centered at the height of 176 cm and the weight of 55 kg.
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"There is a group of individuals centered at the height of 176 cm and the weight of 55 kg. True or False?
+
+Your answer:  [QID85-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","There is a group of individuals centered at the height of 176 cm and the weight of 55 kg. True or False?
+
+Your answer:  [QID85-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","There is a group of individuals centered at the height of 176 cm and the weight of 55 kg. True or False?
+
+Your answer:  [QID85-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","There is a group of individuals centered at the height of 176 cm and the weight of 55 kg. True or False?
+
+Your answer:  [QID85-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"There is a negative linear relationship between the height and the weight of the 85 individuals
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"There is a negative linear relationship between the height and the weight of the 85 individuals. True or False?
+
+Your answer:  [QID92-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","There is a negative linear relationship between the height and the weight of the 85 individuals. True or False?
+
+Your answer:  [QID92-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","There is a negative linear relationship between the height and the weight of the 85 individuals. True or False?
+
+Your answer:  [QID92-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","There is a negative linear relationship between the height and the weight of the 85 individuals. True or False?
+
+Your answer:  [QID92-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the height of the most prominent outlier in the data?
+
+   
+(Please enter numeric values only (no units))",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the height of the most prominent outlier in the data?
+
+Your answer: [QID87-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the height of the most prominent outlier in the data?
+
+Your answer: [QID87-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the height of the most prominent outlier in the data?
+
+Your answer: [QID87-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the height of the most prominent outlier in the data?
+
+Your answer: [QID87-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the price of a barrel of oil in February 2020?
+  
+(Please enter numeric values only (no units))",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the price of a barrel of oil in February 2020?
+
+Your answer: [QID59-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What was the price of a barrel of oil in February 2020?
+
+Your answer: [QID59-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What was the price of a barrel of oil in February 2020?
+
+Your answer: [QID59-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What was the price of a barrel of oil in February 2020?
+
+Your answer: [QID59-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In which month was the price of a barrel of oil the lowest in 2020?
+ Please select from below",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In which month was the price of a barrel of oil the lowest in 2020?
+
+Your answer:  [QID63-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","In which month was the price of a barrel of oil the lowest in 2020?
+
+Your answer:  [QID63-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","In which month was the price of a barrel of oil the lowest in 2020?
+
+Your answer:  [QID63-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","In which month was the price of a barrel of oil the lowest in 2020?
+
+Your answer:  [QID63-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the price range of a barrel of oil in 2020?
+
+(Please enter number only) - Upper range","What was the price range of a barrel of oil in 2020?
+
+(Please enter number only) - Lower range",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the price range of a barrel of oil in 2020?
+
+Your answer:  
+Lower range [QID65-ChoiceTextEntryValue-1]
+Upper range [QID65-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What was the price range of a barrel of oil in 2020?
+
+Your answer:  
+Lower range [QID65-ChoiceTextEntryValue-1]
+Upper range [QID65-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What was the price range of a barrel of oil in 2020?
+
+Your answer:  
+Lower range [QID65-ChoiceTextEntryValue-1]
+Upper range [QID65-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What was the price range of a barrel of oil in 2020?
+
+Your answer:  
+Lower range [QID65-ChoiceTextEntryValue-1]
+Upper range [QID65-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Over the course of the first quarter of 2020, the price of a barrel of oil was ______.",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Over the course of the first quarter of 2020, the price of a barrel of oil was ______.
+
+Your answer:  [QID67-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","Over the course of the first quarter of 2020, the price of a barrel of oil was ______.
+
+Your answer:  [QID67-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","Over the course of the first quarter of 2020, the price of a barrel of oil was ______.
+
+Your answer:  [QID67-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","Over the course of the first quarter of 2020, the price of a barrel of oil was ______.
+
+Your answer:  [QID67-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"About how much did the price of a barrel of oil rise from April to August in 2020?
+  
+(Please enter numeric values only (no units))",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"About how much did the price of a barrel of oil rise from April to August in 2020?
+
+Your answer: [QID69-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","About how much did the price of a barrel of oil rise from April to August in 2020?
+
+Your answer: [QID69-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","About how much did the price of a barrel of oil rise from April to August in 2020?
+
+Your answer: [QID69-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","About how much did the price of a barrel of oil rise from April to August in 2020?
+
+Your answer: [QID69-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the total length of the metro system in Beijing?
+
+
+
+
+
+(please enter a number, without the KM)",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the total length of the metro system in Beijing?
+
+Your answer:  [QID24-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the total length of the metro system in Beijing?
+
+Your answer:  [QID24-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the total length of the metro system in Beijing?
+
+Your answer:  [QID24-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the total length of the metro system in Beijing?
+
+Your answer:  [QID24-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the range of metro system lengths shown in this chart?
+
+  
+
+
+
+(please enter number only) - Upper range","What is the range of metro system lengths shown in this chart?
+
+  
+
+
+
+(please enter number only) - Lower range",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,In which country is the internet speed the fastest globally?Your answer: ${q://QID24/ChoiceTex - Id,In which country is the internet speed the fastest globally?Your answer: ${q://QID24/ChoiceTex - Name,In which country is the internet speed the fastest globally?Your answer: ${q://QID24/ChoiceTex - Size,In which country is the internet speed the fastest globally?Your answer: ${q://QID24/ChoiceTex - Type,Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Tokyo has a bigger ridership than Guangzhow. True or False?,"Tokyo has a bigger ridership than Guangzhow. True or False?
+
+Your answer: [QID37-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","Tokyo has a bigger ridership than Guangzhow. True or False?
+
+Your answer: [QID37-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","Tokyo has a bigger ridership than Guangzhow. True or False?
+
+Your answer: [QID37-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","Tokyo has a bigger ridership than Guangzhow. True or False?
+
+Your answer: [QID37-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In general, the ridership of the metro system increases as the number of stations increases. 
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In general, the ridership of the metro system increases as the number of stations increases. True or False?
+
+Your answer: [QID30-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","In general, the ridership of the metro system increases as the number of stations increases. True or False?
+
+Your answer: [QID30-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","In general, the ridership of the metro system increases as the number of stations increases. True or False?
+
+Your answer: [QID30-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","In general, the ridership of the metro system increases as the number of stations increases. True or False?
+
+Your answer: [QID30-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,The average metro system has approximately 300 stations 200km in length. True or False?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The average metro system has approximately 300 stations 200km in length
+
+Your answer: [QID41-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","The average metro system has approximately 300 stations 200km in length
+
+Your answer: [QID41-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","The average metro system has approximately 300 stations 200km in length
+
+Your answer: [QID41-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","The average metro system has approximately 300 stations 200km in length
+
+Your answer: [QID41-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Which city's metro system has the largest number of stations?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Which city's metro system has the largest number of stations?
+
+Your answer: [QID39-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","Which city's metro system has the largest number of stations?
+
+Your answer: [QID39-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","Which city's metro system has the largest number of stations?
+
+Your answer: [QID39-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","Which city's metro system has the largest number of stations?
+
+Your answer: [QID39-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the price of a pound of coffee beans in October 2019? 
+
+   
+(Please enter number only)",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the price of a pound of coffee beans in October 2019? 
+
+Your answer:  [QID4-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What was the price of a pound of coffee beans in October 2019? 
+
+Your answer:  [QID4-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What was the price of a pound of coffee beans in October 2019? 
+
+Your answer:  [QID4-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What was the price of a pound of coffee beans in October 2019? 
+
+Your answer:  [QID4-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,When was the price of a pound of coffee beans at a minimum? - Selected Choice,When was the price of a pound of coffee beans at a minimum? - Feb 2018 - Text,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"When was the price of a pound of coffee beans at a minimum?
+
+Your answer:  [QID18-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","When was the price of a pound of coffee beans at a minimum?
+
+Your answer:  [QID18-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","When was the price of a pound of coffee beans at a minimum?
+
+Your answer:  [QID18-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","When was the price of a pound of coffee beans at a minimum?
+
+Your answer:  [QID18-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the range of the price of a pound of coffee beans between January 2018 and January 2020?
+
+   
+
+(Please enter number only) - Upper range","What was the range of the price of a pound of coffee beans between January 2018 and January 2020?
+
+   
+
+(Please enter number only) - Lower range",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the range of the price of a pound of coffee beans between January 2018 and January 2020?
+
+Your answer:  
+Lower range [QID19-ChoiceTextEntryValue-1]
+Upper range [QID19-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What was the range of the price of a pound of coffee beans between January 2018 and January 2020?
+
+Your answer:  
+Lower range [QID19-ChoiceTextEntryValue-1]
+Upper range [QID19-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What was the range of the price of a pound of coffee beans between January 2018 and January 2020?
+
+Your answer:  
+Lower range [QID19-ChoiceTextEntryValue-1]
+Upper range [QID19-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What was the range of the price of a pound of coffee beans between January 2018 and January 2020?
+
+Your answer:  
+Lower range [QID19-ChoiceTextEntryValue-1]
+Upper range [QID19-ChoiceTextEntryValue-2]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Over the course of 2019, the price of a pound of coffee beans was roughly ____________.",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Over the course of 2019, the price of a pound of coffee beans was roughly ____________.'
+
+Your answer:  [QID20-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","Over the course of 2019, the price of a pound of coffee beans was roughly ____________.'
+
+Your answer:  [QID20-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","Over the course of 2019, the price of a pound of coffee beans was roughly ____________.'
+
+Your answer:  [QID20-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","Over the course of 2019, the price of a pound of coffee beans was roughly ____________.'
+
+Your answer:  [QID20-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"50 States, D.C. and Puerto Rico",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In which state was the unemployment rate the highest?
+
+Your answer: [QID9-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","In which state was the unemployment rate the highest?
+
+Your answer: [QID9-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","In which state was the unemployment rate the highest?
+
+Your answer: [QID9-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","In which state was the unemployment rate the highest?
+
+Your answer: [QID9-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,What was the unemployment rate for Indiana (IN) in 2020?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What was the unemployment rate for Indiana (IN) in 2020?
+
+Your answer:   [QID45-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What was the unemployment rate for Indiana (IN) in 2020?
+
+Your answer:   [QID45-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What was the unemployment rate for Indiana (IN) in 2020?
+
+Your answer:   [QID45-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What was the unemployment rate for Indiana (IN) in 2020?
+
+Your answer:   [QID45-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The unemployment rate for Washington (WA) was higher than that of Wisconsin (WI).
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The unemployment rate for Washington (WA) was higher than that of Wisconsin (WI). True or False?
+
+Your answer:  [QID47-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","The unemployment rate for Washington (WA) was higher than that of Wisconsin (WI). True or False?
+
+Your answer:  [QID47-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","The unemployment rate for Washington (WA) was higher than that of Wisconsin (WI). True or False?
+
+Your answer:  [QID47-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","The unemployment rate for Washington (WA) was higher than that of Wisconsin (WI). True or False?
+
+Your answer:  [QID47-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"How many people have traveled a distance between 20 and 40?
+
+   
+(Please enter numeric value only (no units))",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"How many people have traveled a distance between 20 and 40?
+
+Your answer: [QID51-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","How many people have traveled a distance between 20 and 40?
+
+Your answer: [QID51-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","How many people have traveled a distance between 20 and 40?
+
+Your answer: [QID51-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","How many people have traveled a distance between 20 and 40?
+
+Your answer: [QID51-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"More people have traveled the distance between 10 and 20 km than between 40 and 50 km. 
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"More people have traveled the distance between 10 and 20 km than between 40 and 50 km. True or False?
+
+Your answer:  [QID53-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","More people have traveled the distance between 10 and 20 km than between 40 and 50 km. True or False?
+
+Your answer:  [QID53-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","More people have traveled the distance between 10 and 20 km than between 40 and 50 km. True or False?
+
+Your answer:  [QID53-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","More people have traveled the distance between 10 and 20 km than between 40 and 50 km. True or False?
+
+Your answer:  [QID53-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,What is the most common distance customers have travelled?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the most common distance customers have travelled?
+
+Your answer:  [QID55-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the most common distance customers have travelled?
+
+Your answer:  [QID55-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the most common distance customers have travelled?
+
+Your answer:  [QID55-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the most common distance customers have travelled?
+
+Your answer:  [QID55-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,For which website was the number of unique visitors the largest in 2020?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"For which website was the number of unique visitors the largest in 2020?
+
+Your answer: [QID71-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","For which website was the number of unique visitors the largest in 2020?
+
+Your answer: [QID71-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","For which website was the number of unique visitors the largest in 2020?
+
+Your answer: [QID71-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","For which website was the number of unique visitors the largest in 2020?
+
+Your answer: [QID71-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The number of unique visitors for Amazon was more than that of Yahoo in 2020.
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The number of unique visitors for Amazon was more than that of Yahoo in 2020. True or False?
+
+Your answer:  [QID73-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","The number of unique visitors for Amazon was more than that of Yahoo in 2020. True or False?
+
+Your answer:  [QID73-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","The number of unique visitors for Amazon was more than that of Yahoo in 2020. True or False?
+
+Your answer:  [QID73-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","The number of unique visitors for Amazon was more than that of Yahoo in 2020. True or False?
+
+Your answer:  [QID73-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,In which category is eBay nested?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In which category is eBay nested?
+
+Your answer:  [QID75-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","In which category is eBay nested?
+
+Your answer:  [QID75-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","In which category is eBay nested?
+
+Your answer:  [QID75-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","In which category is eBay nested?
+
+Your answer:  [QID75-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the approximate global smartphone market share (in %) of Samsung?
+
+   
+(Please enter a number between 0 and 100 (percent))",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the approximate global smartphone market share (in %) of Samsung?
+
+
+Your answer: [QID106-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the approximate global smartphone market share (in %) of Samsung?
+
+
+Your answer: [QID106-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the approximate global smartphone market share (in %) of Samsung?
+
+
+Your answer: [QID106-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the approximate global smartphone market share (in %) of Samsung?
+
+
+Your answer: [QID106-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Which company has the largest global market share for smart phones?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Which company has the smallest global market share for smart phones?
+
+Your answer:  [QID108-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","Which company has the smallest global market share for smart phones?
+
+Your answer:  [QID108-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","Which company has the smallest global market share for smart phones?
+
+Your answer:  [QID108-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","Which company has the smallest global market share for smart phones?
+
+Your answer:  [QID108-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The global smartphone market share of Xiaomi is larger than that of Oppo.
+
+True or False?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"The global smartphone market share of Xiaomi is larger than that of Oppo.
+True or False?
+
+Your answer:  [QID110-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","The global smartphone market share of Xiaomi is larger than that of Oppo.
+True or False?
+
+Your answer:  [QID110-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","The global smartphone market share of Xiaomi is larger than that of Oppo.
+True or False?
+
+Your answer:  [QID110-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","The global smartphone market share of Xiaomi is larger than that of Oppo.
+True or False?
+
+Your answer:  [QID110-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What percentage of Japan's Olympic medals are Bronze? 
+
+   
+(Please enter number only, (no %))",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What percentage of Japan's Olympic medals are Bronze? 
+
+
+Your answer: [QID94-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What percentage of Japan's Olympic medals are Bronze? 
+
+
+Your answer: [QID94-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What percentage of Japan's Olympic medals are Bronze? 
+
+
+Your answer: [QID94-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What percentage of Japan's Olympic medals are Bronze? 
+
+
+Your answer: [QID94-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Who has the bigger percentage of Silver medals, Japan or Great Britain?",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Who has the bigger percentage of Silver medals, Japan or Great Britain?
+
+Your answer:  [QID100-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","Who has the bigger percentage of Silver medals, Japan or Great Britain?
+
+Your answer:  [QID100-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","Who has the bigger percentage of Silver medals, Japan or Great Britain?
+
+Your answer:  [QID100-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","Who has the bigger percentage of Silver medals, Japan or Great Britain?
+
+Your answer:  [QID100-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Which country has the highest number of Bronze medals?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Which country has the highest number of Bronze medals?
+
+Your answer:  [QID102-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","Which country has the highest number of Bronze medals?
+
+Your answer:  [QID102-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","Which country has the highest number of Bronze medals?
+
+Your answer:  [QID102-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","Which country has the highest number of Bronze medals?
+
+Your answer:  [QID102-ChoiceGroup-SelectedChoices]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the average internet speed in Japan? 
+
+  
+
+
+
+(please enter a number, without the Mbps)",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the average internet speed in Japan? 
+
+Your answer:  [QID3-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the average internet speed in Japan? 
+
+Your answer:  [QID3-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the average internet speed in Japan? 
+
+Your answer:  [QID3-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the average internet speed in Japan? 
+
+Your answer:  [QID3-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In which country is the internet speed the fastest globally?
+
+  
+
+
+
+(please enter one country)",In which country is the internet speed the fastest globally?Your answer: ${q://QID3/ChoiceTex - Id,In which country is the internet speed the fastest globally?Your answer: ${q://QID3/ChoiceTex - Name,In which country is the internet speed the fastest globally?Your answer: ${q://QID3/ChoiceTex - Size,In which country is the internet speed the fastest globally?Your answer: ${q://QID3/ChoiceTex - Type,Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the range of the global internet speed?
+
+  
+
+
+
+(please enter numbers only) - Upper range","What is the range of the global internet speed?
+
+  
+
+
+
+(please enter numbers only) - Lower range",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"What is the range of the global internet speed?
+
+Your answer:
+Lower range [QID13-ChoiceTextEntryValue-1]
+Upper range [QID13-ChoiceTextEntryValue-2]
+
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","What is the range of the global internet speed?
+
+Your answer:
+Lower range [QID13-ChoiceTextEntryValue-1]
+Upper range [QID13-ChoiceTextEntryValue-2]
+
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","What is the range of the global internet speed?
+
+Your answer:
+Lower range [QID13-ChoiceTextEntryValue-1]
+Upper range [QID13-ChoiceTextEntryValue-2]
+
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","What is the range of the global internet speed?
+
+Your answer:
+Lower range [QID13-ChoiceTextEntryValue-1]
+Upper range [QID13-ChoiceTextEntryValue-2]
+
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In how many countries is the internet speed slower than Thailand?
+
+  
+
+
+
+(please enter number only)",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"In how many countries  is the internet speed slower than Thailand?
+
+Your answer: [QID14-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Id","In how many countries  is the internet speed slower than Thailand?
+
+Your answer: [QID14-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Name","In how many countries  is the internet speed slower than Thailand?
+
+Your answer: [QID14-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Size","In how many countries  is the internet speed slower than Thailand?
+
+Your answer: [QID14-ChoiceTextEntryValue]
+
+
+
+Please draw on the image to show how/where you found your answer. - Type",Please explain your thought process. What did you find helpful to get to your answer? Was there anything that you found confusing?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,How old are you?,Which gender do you most identify with?,What is the status of your vision? - Selected Choice,"What is the status of your vision? - Other, please specify below - Text",What is your field of study or your job area?,How would you rate yourself in your familiarity with data visualizations?,What is the highest level of school you have completed or the highest degree you have received? - Selected Choice,What is the highest level of school you have completed or the highest degree you have received? - Other - Text,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Thank you for taking our Survey! 
+
+This is a pilot version of the survey, did you run into any issues or have any feedback for us? If so, please specify below.",PROLIFIC_PID,chart_AC,chart_BC,chart_BuC,chart_CC,chart_HC,chart_LC,chart_PC,chart_SA,chart_SB,chart_SB100,chart_SP,chart_TM
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID161""}","{""ImportId"":""QID219_FIRST_CLICK""}","{""ImportId"":""QID219_LAST_CLICK""}","{""ImportId"":""QID219_PAGE_SUBMIT""}","{""ImportId"":""QID219_CLICK_COUNT""}","{""ImportId"":""QID162_TEXT""}","{""ImportId"":""QID221_FIRST_CLICK""}","{""ImportId"":""QID221_LAST_CLICK""}","{""ImportId"":""QID221_PAGE_SUBMIT""}","{""ImportId"":""QID221_CLICK_COUNT""}","{""ImportId"":""QID222_FIRST_CLICK""}","{""ImportId"":""QID222_LAST_CLICK""}","{""ImportId"":""QID222_PAGE_SUBMIT""}","{""ImportId"":""QID222_CLICK_COUNT""}","{""ImportId"":""QID163_FILE_ID""}","{""ImportId"":""QID163_FILE_NAME""}","{""ImportId"":""QID163_FILE_SIZE""}","{""ImportId"":""QID163_FILE_TYPE""}","{""ImportId"":""QID228_TEXT""}","{""ImportId"":""QID223_FIRST_CLICK""}","{""ImportId"":""QID223_LAST_CLICK""}","{""ImportId"":""QID223_PAGE_SUBMIT""}","{""ImportId"":""QID223_CLICK_COUNT""}","{""ImportId"":""QID224_FIRST_CLICK""}","{""ImportId"":""QID224_LAST_CLICK""}","{""ImportId"":""QID224_PAGE_SUBMIT""}","{""ImportId"":""QID224_CLICK_COUNT""}","{""ImportId"":""QID129_TEXT""}","{""ImportId"":""QID225_FIRST_CLICK""}","{""ImportId"":""QID225_LAST_CLICK""}","{""ImportId"":""QID225_PAGE_SUBMIT""}","{""ImportId"":""QID225_CLICK_COUNT""}","{""ImportId"":""QID130_FILE_ID""}","{""ImportId"":""QID130_FILE_NAME""}","{""ImportId"":""QID130_FILE_SIZE""}","{""ImportId"":""QID130_FILE_TYPE""}","{""ImportId"":""QID160_TEXT""}","{""ImportId"":""QID226_FIRST_CLICK""}","{""ImportId"":""QID226_LAST_CLICK""}","{""ImportId"":""QID226_PAGE_SUBMIT""}","{""ImportId"":""QID226_CLICK_COUNT""}","{""ImportId"":""QID131""}","{""ImportId"":""QID227_FIRST_CLICK""}","{""ImportId"":""QID227_LAST_CLICK""}","{""ImportId"":""QID227_PAGE_SUBMIT""}","{""ImportId"":""QID227_CLICK_COUNT""}","{""ImportId"":""QID132_FILE_ID""}","{""ImportId"":""QID132_FILE_NAME""}","{""ImportId"":""QID132_FILE_SIZE""}","{""ImportId"":""QID132_FILE_TYPE""}","{""ImportId"":""QID165_TEXT""}","{""ImportId"":""QID229_FIRST_CLICK""}","{""ImportId"":""QID229_LAST_CLICK""}","{""ImportId"":""QID229_PAGE_SUBMIT""}","{""ImportId"":""QID229_CLICK_COUNT""}","{""ImportId"":""QID133""}","{""ImportId"":""QID230_FIRST_CLICK""}","{""ImportId"":""QID230_LAST_CLICK""}","{""ImportId"":""QID230_PAGE_SUBMIT""}","{""ImportId"":""QID230_CLICK_COUNT""}","{""ImportId"":""QID134_FILE_ID""}","{""ImportId"":""QID134_FILE_NAME""}","{""ImportId"":""QID134_FILE_SIZE""}","{""ImportId"":""QID134_FILE_TYPE""}","{""ImportId"":""QID166_TEXT""}","{""ImportId"":""QID231_FIRST_CLICK""}","{""ImportId"":""QID231_LAST_CLICK""}","{""ImportId"":""QID231_PAGE_SUBMIT""}","{""ImportId"":""QID231_CLICK_COUNT""}","{""ImportId"":""QID137""}","{""ImportId"":""QID232_FIRST_CLICK""}","{""ImportId"":""QID232_LAST_CLICK""}","{""ImportId"":""QID232_PAGE_SUBMIT""}","{""ImportId"":""QID232_CLICK_COUNT""}","{""ImportId"":""QID138_FILE_ID""}","{""ImportId"":""QID138_FILE_NAME""}","{""ImportId"":""QID138_FILE_SIZE""}","{""ImportId"":""QID138_FILE_TYPE""}","{""ImportId"":""QID167_TEXT""}","{""ImportId"":""QID233_FIRST_CLICK""}","{""ImportId"":""QID233_LAST_CLICK""}","{""ImportId"":""QID233_PAGE_SUBMIT""}","{""ImportId"":""QID233_CLICK_COUNT""}","{""ImportId"":""QID139_TEXT""}","{""ImportId"":""QID234_FIRST_CLICK""}","{""ImportId"":""QID234_LAST_CLICK""}","{""ImportId"":""QID234_PAGE_SUBMIT""}","{""ImportId"":""QID234_CLICK_COUNT""}","{""ImportId"":""QID140_FILE_ID""}","{""ImportId"":""QID140_FILE_NAME""}","{""ImportId"":""QID140_FILE_SIZE""}","{""ImportId"":""QID140_FILE_TYPE""}","{""ImportId"":""QID168_TEXT""}","{""ImportId"":""QID235_FIRST_CLICK""}","{""ImportId"":""QID235_LAST_CLICK""}","{""ImportId"":""QID235_PAGE_SUBMIT""}","{""ImportId"":""QID235_CLICK_COUNT""}","{""ImportId"":""QID115_TEXT""}","{""ImportId"":""QID236_FIRST_CLICK""}","{""ImportId"":""QID236_LAST_CLICK""}","{""ImportId"":""QID236_PAGE_SUBMIT""}","{""ImportId"":""QID236_CLICK_COUNT""}","{""ImportId"":""QID116_FILE_ID""}","{""ImportId"":""QID116_FILE_NAME""}","{""ImportId"":""QID116_FILE_SIZE""}","{""ImportId"":""QID116_FILE_TYPE""}","{""ImportId"":""QID171_TEXT""}","{""ImportId"":""QID237_FIRST_CLICK""}","{""ImportId"":""QID237_LAST_CLICK""}","{""ImportId"":""QID237_PAGE_SUBMIT""}","{""ImportId"":""QID237_CLICK_COUNT""}","{""ImportId"":""QID125""}","{""ImportId"":""QID246_FIRST_CLICK""}","{""ImportId"":""QID246_LAST_CLICK""}","{""ImportId"":""QID246_PAGE_SUBMIT""}","{""ImportId"":""QID246_CLICK_COUNT""}","{""ImportId"":""QID126_FILE_ID""}","{""ImportId"":""QID126_FILE_NAME""}","{""ImportId"":""QID126_FILE_SIZE""}","{""ImportId"":""QID126_FILE_TYPE""}","{""ImportId"":""QID170_TEXT""}","{""ImportId"":""QID247_FIRST_CLICK""}","{""ImportId"":""QID247_LAST_CLICK""}","{""ImportId"":""QID247_PAGE_SUBMIT""}","{""ImportId"":""QID247_CLICK_COUNT""}","{""ImportId"":""QID117""}","{""ImportId"":""QID240_FIRST_CLICK""}","{""ImportId"":""QID240_LAST_CLICK""}","{""ImportId"":""QID240_PAGE_SUBMIT""}","{""ImportId"":""QID240_CLICK_COUNT""}","{""ImportId"":""QID118_FILE_ID""}","{""ImportId"":""QID118_FILE_NAME""}","{""ImportId"":""QID118_FILE_SIZE""}","{""ImportId"":""QID118_FILE_TYPE""}","{""ImportId"":""QID173_TEXT""}","{""ImportId"":""QID241_FIRST_CLICK""}","{""ImportId"":""QID241_LAST_CLICK""}","{""ImportId"":""QID241_PAGE_SUBMIT""}","{""ImportId"":""QID241_CLICK_COUNT""}","{""ImportId"":""QID119""}","{""ImportId"":""QID242_FIRST_CLICK""}","{""ImportId"":""QID242_LAST_CLICK""}","{""ImportId"":""QID242_PAGE_SUBMIT""}","{""ImportId"":""QID242_CLICK_COUNT""}","{""ImportId"":""QID120_FILE_ID""}","{""ImportId"":""QID120_FILE_NAME""}","{""ImportId"":""QID120_FILE_SIZE""}","{""ImportId"":""QID120_FILE_TYPE""}","{""ImportId"":""QID174_TEXT""}","{""ImportId"":""QID243_FIRST_CLICK""}","{""ImportId"":""QID243_LAST_CLICK""}","{""ImportId"":""QID243_PAGE_SUBMIT""}","{""ImportId"":""QID243_CLICK_COUNT""}","{""ImportId"":""QID121""}","{""ImportId"":""QID245_FIRST_CLICK""}","{""ImportId"":""QID245_LAST_CLICK""}","{""ImportId"":""QID245_PAGE_SUBMIT""}","{""ImportId"":""QID245_CLICK_COUNT""}","{""ImportId"":""QID122_FILE_ID""}","{""ImportId"":""QID122_FILE_NAME""}","{""ImportId"":""QID122_FILE_SIZE""}","{""ImportId"":""QID122_FILE_TYPE""}","{""ImportId"":""QID175_TEXT""}","{""ImportId"":""QID244_FIRST_CLICK""}","{""ImportId"":""QID244_LAST_CLICK""}","{""ImportId"":""QID244_PAGE_SUBMIT""}","{""ImportId"":""QID244_CLICK_COUNT""}","{""ImportId"":""QID79_TEXT""}","{""ImportId"":""QID250_FIRST_CLICK""}","{""ImportId"":""QID250_LAST_CLICK""}","{""ImportId"":""QID250_PAGE_SUBMIT""}","{""ImportId"":""QID250_CLICK_COUNT""}","{""ImportId"":""QID80_FILE_ID""}","{""ImportId"":""QID80_FILE_NAME""}","{""ImportId"":""QID80_FILE_SIZE""}","{""ImportId"":""QID80_FILE_TYPE""}","{""ImportId"":""QID176_TEXT""}","{""ImportId"":""QID251_FIRST_CLICK""}","{""ImportId"":""QID251_LAST_CLICK""}","{""ImportId"":""QID251_PAGE_SUBMIT""}","{""ImportId"":""QID251_CLICK_COUNT""}","{""ImportId"":""QID90_TEXT""}","{""ImportId"":""QID252_FIRST_CLICK""}","{""ImportId"":""QID252_LAST_CLICK""}","{""ImportId"":""QID252_PAGE_SUBMIT""}","{""ImportId"":""QID252_CLICK_COUNT""}","{""ImportId"":""QID91_FILE_ID""}","{""ImportId"":""QID91_FILE_NAME""}","{""ImportId"":""QID91_FILE_SIZE""}","{""ImportId"":""QID91_FILE_TYPE""}","{""ImportId"":""QID178_TEXT""}","{""ImportId"":""QID253_FIRST_CLICK""}","{""ImportId"":""QID253_LAST_CLICK""}","{""ImportId"":""QID253_PAGE_SUBMIT""}","{""ImportId"":""QID253_CLICK_COUNT""}","{""ImportId"":""QID83_1""}","{""ImportId"":""QID83_2""}","{""ImportId"":""QID254_FIRST_CLICK""}","{""ImportId"":""QID254_LAST_CLICK""}","{""ImportId"":""QID254_PAGE_SUBMIT""}","{""ImportId"":""QID254_CLICK_COUNT""}","{""ImportId"":""QID84_FILE_ID""}","{""ImportId"":""QID84_FILE_NAME""}","{""ImportId"":""QID84_FILE_SIZE""}","{""ImportId"":""QID84_FILE_TYPE""}","{""ImportId"":""QID179_TEXT""}","{""ImportId"":""QID255_FIRST_CLICK""}","{""ImportId"":""QID255_LAST_CLICK""}","{""ImportId"":""QID255_PAGE_SUBMIT""}","{""ImportId"":""QID255_CLICK_COUNT""}","{""ImportId"":""QID85""}","{""ImportId"":""QID256_FIRST_CLICK""}","{""ImportId"":""QID256_LAST_CLICK""}","{""ImportId"":""QID256_PAGE_SUBMIT""}","{""ImportId"":""QID256_CLICK_COUNT""}","{""ImportId"":""QID86_FILE_ID""}","{""ImportId"":""QID86_FILE_NAME""}","{""ImportId"":""QID86_FILE_SIZE""}","{""ImportId"":""QID86_FILE_TYPE""}","{""ImportId"":""QID180_TEXT""}","{""ImportId"":""QID257_FIRST_CLICK""}","{""ImportId"":""QID257_LAST_CLICK""}","{""ImportId"":""QID257_PAGE_SUBMIT""}","{""ImportId"":""QID257_CLICK_COUNT""}","{""ImportId"":""QID92""}","{""ImportId"":""QID259_FIRST_CLICK""}","{""ImportId"":""QID259_LAST_CLICK""}","{""ImportId"":""QID259_PAGE_SUBMIT""}","{""ImportId"":""QID259_CLICK_COUNT""}","{""ImportId"":""QID93_FILE_ID""}","{""ImportId"":""QID93_FILE_NAME""}","{""ImportId"":""QID93_FILE_SIZE""}","{""ImportId"":""QID93_FILE_TYPE""}","{""ImportId"":""QID181_TEXT""}","{""ImportId"":""QID258_FIRST_CLICK""}","{""ImportId"":""QID258_LAST_CLICK""}","{""ImportId"":""QID258_PAGE_SUBMIT""}","{""ImportId"":""QID258_CLICK_COUNT""}","{""ImportId"":""QID87_TEXT""}","{""ImportId"":""QID260_FIRST_CLICK""}","{""ImportId"":""QID260_LAST_CLICK""}","{""ImportId"":""QID260_PAGE_SUBMIT""}","{""ImportId"":""QID260_CLICK_COUNT""}","{""ImportId"":""QID88_FILE_ID""}","{""ImportId"":""QID88_FILE_NAME""}","{""ImportId"":""QID88_FILE_SIZE""}","{""ImportId"":""QID88_FILE_TYPE""}","{""ImportId"":""QID182_TEXT""}","{""ImportId"":""QID261_FIRST_CLICK""}","{""ImportId"":""QID261_LAST_CLICK""}","{""ImportId"":""QID261_PAGE_SUBMIT""}","{""ImportId"":""QID261_CLICK_COUNT""}","{""ImportId"":""QID59_TEXT""}","{""ImportId"":""QID262_FIRST_CLICK""}","{""ImportId"":""QID262_LAST_CLICK""}","{""ImportId"":""QID262_PAGE_SUBMIT""}","{""ImportId"":""QID262_CLICK_COUNT""}","{""ImportId"":""QID60_FILE_ID""}","{""ImportId"":""QID60_FILE_NAME""}","{""ImportId"":""QID60_FILE_SIZE""}","{""ImportId"":""QID60_FILE_TYPE""}","{""ImportId"":""QID183_TEXT""}","{""ImportId"":""QID263_FIRST_CLICK""}","{""ImportId"":""QID263_LAST_CLICK""}","{""ImportId"":""QID263_PAGE_SUBMIT""}","{""ImportId"":""QID263_CLICK_COUNT""}","{""ImportId"":""QID63""}","{""ImportId"":""QID265_FIRST_CLICK""}","{""ImportId"":""QID265_LAST_CLICK""}","{""ImportId"":""QID265_PAGE_SUBMIT""}","{""ImportId"":""QID265_CLICK_COUNT""}","{""ImportId"":""QID64_FILE_ID""}","{""ImportId"":""QID64_FILE_NAME""}","{""ImportId"":""QID64_FILE_SIZE""}","{""ImportId"":""QID64_FILE_TYPE""}","{""ImportId"":""QID184_TEXT""}","{""ImportId"":""QID264_FIRST_CLICK""}","{""ImportId"":""QID264_LAST_CLICK""}","{""ImportId"":""QID264_PAGE_SUBMIT""}","{""ImportId"":""QID264_CLICK_COUNT""}","{""ImportId"":""QID65_1""}","{""ImportId"":""QID65_2""}","{""ImportId"":""QID266_FIRST_CLICK""}","{""ImportId"":""QID266_LAST_CLICK""}","{""ImportId"":""QID266_PAGE_SUBMIT""}","{""ImportId"":""QID266_CLICK_COUNT""}","{""ImportId"":""QID66_FILE_ID""}","{""ImportId"":""QID66_FILE_NAME""}","{""ImportId"":""QID66_FILE_SIZE""}","{""ImportId"":""QID66_FILE_TYPE""}","{""ImportId"":""QID185_TEXT""}","{""ImportId"":""QID267_FIRST_CLICK""}","{""ImportId"":""QID267_LAST_CLICK""}","{""ImportId"":""QID267_PAGE_SUBMIT""}","{""ImportId"":""QID267_CLICK_COUNT""}","{""ImportId"":""QID67""}","{""ImportId"":""QID268_FIRST_CLICK""}","{""ImportId"":""QID268_LAST_CLICK""}","{""ImportId"":""QID268_PAGE_SUBMIT""}","{""ImportId"":""QID268_CLICK_COUNT""}","{""ImportId"":""QID68_FILE_ID""}","{""ImportId"":""QID68_FILE_NAME""}","{""ImportId"":""QID68_FILE_SIZE""}","{""ImportId"":""QID68_FILE_TYPE""}","{""ImportId"":""QID186_TEXT""}","{""ImportId"":""QID269_FIRST_CLICK""}","{""ImportId"":""QID269_LAST_CLICK""}","{""ImportId"":""QID269_PAGE_SUBMIT""}","{""ImportId"":""QID269_CLICK_COUNT""}","{""ImportId"":""QID69_TEXT""}","{""ImportId"":""QID270_FIRST_CLICK""}","{""ImportId"":""QID270_LAST_CLICK""}","{""ImportId"":""QID270_PAGE_SUBMIT""}","{""ImportId"":""QID270_CLICK_COUNT""}","{""ImportId"":""QID70_FILE_ID""}","{""ImportId"":""QID70_FILE_NAME""}","{""ImportId"":""QID70_FILE_SIZE""}","{""ImportId"":""QID70_FILE_TYPE""}","{""ImportId"":""QID187_TEXT""}","{""ImportId"":""QID271_FIRST_CLICK""}","{""ImportId"":""QID271_LAST_CLICK""}","{""ImportId"":""QID271_PAGE_SUBMIT""}","{""ImportId"":""QID271_CLICK_COUNT""}","{""ImportId"":""QID24_TEXT""}","{""ImportId"":""QID304_FIRST_CLICK""}","{""ImportId"":""QID304_LAST_CLICK""}","{""ImportId"":""QID304_PAGE_SUBMIT""}","{""ImportId"":""QID304_CLICK_COUNT""}","{""ImportId"":""QID25_FILE_ID""}","{""ImportId"":""QID25_FILE_NAME""}","{""ImportId"":""QID25_FILE_SIZE""}","{""ImportId"":""QID25_FILE_TYPE""}","{""ImportId"":""QID204_TEXT""}","{""ImportId"":""QID305_FIRST_CLICK""}","{""ImportId"":""QID305_LAST_CLICK""}","{""ImportId"":""QID305_PAGE_SUBMIT""}","{""ImportId"":""QID305_CLICK_COUNT""}","{""ImportId"":""QID26_4""}","{""ImportId"":""QID26_5""}","{""ImportId"":""QID306_FIRST_CLICK""}","{""ImportId"":""QID306_LAST_CLICK""}","{""ImportId"":""QID306_PAGE_SUBMIT""}","{""ImportId"":""QID306_CLICK_COUNT""}","{""ImportId"":""QID27_FILE_ID""}","{""ImportId"":""QID27_FILE_NAME""}","{""ImportId"":""QID27_FILE_SIZE""}","{""ImportId"":""QID27_FILE_TYPE""}","{""ImportId"":""QID205_TEXT""}","{""ImportId"":""QID307_FIRST_CLICK""}","{""ImportId"":""QID307_LAST_CLICK""}","{""ImportId"":""QID307_PAGE_SUBMIT""}","{""ImportId"":""QID307_CLICK_COUNT""}","{""ImportId"":""QID37""}","{""ImportId"":""QID38_FILE_ID""}","{""ImportId"":""QID38_FILE_NAME""}","{""ImportId"":""QID38_FILE_SIZE""}","{""ImportId"":""QID38_FILE_TYPE""}","{""ImportId"":""QID208_TEXT""}","{""ImportId"":""QID319_FIRST_CLICK""}","{""ImportId"":""QID319_LAST_CLICK""}","{""ImportId"":""QID319_PAGE_SUBMIT""}","{""ImportId"":""QID319_CLICK_COUNT""}","{""ImportId"":""QID30""}","{""ImportId"":""QID308_FIRST_CLICK""}","{""ImportId"":""QID308_LAST_CLICK""}","{""ImportId"":""QID308_PAGE_SUBMIT""}","{""ImportId"":""QID308_CLICK_COUNT""}","{""ImportId"":""QID31_FILE_ID""}","{""ImportId"":""QID31_FILE_NAME""}","{""ImportId"":""QID31_FILE_SIZE""}","{""ImportId"":""QID31_FILE_TYPE""}","{""ImportId"":""QID207_TEXT""}","{""ImportId"":""QID309_FIRST_CLICK""}","{""ImportId"":""QID309_LAST_CLICK""}","{""ImportId"":""QID309_PAGE_SUBMIT""}","{""ImportId"":""QID309_CLICK_COUNT""}","{""ImportId"":""QID41""}","{""ImportId"":""QID322_FIRST_CLICK""}","{""ImportId"":""QID322_LAST_CLICK""}","{""ImportId"":""QID322_PAGE_SUBMIT""}","{""ImportId"":""QID322_CLICK_COUNT""}","{""ImportId"":""QID42_FILE_ID""}","{""ImportId"":""QID42_FILE_NAME""}","{""ImportId"":""QID42_FILE_SIZE""}","{""ImportId"":""QID42_FILE_TYPE""}","{""ImportId"":""QID210_TEXT""}","{""ImportId"":""QID323_FIRST_CLICK""}","{""ImportId"":""QID323_LAST_CLICK""}","{""ImportId"":""QID323_PAGE_SUBMIT""}","{""ImportId"":""QID323_CLICK_COUNT""}","{""ImportId"":""QID39""}","{""ImportId"":""QID320_FIRST_CLICK""}","{""ImportId"":""QID320_LAST_CLICK""}","{""ImportId"":""QID320_PAGE_SUBMIT""}","{""ImportId"":""QID320_CLICK_COUNT""}","{""ImportId"":""QID40_FILE_ID""}","{""ImportId"":""QID40_FILE_NAME""}","{""ImportId"":""QID40_FILE_SIZE""}","{""ImportId"":""QID40_FILE_TYPE""}","{""ImportId"":""QID209_TEXT""}","{""ImportId"":""QID321_FIRST_CLICK""}","{""ImportId"":""QID321_LAST_CLICK""}","{""ImportId"":""QID321_PAGE_SUBMIT""}","{""ImportId"":""QID321_CLICK_COUNT""}","{""ImportId"":""QID4_TEXT""}","{""ImportId"":""QID331_FIRST_CLICK""}","{""ImportId"":""QID331_LAST_CLICK""}","{""ImportId"":""QID331_PAGE_SUBMIT""}","{""ImportId"":""QID331_CLICK_COUNT""}","{""ImportId"":""QID5_FILE_ID""}","{""ImportId"":""QID5_FILE_NAME""}","{""ImportId"":""QID5_FILE_SIZE""}","{""ImportId"":""QID5_FILE_TYPE""}","{""ImportId"":""QID215_TEXT""}","{""ImportId"":""QID332_FIRST_CLICK""}","{""ImportId"":""QID332_LAST_CLICK""}","{""ImportId"":""QID332_PAGE_SUBMIT""}","{""ImportId"":""QID332_CLICK_COUNT""}","{""ImportId"":""QID18""}","{""ImportId"":""QID18_1_TEXT""}","{""ImportId"":""QID336_FIRST_CLICK""}","{""ImportId"":""QID336_LAST_CLICK""}","{""ImportId"":""QID336_PAGE_SUBMIT""}","{""ImportId"":""QID336_CLICK_COUNT""}","{""ImportId"":""QID21_FILE_ID""}","{""ImportId"":""QID21_FILE_NAME""}","{""ImportId"":""QID21_FILE_SIZE""}","{""ImportId"":""QID21_FILE_TYPE""}","{""ImportId"":""QID216_TEXT""}","{""ImportId"":""QID337_FIRST_CLICK""}","{""ImportId"":""QID337_LAST_CLICK""}","{""ImportId"":""QID337_PAGE_SUBMIT""}","{""ImportId"":""QID337_CLICK_COUNT""}","{""ImportId"":""QID19_1""}","{""ImportId"":""QID19_2""}","{""ImportId"":""QID338_FIRST_CLICK""}","{""ImportId"":""QID338_LAST_CLICK""}","{""ImportId"":""QID338_PAGE_SUBMIT""}","{""ImportId"":""QID338_CLICK_COUNT""}","{""ImportId"":""QID22_FILE_ID""}","{""ImportId"":""QID22_FILE_NAME""}","{""ImportId"":""QID22_FILE_SIZE""}","{""ImportId"":""QID22_FILE_TYPE""}","{""ImportId"":""QID217_TEXT""}","{""ImportId"":""QID339_FIRST_CLICK""}","{""ImportId"":""QID339_LAST_CLICK""}","{""ImportId"":""QID339_PAGE_SUBMIT""}","{""ImportId"":""QID339_CLICK_COUNT""}","{""ImportId"":""QID20""}","{""ImportId"":""QID340_FIRST_CLICK""}","{""ImportId"":""QID340_LAST_CLICK""}","{""ImportId"":""QID340_PAGE_SUBMIT""}","{""ImportId"":""QID340_CLICK_COUNT""}","{""ImportId"":""QID23_FILE_ID""}","{""ImportId"":""QID23_FILE_NAME""}","{""ImportId"":""QID23_FILE_SIZE""}","{""ImportId"":""QID23_FILE_TYPE""}","{""ImportId"":""QID218_TEXT""}","{""ImportId"":""QID341_FIRST_CLICK""}","{""ImportId"":""QID341_LAST_CLICK""}","{""ImportId"":""QID341_PAGE_SUBMIT""}","{""ImportId"":""QID341_CLICK_COUNT""}","{""ImportId"":""QID9""}","{""ImportId"":""QID272_FIRST_CLICK""}","{""ImportId"":""QID272_LAST_CLICK""}","{""ImportId"":""QID272_PAGE_SUBMIT""}","{""ImportId"":""QID272_CLICK_COUNT""}","{""ImportId"":""QID44_FILE_ID""}","{""ImportId"":""QID44_FILE_NAME""}","{""ImportId"":""QID44_FILE_SIZE""}","{""ImportId"":""QID44_FILE_TYPE""}","{""ImportId"":""QID188_TEXT""}","{""ImportId"":""QID273_FIRST_CLICK""}","{""ImportId"":""QID273_LAST_CLICK""}","{""ImportId"":""QID273_PAGE_SUBMIT""}","{""ImportId"":""QID273_CLICK_COUNT""}","{""ImportId"":""QID45""}","{""ImportId"":""QID274_FIRST_CLICK""}","{""ImportId"":""QID274_LAST_CLICK""}","{""ImportId"":""QID274_PAGE_SUBMIT""}","{""ImportId"":""QID274_CLICK_COUNT""}","{""ImportId"":""QID46_FILE_ID""}","{""ImportId"":""QID46_FILE_NAME""}","{""ImportId"":""QID46_FILE_SIZE""}","{""ImportId"":""QID46_FILE_TYPE""}","{""ImportId"":""QID189_TEXT""}","{""ImportId"":""QID275_FIRST_CLICK""}","{""ImportId"":""QID275_LAST_CLICK""}","{""ImportId"":""QID275_PAGE_SUBMIT""}","{""ImportId"":""QID275_CLICK_COUNT""}","{""ImportId"":""QID47""}","{""ImportId"":""QID276_FIRST_CLICK""}","{""ImportId"":""QID276_LAST_CLICK""}","{""ImportId"":""QID276_PAGE_SUBMIT""}","{""ImportId"":""QID276_CLICK_COUNT""}","{""ImportId"":""QID48_FILE_ID""}","{""ImportId"":""QID48_FILE_NAME""}","{""ImportId"":""QID48_FILE_SIZE""}","{""ImportId"":""QID48_FILE_TYPE""}","{""ImportId"":""QID190_TEXT""}","{""ImportId"":""QID277_FIRST_CLICK""}","{""ImportId"":""QID277_LAST_CLICK""}","{""ImportId"":""QID277_PAGE_SUBMIT""}","{""ImportId"":""QID277_CLICK_COUNT""}","{""ImportId"":""QID51_TEXT""}","{""ImportId"":""QID278_FIRST_CLICK""}","{""ImportId"":""QID278_LAST_CLICK""}","{""ImportId"":""QID278_PAGE_SUBMIT""}","{""ImportId"":""QID278_CLICK_COUNT""}","{""ImportId"":""QID52_FILE_ID""}","{""ImportId"":""QID52_FILE_NAME""}","{""ImportId"":""QID52_FILE_SIZE""}","{""ImportId"":""QID52_FILE_TYPE""}","{""ImportId"":""QID191_TEXT""}","{""ImportId"":""QID279_FIRST_CLICK""}","{""ImportId"":""QID279_LAST_CLICK""}","{""ImportId"":""QID279_PAGE_SUBMIT""}","{""ImportId"":""QID279_CLICK_COUNT""}","{""ImportId"":""QID53""}","{""ImportId"":""QID280_FIRST_CLICK""}","{""ImportId"":""QID280_LAST_CLICK""}","{""ImportId"":""QID280_PAGE_SUBMIT""}","{""ImportId"":""QID280_CLICK_COUNT""}","{""ImportId"":""QID54_FILE_ID""}","{""ImportId"":""QID54_FILE_NAME""}","{""ImportId"":""QID54_FILE_SIZE""}","{""ImportId"":""QID54_FILE_TYPE""}","{""ImportId"":""QID192_TEXT""}","{""ImportId"":""QID281_FIRST_CLICK""}","{""ImportId"":""QID281_LAST_CLICK""}","{""ImportId"":""QID281_PAGE_SUBMIT""}","{""ImportId"":""QID281_CLICK_COUNT""}","{""ImportId"":""QID55""}","{""ImportId"":""QID282_FIRST_CLICK""}","{""ImportId"":""QID282_LAST_CLICK""}","{""ImportId"":""QID282_PAGE_SUBMIT""}","{""ImportId"":""QID282_CLICK_COUNT""}","{""ImportId"":""QID56_FILE_ID""}","{""ImportId"":""QID56_FILE_NAME""}","{""ImportId"":""QID56_FILE_SIZE""}","{""ImportId"":""QID56_FILE_TYPE""}","{""ImportId"":""QID193_TEXT""}","{""ImportId"":""QID283_FIRST_CLICK""}","{""ImportId"":""QID283_LAST_CLICK""}","{""ImportId"":""QID283_PAGE_SUBMIT""}","{""ImportId"":""QID283_CLICK_COUNT""}","{""ImportId"":""QID71""}","{""ImportId"":""QID284_FIRST_CLICK""}","{""ImportId"":""QID284_LAST_CLICK""}","{""ImportId"":""QID284_PAGE_SUBMIT""}","{""ImportId"":""QID284_CLICK_COUNT""}","{""ImportId"":""QID72_FILE_ID""}","{""ImportId"":""QID72_FILE_NAME""}","{""ImportId"":""QID72_FILE_SIZE""}","{""ImportId"":""QID72_FILE_TYPE""}","{""ImportId"":""QID285_TEXT""}","{""ImportId"":""QID286_FIRST_CLICK""}","{""ImportId"":""QID286_LAST_CLICK""}","{""ImportId"":""QID286_PAGE_SUBMIT""}","{""ImportId"":""QID286_CLICK_COUNT""}","{""ImportId"":""QID73""}","{""ImportId"":""QID287_FIRST_CLICK""}","{""ImportId"":""QID287_LAST_CLICK""}","{""ImportId"":""QID287_PAGE_SUBMIT""}","{""ImportId"":""QID287_CLICK_COUNT""}","{""ImportId"":""QID74_FILE_ID""}","{""ImportId"":""QID74_FILE_NAME""}","{""ImportId"":""QID74_FILE_SIZE""}","{""ImportId"":""QID74_FILE_TYPE""}","{""ImportId"":""QID195_TEXT""}","{""ImportId"":""QID288_FIRST_CLICK""}","{""ImportId"":""QID288_LAST_CLICK""}","{""ImportId"":""QID288_PAGE_SUBMIT""}","{""ImportId"":""QID288_CLICK_COUNT""}","{""ImportId"":""QID75""}","{""ImportId"":""QID289_FIRST_CLICK""}","{""ImportId"":""QID289_LAST_CLICK""}","{""ImportId"":""QID289_PAGE_SUBMIT""}","{""ImportId"":""QID289_CLICK_COUNT""}","{""ImportId"":""QID196_FILE_ID""}","{""ImportId"":""QID196_FILE_NAME""}","{""ImportId"":""QID196_FILE_SIZE""}","{""ImportId"":""QID196_FILE_TYPE""}","{""ImportId"":""QID291_TEXT""}","{""ImportId"":""QID292_FIRST_CLICK""}","{""ImportId"":""QID292_LAST_CLICK""}","{""ImportId"":""QID292_PAGE_SUBMIT""}","{""ImportId"":""QID292_CLICK_COUNT""}","{""ImportId"":""QID106_TEXT""}","{""ImportId"":""QID293_FIRST_CLICK""}","{""ImportId"":""QID293_LAST_CLICK""}","{""ImportId"":""QID293_PAGE_SUBMIT""}","{""ImportId"":""QID293_CLICK_COUNT""}","{""ImportId"":""QID107_FILE_ID""}","{""ImportId"":""QID107_FILE_NAME""}","{""ImportId"":""QID107_FILE_SIZE""}","{""ImportId"":""QID107_FILE_TYPE""}","{""ImportId"":""QID197_TEXT""}","{""ImportId"":""QID294_FIRST_CLICK""}","{""ImportId"":""QID294_LAST_CLICK""}","{""ImportId"":""QID294_PAGE_SUBMIT""}","{""ImportId"":""QID294_CLICK_COUNT""}","{""ImportId"":""QID108""}","{""ImportId"":""QID295_FIRST_CLICK""}","{""ImportId"":""QID295_LAST_CLICK""}","{""ImportId"":""QID295_PAGE_SUBMIT""}","{""ImportId"":""QID295_CLICK_COUNT""}","{""ImportId"":""QID109_FILE_ID""}","{""ImportId"":""QID109_FILE_NAME""}","{""ImportId"":""QID109_FILE_SIZE""}","{""ImportId"":""QID109_FILE_TYPE""}","{""ImportId"":""QID198_TEXT""}","{""ImportId"":""QID296_FIRST_CLICK""}","{""ImportId"":""QID296_LAST_CLICK""}","{""ImportId"":""QID296_PAGE_SUBMIT""}","{""ImportId"":""QID296_CLICK_COUNT""}","{""ImportId"":""QID110""}","{""ImportId"":""QID297_FIRST_CLICK""}","{""ImportId"":""QID297_LAST_CLICK""}","{""ImportId"":""QID297_PAGE_SUBMIT""}","{""ImportId"":""QID297_CLICK_COUNT""}","{""ImportId"":""QID111_FILE_ID""}","{""ImportId"":""QID111_FILE_NAME""}","{""ImportId"":""QID111_FILE_SIZE""}","{""ImportId"":""QID111_FILE_TYPE""}","{""ImportId"":""QID199_TEXT""}","{""ImportId"":""QID298_FIRST_CLICK""}","{""ImportId"":""QID298_LAST_CLICK""}","{""ImportId"":""QID298_PAGE_SUBMIT""}","{""ImportId"":""QID298_CLICK_COUNT""}","{""ImportId"":""QID94_TEXT""}","{""ImportId"":""QID299_FIRST_CLICK""}","{""ImportId"":""QID299_LAST_CLICK""}","{""ImportId"":""QID299_PAGE_SUBMIT""}","{""ImportId"":""QID299_CLICK_COUNT""}","{""ImportId"":""QID95_FILE_ID""}","{""ImportId"":""QID95_FILE_NAME""}","{""ImportId"":""QID95_FILE_SIZE""}","{""ImportId"":""QID95_FILE_TYPE""}","{""ImportId"":""QID200_TEXT""}","{""ImportId"":""QID300_FIRST_CLICK""}","{""ImportId"":""QID300_LAST_CLICK""}","{""ImportId"":""QID300_PAGE_SUBMIT""}","{""ImportId"":""QID300_CLICK_COUNT""}","{""ImportId"":""QID100""}","{""ImportId"":""QID316_FIRST_CLICK""}","{""ImportId"":""QID316_LAST_CLICK""}","{""ImportId"":""QID316_PAGE_SUBMIT""}","{""ImportId"":""QID316_CLICK_COUNT""}","{""ImportId"":""QID101_FILE_ID""}","{""ImportId"":""QID101_FILE_NAME""}","{""ImportId"":""QID101_FILE_SIZE""}","{""ImportId"":""QID101_FILE_TYPE""}","{""ImportId"":""QID201_TEXT""}","{""ImportId"":""QID301_FIRST_CLICK""}","{""ImportId"":""QID301_LAST_CLICK""}","{""ImportId"":""QID301_PAGE_SUBMIT""}","{""ImportId"":""QID301_CLICK_COUNT""}","{""ImportId"":""QID102""}","{""ImportId"":""QID317_FIRST_CLICK""}","{""ImportId"":""QID317_LAST_CLICK""}","{""ImportId"":""QID317_PAGE_SUBMIT""}","{""ImportId"":""QID317_CLICK_COUNT""}","{""ImportId"":""QID103_FILE_ID""}","{""ImportId"":""QID103_FILE_NAME""}","{""ImportId"":""QID103_FILE_SIZE""}","{""ImportId"":""QID103_FILE_TYPE""}","{""ImportId"":""QID202_TEXT""}","{""ImportId"":""QID302_FIRST_CLICK""}","{""ImportId"":""QID302_LAST_CLICK""}","{""ImportId"":""QID302_PAGE_SUBMIT""}","{""ImportId"":""QID302_CLICK_COUNT""}","{""ImportId"":""QID3_TEXT""}","{""ImportId"":""QID324_FIRST_CLICK""}","{""ImportId"":""QID324_LAST_CLICK""}","{""ImportId"":""QID324_PAGE_SUBMIT""}","{""ImportId"":""QID324_CLICK_COUNT""}","{""ImportId"":""QID2_FILE_ID""}","{""ImportId"":""QID2_FILE_NAME""}","{""ImportId"":""QID2_FILE_SIZE""}","{""ImportId"":""QID2_FILE_TYPE""}","{""ImportId"":""QID211_TEXT""}","{""ImportId"":""QID325_FIRST_CLICK""}","{""ImportId"":""QID325_LAST_CLICK""}","{""ImportId"":""QID325_PAGE_SUBMIT""}","{""ImportId"":""QID325_CLICK_COUNT""}","{""ImportId"":""QID11""}","{""ImportId"":""QID12_FILE_ID""}","{""ImportId"":""QID12_FILE_NAME""}","{""ImportId"":""QID12_FILE_SIZE""}","{""ImportId"":""QID12_FILE_TYPE""}","{""ImportId"":""QID212_TEXT""}","{""ImportId"":""QID326_FIRST_CLICK""}","{""ImportId"":""QID326_LAST_CLICK""}","{""ImportId"":""QID326_PAGE_SUBMIT""}","{""ImportId"":""QID326_CLICK_COUNT""}","{""ImportId"":""QID13_1""}","{""ImportId"":""QID13_2""}","{""ImportId"":""QID327_FIRST_CLICK""}","{""ImportId"":""QID327_LAST_CLICK""}","{""ImportId"":""QID327_PAGE_SUBMIT""}","{""ImportId"":""QID327_CLICK_COUNT""}","{""ImportId"":""QID15_FILE_ID""}","{""ImportId"":""QID15_FILE_NAME""}","{""ImportId"":""QID15_FILE_SIZE""}","{""ImportId"":""QID15_FILE_TYPE""}","{""ImportId"":""QID213_TEXT""}","{""ImportId"":""QID328_FIRST_CLICK""}","{""ImportId"":""QID328_LAST_CLICK""}","{""ImportId"":""QID328_PAGE_SUBMIT""}","{""ImportId"":""QID328_CLICK_COUNT""}","{""ImportId"":""QID14_TEXT""}","{""ImportId"":""QID329_FIRST_CLICK""}","{""ImportId"":""QID329_LAST_CLICK""}","{""ImportId"":""QID329_PAGE_SUBMIT""}","{""ImportId"":""QID329_CLICK_COUNT""}","{""ImportId"":""QID16_FILE_ID""}","{""ImportId"":""QID16_FILE_NAME""}","{""ImportId"":""QID16_FILE_SIZE""}","{""ImportId"":""QID16_FILE_TYPE""}","{""ImportId"":""QID214_TEXT""}","{""ImportId"":""QID330_FIRST_CLICK""}","{""ImportId"":""QID330_LAST_CLICK""}","{""ImportId"":""QID330_PAGE_SUBMIT""}","{""ImportId"":""QID330_CLICK_COUNT""}","{""ImportId"":""QID310_TEXT""}","{""ImportId"":""QID311""}","{""ImportId"":""QID312""}","{""ImportId"":""QID312_3_TEXT""}","{""ImportId"":""QID314_TEXT""}","{""ImportId"":""QID315""}","{""ImportId"":""QID343""}","{""ImportId"":""QID343_8_TEXT""}","{""ImportId"":""QID344_FIRST_CLICK""}","{""ImportId"":""QID344_LAST_CLICK""}","{""ImportId"":""QID344_PAGE_SUBMIT""}","{""ImportId"":""QID344_CLICK_COUNT""}","{""ImportId"":""QID342_TEXT""}","{""ImportId"":""PROLIFIC_PID""}","{""ImportId"":""chart_AC""}","{""ImportId"":""chart_BC""}","{""ImportId"":""chart_BuC""}","{""ImportId"":""chart_CC""}","{""ImportId"":""chart_HC""}","{""ImportId"":""chart_LC""}","{""ImportId"":""chart_PC""}","{""ImportId"":""chart_SA""}","{""ImportId"":""chart_SB""}","{""ImportId"":""chart_SB100""}","{""ImportId"":""chart_SP""}","{""ImportId"":""chart_TM""}"
+2023-08-24 06:46:17,2023-08-24 06:55:45,IP Address,193.77.49.183,100,568,True,2023-08-24 06:55:47,R_3Nzj15opvy2FL36,,,,,45.9582,14.6668,anonymous,EN,I agree,19.054,19.054,19.6,1,177,12.953,20.321,25.783,2,0,0,13.496,0,F_85HFoc0uvVyLq3n,signature.png,6665,image/png,it was simple,9.617,29.705,33.499,5,0,0,1.087,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4200,12.104,12.104,14.216,1,,,,,,,,,,False,25.612,25.612,40.632,1,,,,,,,,,,2012,19.627,21.894,22.479,4,,,,,,,,,,Rising,14.432,14.432,16.764,1,,,,,,,,,,Impossible to answer with this visualization.,22.893,22.893,27.363,1,F_2VQMfg6MPXAqJ2z,signature.png,6172,image/png,cant really get an accurate reading on the chart as seen,12.296,31.769,46.296,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.71,16.801,16.801,19.518,1,,,,,,,,,,Nov 2019,,13.327,15.866,16.609,2,,,,,,,,,,0.88,0.68,22.338,25.486,30.291,2,,,,,simple chart,2.48,10.204,10.984,2,Falling,18.115,18.115,24.782,1,,,,,,,,,,Nevada [NV],2.581,9.654,10.936,2,,,,,,,,,,6-8%,7.889,12.722,13.625,6,,,,,,,,,,True,18.184,18.184,19.511,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,17.496,17.496,19.309,1,,,,,,,,,,Great Britain,10.574,10.574,11.56,1,,,,,,,,,,Australia,9.784,10.843,11.485,2,F_3gyZnfKGEhbcikN,signature.png,5142,image/png,"Actually thinking again, its impossible to tell since the chart displays %, and not the actual number of medals won",26.234,31.789,60.24,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,Man,Normal vision,,Biopsychology,Moderately knowledgeable,"Bachelor’s degree (For example: BA, AB, BS)",,1.037,23.022,24.825,7,all good,6489ba30c0e85759c580b6b1,True,False,False,True,False,False,False,True,False,True,False,False
+2023-08-24 06:43:22,2023-08-24 06:56:12,IP Address,188.80.73.151,100,769,True,2023-08-24 06:56:15,R_1M0uQ5viBXyymz6,,,,,41.5515,-8.4204,anonymous,EN,I agree,8.156,11.576,13.004,2,177,21.563,21.563,24.643,1,0,0,10.702,0,F_6hwvkvFbVSAWZJT,signature.png,5454,image/png,Just read carefully the subtitles of each axle,15.392,104.031,106.938,11,0,0,1.549,0,58,19.666,19.666,22.566,1,F_1OK90kCodFQJ0r4,signature.png,5308,image/png,measure both lines,6.338,32.193,48.342,9,Seoul,7.609,8.965,10.193,2,,,,,,,,,,False,18.564,18.564,19.9,1,F_2aUHD0Oonp5pGLy,signature.png,4691,image/png,is noticeably bigger of bars than the other,8.234,12.462,40.506,3,True,31.634,31.634,33,1,F_3HncGiUQfxgfB1F,signature.png,6475,image/png,measure both bars,11.22,37.511,49.13,7,13,15.391,15.391,18.092,1,F_1mWu3QY4Y8GEtjE,signature.png,2773,image/png,calculate aprox,5.325,11.322,20.2,4,4200,9.911,14.888,16.376,3,,,,,,,,,,False,23.93,23.93,25.904,1,,,,,,,,,,2012,11.508,12.663,13.601,2,,,,,,,,,,Rising,62.636,62.636,67.985,1,,,,,,,,,,False,24.167,25.594,26.263,2,F_1nOWGdZb5MOvJ9e,signature.png,4055,image/png,measure the distance between each point,9.814,25.474,53.375,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Google,8.934,11.262,12.433,2,,,,,,,,,,False,12.718,14.237,15.628,2,,,,,,,,,,Retail,8.248,9.726,11.182,2,,,,,,,,,,25,11.125,11.125,13.004,1,,,,,,,,,,Samsung,7.829,15.999,17.334,4,,,,,,,,,,True,7.101,7.101,8.614,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21,Women,Normal vision,,engineering,Relatively Skilled,"Bachelor’s degree (For example: BA, AB, BS)",,1.271,25.506,27.406,6,,5e23c2569138e066e7e892f7,False,False,False,False,False,False,True,True,True,False,False,True
+2023-08-24 06:43:12,2023-08-24 06:57:12,IP Address,176.201.247.112,100,839,True,2023-08-24 06:57:15,R_0ifWKlyutYlLTJD,,,,,43.1108,12.398,anonymous,EN,I agree,6.435,6.435,7.21,1,177,17.5,47.936,48.479,2,0,0,10.564,0,F_23WgyJY90DUTngb,signature.png,4887,image/png,"Everything was clear, it's really a simple thing reading a x-y chart.",9.67,21.467,39.976,4,0,0,1.531,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44,7.89,7.89,11.608,1,,,,,,,,,,183,21.275,21.275,26.281,1,,,,,,,,,,74,44,4.855,11.199,15.685,3,,,,,,,,,,True,19.439,19.439,20.699,1,F_22n9wNtgJBtuslR,signature.png,5395,image/png,I didn't read about the weight so the answer is false and not true. I've only read about the height,9.785,29.924,49.4,3,False,14.867,14.867,15.92,1,,,,,,,,,,182,4.828,50.756,55.857,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.71,8.367,8.367,10.742,1,,,,,,,,,,Nov 2019,,5.555,23.573,24.361,2,,,,,,,,,,0.89,0.69,50.801,58.992,82.155,2,,,,,"Just looking at the graph you can clearly see the top price and the lowest one ",1.777,1.777,23.231,1,Falling,3.068,12.932,22.801,3,,,,,,,,,,Nevada [NV],7.542,11.248,14.038,2,,,,,,,,,,4-6%,36.801,75.953,76.718,16,F_3LgUjXrXsXBsuhu,signature.png,3687,image/png,Same color,5.864,10.514,15.956,4,True,15.666,15.666,19.243,1,,,,,,,,,,395,11.146,11.146,33.849,1,F_3KvFk0kvkpP8Utu,signature.png,8808,image/png,"The asnwer is 460, I misread and calculated between 20 and 50",4.324,57.85,73.117,28,Impossible to answer with this visualization.,15.785,15.785,17.546,1,F_237BvkzStYtPbmL,signature.png,3355,image/png,Can't answer because graph is the same so can't be precise on the answer.,6.161,13.419,32.047,7,30 - 40 Km,11.59,22.542,22.922,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,Man,Normal vision,,Engineering,Relatively Skilled,High school graduate - High school diploma or equivalent (for example: GED),,0.986,20.943,21.239,7,,606c84985bc8f54faae85092,True,False,False,True,True,False,False,False,False,False,True,False
+2023-08-24 06:45:10,2023-08-24 06:57:14,IP Address,83.20.225.192,100,724,True,2023-08-24 06:57:17,R_OcDqAoZq8SZqKLD,,,,,52.4031,16.9265,anonymous,EN,I agree,17.35,17.628,18.477,2,177,2.171,34.524,41.77,3,0,0,9.833,0,F_11jy4zEVAyKgXEg,signature.png,7095,image/png,"Nothing, the chart was clear to read",10.237,44.918,55.526,8,0,0,0.601,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,26.389,36.608,36.812,2,F_3mdREibY8EBVXVi,signature.png,7355,image/png,I marked the average price of oil in Februrary 2020,6.683,61.206,61.3,9,Mar,5.586,10.346,17.045,4,F_1QGuzvxJLdOKX7b,signature.png,4462,image/png,"In March, the price was all time low.",5.698,25.123,25.383,3,57,16,8.119,12.918,19.899,2,,,,,,,,,,Falling,4.421,15.088,16.722,8,,,,,,,,,,27,38.142,38.142,39.195,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.70,1.812,34.253,38.423,5,,,,,,,,,,Oct 2019,,6.259,21.492,24.039,4,F_31yg40oGE3QlDl7,signature.png,4173,image/png,Nothing confusing about this chart,3.636,7.766,17.194,2,0.88,0.68,0.815,18.437,31.042,5,,,,,Nothing confusing or complicated. I read the numbers on the left,0.799,0.799,42.579,1,Falling,2.824,26.589,26.845,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Google,6.258,21.473,23.225,7,,,,,,,,,,False,11.991,26.853,29.955,2,,,,,,,,,,Retail,2.57,3.798,4.594,2,,,,,,,,,,25,1.48,46.4,46.782,10,,,,,,,,,,Samsung,6.152,10.24,13.82,2,,,,,,,,,,True,5.792,8.917,10.244,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,Man,Normal vision,,IT,Moderately knowledgeable,Some college but no degree,,0.571,33.436,39.034,11,,5ee71f69982f964bf72b5a51,True,False,False,False,False,True,True,False,False,False,False,True
+2023-08-24 06:43:13,2023-08-24 06:57:29,IP Address,85.247.156.117,100,855,True,2023-08-24 06:57:31,R_2bKoZ177MZnbntj,,,,,38.7584,-9.2495,anonymous,EN,I agree,25.383,25.383,26.559,1,176,19.599,19.599,34.355,1,0,0,11.078,0,F_27Eks8Cs9WIiHCH,signature.png,6435,image/png,nothing to add,17.669,36.233,45.197,4,0,0,2.22,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52,17.788,17.788,23.103,1,,,,,,,,,,Apr,4.133,5.973,7.157,3,,,,,,,,,,58,17,8.898,24.478,27.246,4,,,,,,,,,,Falling,10.206,10.206,10.995,1,,,,,,,,,,26,33.542,33.542,37.905,1,,,,,,,,,,345,12.895,12.895,19.895,1,,,,,,,,,,460,200,15.613,21.741,25.102,2,F_1oGWHJRCY2AHSeu,signature.png,7351,image/png,Looked for the highest and lowest circle. Missed Mexico City.,5.933,94.927,96.339,11,True,,,,,,,,,,False,18.447,18.447,20.459,1,,,,,,,,,,Impossible to answer with this visualization,7.64,7.64,8.444,1,F_1lco894jSanLQfh,signature.png,4509,image/png,Rough average of the positions of all circles,48.13,84.761,90.117,6,Shanghai,6.902,9.132,11.542,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,629,93.076,93.076,95.156,1,F_1gO1kePcArbD9DX,signature.png,6299,image/png,"Not sure if I should include 20, 30 and 40 or just 30 given it´s just in between 20 and 40",9.69,48.563,101.437,10,False,12.9,12.9,13.746,1,,,,,,,,,,30 - 40 Km,6.743,23.814,26.038,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,3.679,4.047,6.256,2,,,,,,,,,,South Korea,,,,,,,,,,98,13,12.982,19.115,21.928,2,,,,,,,,,,4,12.007,12.007,13.819,1,,,,,,,,,,23,Man,Normal vision,,Computer Science,Moderately knowledgeable,"Bachelor’s degree (For example: BA, AB, BS)",,1.395,27.132,29.902,6,,5d095cf92cc5840015ff79bd,False,True,False,False,True,True,False,False,False,False,False,False
+2023-08-24 06:45:29,2023-08-24 06:58:04,IP Address,188.80.120.231,100,754,True,2023-08-24 06:58:06,R_1jU4Etoa2THvzMq,,,,,41.2087,-8.3365,anonymous,EN,I agree,2.609,2.609,3.275,1,176,24.797,24.797,37.756,1,6.832,7.015,11.438,2,F_2U62YAHsv3eVUjV,signature.png,7776,image/png,"Confusing using height in the x axis. But looking at the point with the biggest y, the heaviest person, we look down at the x.",10.208,88.713,89.003,7,8.158,8.158,8.437,1,49,0.695,15.104,23.158,3,,,,,,,,,,Seoul,26.826,28.674,29.731,3,,,,,,,,,,False,17.788,17.788,22.015,1,F_2tKWi1BvCvFtAPL,signature.png,6660,image/png,The graph is not the best for this type of calculations but the 5 dollar lines help to see that the blue bar is a lot bigger in toronto,15.649,37.812,91.88,6,False,85.319,85.319,86.445,1,,,,,,,,,,6,18.496,20.477,20.761,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,340,6.401,6.401,8.644,1,,,,,,,,,,460,160,11.854,18.612,28.518,3,,,,,,,,,,True,,,,,,,,,,False,16.201,16.201,31.324,1,,,,,,,,,,False,57.176,57.176,58.173,1,,,,,,,,,,Shanghai,4.714,5.491,8.8,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Google,4.428,8.25,8.56,4,,,,,,,,,,False,27.256,27.256,38.527,1,,,,,,,,,,Retail,4.523,6.24,6.928,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29,6.138,6.138,7.999,1,,,,,,,,,,Great Britain,3.241,33.542,34.283,2,,,,,,,,,,Australia,5.068,6.245,6.997,3,F_2tnaAkJCWAq44x8,signature.png,4820,image/png,looking for the bigger bronze bar,8.765,11.277,22.589,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,Man,Normal vision,,IT,Relatively Skilled,"Master’s degree (For example: MA, MS, MEng, MEd, MSW, MBA)",,0.583,23.646,24.475,6,,602ef205a5c8a3b756be2f70,False,True,False,False,False,False,False,False,True,True,False,True
+2023-08-24 06:46:48,2023-08-24 06:58:19,IP Address,84.2.220.220,100,690,True,2023-08-24 06:58:21,R_skd9TF3aZl5T6hj,,,,,47.5636,19.0947,anonymous,EN,I agree,5.459,5.459,6.206,1,176,16.001,16.001,24.784,1,0,0,16.966,0,F_2xFZoR8Q6xQq0Dz,signature.png,6414,image/png,I did it just by looking at the dot in the highest position on the vertical axis. Nothing was really confusing.,11.94,42.485,101.948,9,0,0,4.017,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51,19.437,19.437,22.339,1,,,,,,,,,,Apr,5.945,6.944,8.069,3,,,,,,,,,,57,16,9.738,26.89,27.525,3,,,,,,,,,,Falling,14.466,14.466,16.177,1,,,,,,,,,,25,30.035,30.955,34.846,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.77,17.224,17.607,21.1,2,F_30q1LqWxsReOyTp,signature.png,5248,image/png,Just identify the value on October 2019. Nothing really confusing.,5.764,13.421,40.971,4,Nov 2019,,13.399,36.376,40.309,4,,,,,,,,,,0.88,0.77,27.915,37.234,47.174,2,F_vc6hn1p5xfAkHOV,signature.png,5978,image/png,Just looking at the minimum and maximum values up to Jan 2019. Nothing was really confusing.,7.035,53.715,87.187,16,Falling,26.172,28.644,39.625,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,9.531,9.531,16.558,1,,,,,,,,,,Samsung,16.059,16.957,17.433,2,,,,,,,,,,True,8.401,8.401,9.399,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,13.463,13.463,15.466,1,,,,,,,,,,South Korea,,,,,,,,,,99,14,6.477,13.821,15.786,2,,,,,,,,,,4,10.79,10.79,13.219,1,,,,,,,,,,27,Man,"Corrected-to-normal vision (glasses, contacts, etc)",,Earth Sciences,Moderately knowledgeable,"Bachelor’s degree (For example: BA, AB, BS)",,1.053,22.542,23.927,8,,61324459277ad7b87bcf3839,True,True,False,False,False,True,True,False,False,False,False,False
+2023-08-24 06:46:42,2023-08-24 06:58:24,IP Address,85.145.235.45,100,701,True,2023-08-24 06:58:26,R_1jCUqKK0ltgDucN,,,,,51.4783,5.4965,anonymous,EN,I agree,1.98,26.132,26.978,17,177,4.618,27.69,28.344,12,15.807,16.249,17.626,2,F_1go8ZroQlln9e8i,signature.png,4357,image/png,"the heaviest person was easy to find. only kind of confusing to find the exact height, but it probably doesnt matter",1.302,39.103,84.578,36,0,0,1.922,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4200,1.442,20.49,24.801,5,,,,,,,,,,False,13.053,13.988,14.831,3,,,,,,,,,,2012,5.545,26.97,27.669,6,,,,,,,,,,Rising,16.954,22.326,22.824,6,,,,,,,,,,False,8.341,44.381,45.103,5,F_1qb5ZVyxsORhAyd,signature.png,5719,image/png,"it was hard to see, but doable",5.041,52.571,66.604,36,44.5,2.204,23.227,25.063,12,,,,,,,,,,182.5,2.501,12.552,18.097,5,,,,,,,,,,74,44,1.302,28.517,29.603,9,,,,,,,,,,False,4.478,21.262,21.9,10,,,,,,,,,,False,8.74,26.17,26.748,10,,,,,,,,,,182,2.583,12.172,14.234,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nevada [NV],1.801,16.2,17.165,4,,,,,,,,,,6-8%,2.21,9.731,10.696,4,,,,,,,,,,True,1.521,38.391,43.897,6,,,,,,,,,,460,2.683,30.248,30.673,7,,,,,,,,,,False,1.994,13.135,13.703,3,,,,,,,,,,30 - 40 Km,1.496,28.723,29.282,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21,Man,Normal vision,,tech,Beginner,"Bachelor’s degree (For example: BA, AB, BS)",,0.783,26.687,28,18,,63e61e3bd5a5ae3b56fd152f,False,False,False,True,True,False,False,True,False,False,True,False
+2023-08-24 06:47:51,2023-08-24 06:58:47,IP Address,37.116.56.218,100,656,True,2023-08-24 06:58:51,R_1Nb0csv7ZyeY3gl,,,,,45.4722,9.1922,anonymous,EN,I agree,6.972,6.972,9.089,1,177,27.801,44.856,48.851,2,0,0,8.86,0,F_9MgXyUH1W80yZDH,signature.png,5988,image/png,nothing confusing,9.405,19.349,29.286,3,0,0,1.236,0,24,9.733,9.733,12.208,1,F_skeXMYgTJtUW4Yp,signature.png,5354,image/png,the fact that it started from 0 made it easier,11.95,13.28,29.221,2,Seoul,22.762,25.686,26.425,2,,,,,,,,,,False,16.079,16.079,19.903,1,F_1imtnUmjcFKL9aB,signature.png,2952,image/png,nothing confusing,6.518,20.004,27.693,3,False,44.249,44.249,58.872,1,,,,,,,,,,7,13.47,31.635,33.134,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,345,9.607,9.607,14.401,1,,,,,,,,,,150,500,6.371,14.372,18.324,2,F_301NTdQzSR0yQvd,signature.png,4038,image/png,"looking at the y axis ",3.289,7.019,24.901,3,True,,,,,,,,,,False,35.595,35.595,36.298,1,,,,,,,,,,False,60.426,60.426,61.15,1,,,,,,,,,,Shanghai,5.966,6.928,12.47,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nevada [NV],1.98,3.909,4.711,2,,,,,,,,,,6-8%,8.037,8.037,10.318,1,,,,,,,,,,True,18.361,18.361,19.353,1,,,,,,,,,,460,24.129,24.129,45.702,1,,,,,,,,,,False,19.94,19.94,20.841,1,,,,,,,,,,30 - 40 Km,10.524,12.228,15.532,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,Non-binary / third gender,"Corrected-to-normal vision (glasses, contacts, etc)",,philosophy,Beginner,High school graduate - High school diploma or equivalent (for example: GED),,0.802,29.636,31.307,8,,6024682befd32a15e837bf85,False,True,False,True,True,False,False,False,True,False,False,False
+2023-08-24 06:44:59,2023-08-24 06:58:50,IP Address,80.194.12.43,100,830,True,2023-08-24 06:58:52,R_3szgksVubRN37KB,,,,,51.8686,-2.2446,anonymous,EN,I agree,24.656,24.656,27.243,1,177,12.718,29.885,31.966,5,0,0,9.112,0,F_1IBgMGIdBKXVI9H,signature.png,6735,image/png,"I found the lack of detailed gridlines was confusing, as it was hard to tell exactly where between 175 and 180 the dot was without them",9.37,26.02,69.833,4,0,0,1.219,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44.5,16.581,16.581,19.969,1,,,,,,,,,,183,10.574,10.574,13.407,1,,,,,,,,,,74,44.5,7.134,10.327,15.55,2,,,,,,,,,,False,14.187,14.187,15.645,1,,,,,,,,,,False,4.477,4.477,6.158,1,,,,,,,,,,182,8.821,9.277,14.036,2,,,,,,,,,,51,6.595,6.595,11.111,1,,,,,,,,,,Apr,14.871,16.196,17.031,2,,,,,,,,,,57,16,9.529,13.97,15.775,2,,,,,,,,,,Falling,13.356,13.356,14.58,1,,,,,,,,,,27,15.302,15.302,17.31,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Google,15.426,20.833,24.801,4,,,,,,,,,,Impossible to answer with this visualization.,8.057,8.057,8.715,1,F_28LHHn9D9KVrI9G,signature.png,3637,image/png,There is no way of knowing the numbers of visitors or if each square/group is on the same scale,1.653,18.092,45.621,8,Retail,3.32,4.651,5.376,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44,8.444,8.444,10.167,1,F_2QEsEdRamaQ0P6g,signature.png,3986,image/png,"I realised after the fact that the incriments had changed from 5 to 10, so my answer is off",9.884,27.91,61.493,6,Great Britain,25.776,25.776,26.986,1,,,,,,,,,,Impossible to answer with this visualization.,12.18,17.871,23.156,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,Non-binary / third gender,"Corrected-to-normal vision (glasses, contacts, etc)",,Forensic Science student,Moderately knowledgeable,Other,A levels,1.035,28.314,32.742,7,The load time between questions was very slow,634698437f640a78b069d709,False,False,False,False,False,True,False,False,False,True,True,True
+2023-08-24 06:45:43,2023-08-24 07:00:37,IP Address,41.13.0.116,100,893,True,2023-08-24 07:00:42,R_1LtiUCz3GULR9Pa,,,,,-26.3811,27.8376,anonymous,EN,I agree,1.198,5.084,5.861,3,178,2.367,25.036,28.374,5,0,0,11.281,0,F_3oGSwMmrQvI8KyM,signature.png,8124,image/png,"No there was nothing I found confusing ",1.425,58.25,72.573,27,0,0,1.682,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4000,3.134,8.552,11.443,2,F_1mEI5frsOwsBQCn,signature.png,2810,image/png,The answer is clear,5.789,11.95,20.276,8,True,32.522,40.563,41.674,4,F_3EAR84XzdLiLtdW,signature.png,4180,image/png,"No there wasn’t anything confusing . The answer was clear ",23.19,31.333,51.801,2,2012,8.142,8.142,21.099,1,,,,,,,,,,Rising,17.416,19.607,20.91,2,,,,,,,,,,False,14.395,15.229,16.101,2,F_1flQwYpnMcp7EME,signature.png,4623,image/png,"The answer is clearly shown on the graph ",24.943,27.066,40.291,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.71,13.187,13.187,16.592,1,,,,,,,,,,Nov 2018,,29.219,29.219,45.22,1,F_3MfKgdWhn8Mpl8B,signature.png,6890,image/png,"The answer is clearly shown on the graph ",4.601,27.406,39.667,10,0.89,0.68,10.834,39.573,39.593,6,,,,,No there was nothing confusing . Data is given on the graph,2.922,2.922,29.6,1,Falling,6.592,22.711,23.916,3,,,,,,,,,,Nevada [NV],11.732,11.732,18.423,1,,,,,,,,,,6-8%,19.466,25.464,29.427,2,,,,,,,,,,True,17.907,19.205,20.271,3,,,,,,,,,,235,31.547,45.034,57.363,2,F_1PXbI5fjcEM0iCe,signature.png,4768,image/png,"This was a bit confusing. I didn’t know whether to add all figures between 20-40 or not ",9.901,20.782,74.327,6,False,16.859,26.041,27.32,4,,,,,,,,,,30 - 40 Km,10.987,18.605,31.358,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,Women,Normal vision,,"Logistics ",Moderately knowledgeable,"Bachelor’s degree (For example: BA, AB, BS)",,4.04,38.183,39.169,13,"No I did not run into any issues. ",6119840d0d3f0c539d148c2a,True,False,False,True,True,False,False,True,False,False,False,False
+2023-08-24 06:44:55,2023-08-24 07:00:50,IP Address,89.155.172.13,100,954,True,2023-08-24 07:00:56,R_Wl1OHg5YIc8mZy1,,,,,41.1256,-8.602,anonymous,EN,I agree,2.687,5.458,6.201,5,176,20.91,21.868,26.356,2,9.762,9.762,11.058,1,F_3HZYolmn2rWtTMt,signature.png,6905,image/png,"First, I saw the person with heaviest weight and their height.",7.36,67.329,74.848,12,0,0,1.605,0,50,2.968,38.011,38.989,7,,,,,,,,,,Seoul,10.483,28.363,29.284,5,,,,,,,,,,False,5.948,17.776,18.645,4,F_RmnhjVvrcCaTVkt,signature.png,3562,image/png,Vodka in toronto costs 8 dollars and in Helsink costs 6 dollars.,1.682,62.738,64.282,12,I'm not sure,5.111,51.31,52.43,5,F_9TuyiB6nMVh7dxn,signature.png,3331,image/png,"The cost of water its the same in the two cities, but the cost of soda is bigger in Stockholm. And the cost of soda is the only variable..",6.348,79.529,80.363,13,7,5.693,16.718,19.291,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44,0.53,9.459,13.069,5,,,,,,,,,,184,6.569,19.802,22.968,4,,,,,,,,,,181,161,5.701,23.605,26.668,6,F_1kHVo4sKBD6PDjE,signature.png,3887,image/png,It might be wrong.,4.611,42.458,43.843,12,False,8.937,13.654,14.788,3,,,,,,,,,,False,8.086,9.752,10.595,3,,,,,,,,,,168,1.816,34.802,35.704,6,F_3KZ9ogwgqhssAYl,signature.png,3206,image/png,"It is a bit confusing, but I took into acount that cluster.",5.432,58.277,59.8,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,5.791,9.619,13.475,3,F_RQSr0CDI3OQKno5,signature.png,6727,image/png,"Actually, the percentage of bronze is 30.",2.626,49.527,53.001,11,Great Britain,7.829,25.663,26.573,6,,,,,,,,,,Australia,6.83,10.025,10.942,4,F_3flMIrGgOsJzMl8,signature.png,5484,image/png,Australia has the biggest percentage.,2.187,12.782,31.302,6,40,2.861,4.869,12.793,3,,,,,,,,,,South Korea,,,,,,,,,,99,13,4.679,24.384,29.879,6,,,,,,,,,,4,9.25,25.826,28.033,6,,,,,,,,,,19,Women,"Corrected-to-normal vision (glasses, contacts, etc)",,Dentistry,Relatively Skilled,"Bachelor’s degree (For example: BA, AB, BS)",,1.259,32.294,33.806,14,,5f368efd51955606194ca6b9,False,True,False,False,False,False,False,False,True,True,True,False
+2023-08-24 06:45:51,2023-08-24 07:02:49,IP Address,79.184.221.179,100,1017,True,2023-08-24 07:02:52,R_AtdFVDKe1dsn0R3,,,,,52.23,21.0087,anonymous,EN,I agree,5.868,5.868,6.547,1,176,20.972,20.972,25.959,1,0,0,7.718,0,F_u8rCoZASAQfIxVv,signature.png,6225,image/png,"Everything was okay, the statistic is easy to read",17.656,34.629,51.554,8,0,0,1.213,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,11.452,14.665,15.032,2,,,,,,,,,,Apr,3.402,11.824,12.161,3,,,,,,,,,,57,16,10.561,14.382,25.993,3,,,,,,,,,,Falling,19.375,19.375,21.813,1,,,,,,,,,,26,29.724,31.301,31.714,2,,,,,,,,,,345,91.939,91.939,95.112,1,,,,,,,,,,500,150,45.875,48.786,51.199,2,F_27CdQSXdRXHHxSB,signature.png,4503,image/png,I just looked at the scale to check the range,5.291,13.321,29.419,5,True,,,,,,,,,,False,10.524,10.524,18.162,1,,,,,,,,,,Impossible to answer with this visualization,32.198,32.198,33.223,1,F_23e5aOW0oJNld5X,signature.png,4890,image/png,To make an average assumption we need to process proper numbers. We cant determine the average with a visualization.,7.365,74.746,75.642,17,Shanghai,6.441,8.509,10.359,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,13.908,15.76,16.398,2,,,,,,,,,,Great Britain,10.645,10.645,12.938,1,,,,,,,,,,Australia,142.291,144.395,145.792,3,F_3P5fdjtMsUEv181,signature.png,5768,image/png,The bronze part of total % was the biggest for Australia,9.285,47.352,47.571,18,41,5.738,7.762,8.034,2,,,,,,,,,,South Korea,,,,,,,,,,100,0,8.899,27.615,35.717,5,F_114rOnPCNO0hB6D,signature.png,4632,image/png,I looked at the scale of the Y axis,5.249,8.461,27.672,3,8,12.277,12.277,14.125,1,F_306tHeVoz47xIUh,signature.png,3818,image/png,"Apologies, I misread the question, I read it as Thailand, hence the answer of 8. The correct answer is 4, I draw the line on Taiwan and checked was is below it.",10.554,51.561,87.251,3,23,Man,Normal vision,,Machine learning,Moderately knowledgeable,"Bachelor’s degree (For example: BA, AB, BS)",,0.727,32.196,33.572,7,Everything was working just fine,5f67bc66777bfd3f9906742c,False,True,False,False,False,True,False,False,False,True,False,False
+2023-08-24 06:43:59,2023-08-24 07:02:52,IP Address,80.208.65.162,100,1132,True,2023-08-24 07:02:54,R_2Cs6OxQRF5mHHeJ,,,,,55.7139,11.7115,anonymous,EN,I agree,19.931,19.931,26.755,1,177,157.791,191.446,208.727,2,19.898,19.898,22.079,1,F_3FR91Obs0l4pviN,signature.png,6748,image/png,no,22.972,38.685,58.297,5,0,0,2.542,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12.000,21.869,21.869,33.904,1,F_2eRrRt9HNe6qy7e,signature.png,3239,image/png,"the number I put for this is for olivia, my mistake it should be closer to 4.000.",20.442,28.6,76.676,5,False,33.529,33.529,39.742,1,,,,,,,,,,2012,12.818,15.071,32.375,2,,,,,,,,,,Rising,69.374,69.374,71.988,1,,,,,,,,,,False,17.916,17.916,32.117,1,F_1hYhMyIqN8nhKS5,signature.png,4325,image/png,nope,18.896,36.559,42.382,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,9.8,9.8,19.955,1,,,,,,,,,,Apr,9.361,10.792,23.105,2,,,,,,,,,,57,16,19.06,26.726,33.456,2,,,,,,,,,,Falling,25.041,25.041,26.99,1,,,,,,,,,,26,23.799,47.735,50.755,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nevada [NV],3.688,10.82,14.356,2,,,,,,,,,,6-8%,14.299,31.217,41.858,4,,,,,,,,,,True,12.2,12.2,20.214,1,,,,,,,,,,463,43.622,45.366,51.079,2,,,,,,,,,,False,22.018,22.018,23.192,1,,,,,,,,,,30 - 40 Km,17.489,19.124,32.983,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37,Man,"Corrected-to-normal vision (glasses, contacts, etc)",,manufacturing and conservation,Beginner,"Bachelor’s degree (For example: BA, AB, BS)",,1.939,79.255,80.954,8,"Survey is good, didn't have any issues or bugs. :)",5e615b1f09397603b5f438f5,False,False,False,True,True,True,False,True,False,False,False,False
+2023-08-24 06:45:54,2023-08-24 07:03:04,IP Address,89.134.1.71,100,1029,True,2023-08-24 07:03:07,R_RVOOe611fB0hG7f,,,,,47.5636,19.0947,anonymous,EN,I agree,10.54,10.54,11.666,1,177,22.101,22.101,38.1,1,0,0,36.054,0,F_31oQ88W7zGZQyyL,signature.png,5367,image/png,everything was pretty clear,14.517,45.081,48.849,9,0,0,2.041,0,55,41.375,41.375,64.709,1,,,,,,,,,,Seoul,23.194,23.194,25.898,1,,,,,,,,,,False,15.189,15.189,16.806,1,F_2Vn1fv6pWE81bCG,signature.png,4180,image/png,"It's clear to see, that the section of vodka is bigger at Toronto than at Helsinki",7.391,13.619,47.218,3,False,55.011,55.011,56.397,1,,,,,,,,,,38,40.381,40.381,55.442,1,F_26fiDH9pE4BsPqe,signature.png,2979,image/png,"Only the range of price changes was given, so I went with the middle value",11.094,14.758,110.06,2,4200,26.625,26.625,29.835,1,,,,,,,,,,True,12.332,12.332,14.279,1,F_sOvzFgxXtyUxttf,signature.png,6627,image/png,"The graph was clear, the two borders never crossed each other",11.167,44.793,66.196,9,2012,12.507,12.507,15.166,1,,,,,,,,,,Rising,14.571,14.571,16.449,1,,,,,,,,,,False,16.597,16.597,17.899,1,F_3O046Djdwlfh2W9,signature.png,2717,image/png,"It was easy to see, that the purple area was higher in 2013.",19.723,27.67,64.32,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,6.464,6.464,9.127,1,,,,,,,,,,Samsung,6.49,6.49,12.557,1,,,,,,,,,,True,15.959,15.959,17.178,1,,,,,,,,,,27,17.86,17.86,22.654,1,,,,,,,,,,Great Britain,16.196,16.196,17.246,1,,,,,,,,,,Australia,4.895,4.895,7.71,1,F_eQGkWT0mkhdptWp,signature.png,4563,image/png,"This could be the closest to the right answer, even though we only know that it's the percentage of the given country's medals, and it doesn't neccesarily mean that they have the highest number of bronze medals.",17.054,34.687,133.697,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22,Women,Normal vision,,Marketing,Moderately knowledgeable,High school graduate - High school diploma or equivalent (for example: GED),,1.001,25.296,29.426,6,,60fd480e3a0c219462da911f,False,False,False,False,False,False,True,True,True,True,False,False
+2023-08-24 06:45:04,2023-08-24 07:04:46,IP Address,94.63.154.134,100,1182,True,2023-08-24 07:04:49,R_3DnX0YHGG6qmf90,,,,,38.731,-9.1373,anonymous,EN,I agree,7.209,11.844,13.084,2,177,32.736,32.736,36.237,1,0,0,19.057,0,F_2fjQyfCBn6Fof2i,signature.png,6793,image/png,found the dot corresponding to the heaviest weight and verified where it stood on the height axis,13.562,45.191,85.163,8,0,0,1.664,0,24,9.907,25.666,30.219,3,F_1plDLYJdk33Gov7,signature.png,5904,image/png,found the bar corresponding to copenhagen and read the percentage of the green bar (sandwiches),3.397,68.766,70.054,8,Seoul,11.4,21.505,22.723,4,,,,,,,,,,False,15.174,17.185,18.142,3,F_bfsPjlMXr4j5GBr,signature.png,5412,image/png,the bar corresponding to vodka is bigger in toronto - it costs morein toronto,7.369,32.086,58.234,6,True,19.008,70.797,71.597,6,F_3h5dFzJPrrGjjN0,signature.png,6457,image/png,"i think i misread the question because now i think its false. but i looked at the size of the bars corresponding to water and soda of the two cities. in nyc the bars are about the same size, for stockholm the soda bar is a little bit bigger, which means the affirmation is false, the ratio is higher in stockholm",4.516,326.778,334.742,24,6,11.735,18.232,20.091,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44,6.65,14.436,16.469,3,,,,,,,,,,183,7.85,29.654,32.063,4,,,,,,,,,,74,44,8.653,21.234,22.661,6,,,,,,,,,,False,14.682,17.307,18.21,3,,,,,,,,,,False,9.488,20.22,21.823,4,,,,,,,,,,182,8.067,31.569,32.503,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,460,25.888,62.932,63.952,5,,,,,,,,,,False,18.706,43.351,44.471,9,,,,,,,,,,30 - 40 Km,6.524,11.196,12.129,4,,,,,,,,,,Google,5.983,15.962,17.085,4,,,,,,,,,,False,30.238,32.956,33.702,3,,,,,,,,,,Retail,6.616,8.69,9.758,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27,Women,"Corrected-to-normal vision (glasses, contacts, etc)",,psychology,Relatively Skilled,"Bachelor’s degree (For example: BA, AB, BS)",,1.179,40.728,41.589,11,,60743bea7dd527ac14fef25b,False,False,False,False,True,False,False,False,True,False,True,True
+2023-08-24 06:46:17,2023-08-24 07:05:01,IP Address,46.205.136.178,100,1124,True,2023-08-24 07:05:04,R_0xkSwPa1Yv2mTiV,,,,,53.4286,14.5475,anonymous,EN,I agree,7.103,7.103,8.953,1,177,33.286,33.286,53.703,1,0,0,13.63,0,F_1PepcDhhhvzCI8L,signature.png,5738,image/png,Looked at the highest dot (weight axis) and then projected line on the height axis,15.9,31.939,72.531,6,0,0,2.741,0,51,38.67,38.67,55.931,1,,,,,,,,,,Seoul,29.344,30.951,34.821,2,,,,,,,,,,False,19.822,19.822,24.662,1,F_1pLJoPDyiMO51zR,signature.png,4145,image/png,Compared height of blue bars for Helsinki and Toronto,21.813,66.218,71.462,4,False,41.222,41.222,70.479,1,,,,,,,,,,6,39.615,39.615,54.158,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.71,12.679,12.679,24.34,1,,,,,,,,,,Nov 2019,,27.122,30.913,39.071,2,,,,,,,,,,0.88,0.68,14.764,30.204,41.718,2,,,,,Looked at the highest point of graph for the upper range and lowest point for the lower range,6.755,6.755,34.499,1,Falling,39.299,51.472,54.416,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Impossible to answer with this visualization.,14.614,24.577,36.202,2,F_oZ7DmHv70lzWbxn,signature.png,6515,image/png,"Same as previous question, it's not clear from the graph that scaling is same between categories.",1.674,50.765,55.59,7,Impossible to answer with this visualization.,47.604,58.382,108.022,2,F_8oBqmPf8taP02pX,signature.png,8583,image/png,Categories are divided/separated which could mean scaling is different between them. Graph description doesn't make it clear,20.742,109.744,111.398,10,Retail,12.375,14.196,19.436,2,,,,,,,,,,25,24.8,24.8,40.446,1,,,,,,,,,,Samsung,5.377,6.803,16.258,2,,,,,,,,,,True,7.438,7.438,10.953,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,Man,"Corrected-to-normal vision (glasses, contacts, etc)",,it,Moderately knowledgeable,Some college but no degree,,1.646,32.369,35.291,7,,5d29412ab711e9001ab74ece,True,False,False,False,False,False,True,False,True,False,False,True
+2023-08-24 06:44:31,2023-08-24 07:07:10,IP Address,160.226.222.236,100,1359,True,2023-08-24 07:07:16,R_O10lPzUAMLWCkeZ,,,,,-25.7599,28.2604,anonymous,EN,I agree,28.12,28.12,29.501,1,176,64.964,64.964,92.174,1,0,0,19.465,0,F_2aV0yOtXEe72Jw2,signature.png,5680,image/png,Drawing a straight line is quite challenging,24.18,57.219,76.774,6,0,0,2.732,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44.9,12.627,12.627,21.71,1,,,,,,,,,,182,12.008,12.008,16.262,1,,,,,,,,,,5,5,59.905,64.917,68.474,2,F_2fJUAZlAR79D0Kl,signature.png,3327,image/png,max - min,4.688,21.026,27.801,8,False,34.371,34.371,35.902,1,,,,,,,,,,True,9.037,9.037,11.259,1,F_21GuYd19wDSczwK,signature.png,5790,image/png,It is posItve,15.687,42.601,52.363,6,182,36.552,36.552,40.661,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,39.787,39.787,42.806,1,F_2qwtlSzB8MmqS41,signature.png,2326,image/png,the interval of the number of stations is 50 and the beijing ridership takes only a third of the space,4.37,6.447,72.657,2,50,50,20.692,25.876,36.086,2,F_3NXlR416yD6eu2q,signature.png,2997,image/png,Didnt quite get the question,28.532,47.858,64.771,8,False,F_2azuOOGUbOmUovo,signature.png,2884,image/png,the diameter of tokyo ridership is 75 and guangzhow is 45,9.075,25.53,101.992,7,True,27.812,27.812,29.938,1,F_1nNG0ZdsmYwMIdM,signature.png,3422,image/png,gradient increase,10.194,18.745,32.391,3,I'm not sure,47.774,47.774,49.406,1,F_3P4D2fmpuih11lf,signature.png,2272,image/png,Not sure,4.948,28.197,30.961,3,Shanghai,35.839,42.105,43.977,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,215,37.01,37.01,40.287,1,F_0quL6QqxrKzbNmh,signature.png,2738,image/png,.,10.87,13.619,16.816,2,False,16.588,16.588,18.027,1,,,,,,,,,,30 - 40 Km,49.339,51.057,52.683,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,33.716,33.716,36.584,1,,,,,,,,,,Samsung,6.682,8.051,9.403,2,,,,,,,,,,True,40.314,40.314,47.105,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21,Women,Normal vision,,Retail,Moderately knowledgeable,Maximum 12 grade no diploma,,1.564,24.496,28.161,6,no,6102e2898ff2a75fa4123e13,False,True,False,False,True,False,True,False,False,False,True,False
+2023-08-24 06:44:33,2023-08-24 07:07:57,IP Address,102.33.27.214,100,1403,True,2023-08-24 07:08:01,R_1M3sCbk7S8cv2Jq,,,,,-26.3811,27.8376,anonymous,EN,I agree,39.273,39.273,40.62,1,177,22.893,95.052,101.666,4,0,0,18.984,0,F_2rO82rTT2sp2fkn,signature.png,6282,image/png,I measured with my eyes,32.064,51.445,77.975,3,0,0,2.648,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,22.494,22.494,25.251,1,,,,,,,,,,Apr,10.043,17.034,19.354,4,,,,,,,,,,57,16,54.964,57.239,61.171,2,,,,,,,,,,Falling,30.06,30.06,31.452,1,,,,,,,,,,26,27.771,41.58,44.732,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.77,18.575,18.575,24.604,1,F_2ZUfuamGtuAB7IO,signature.png,5373,image/png,"I looked between the lines, nothing confusing",27.252,90.385,131.092,12,Jan 2020,,13.097,22.461,29.995,2,F_2S77UKtWZMrNgyd,signature.png,4527,image/png,drawing the line was helpful,13.246,41.723,72.807,6,0.88,0.74,76.652,91.747,102.055,2,F_p3ncTx9SdeKZcR3,signature.png,5573,image/png,"it was helpful, nothing confusing",20.727,69.251,89.939,8,Falling,30.161,42.008,44.445,2,,,,,,,,,,Texas [TX],11.337,17.816,21.343,2,F_eqzQhooYoWlbB0R,signature.png,6134,image/png,the size of the picture,23.178,25.201,45.826,2,10-12%,18.123,19.613,21.089,2,F_sRsmgzAYUsFimnn,signature.png,4406,image/png,colours are helpful,6.203,29.434,43.036,5,True,28.261,28.261,29.75,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100,38.544,38.544,49.688,1,F_2ccHPcGSQQ92OI5,signature.png,3302,image/png,the colour and bar,8.183,11.142,22.593,2,Great Britain,38.116,38.116,44.117,1,,,,,,,,,,Australia,14.715,16.202,17.23,2,F_tEuc734Uwxv0yOd,signature.png,3732,image/png,looking at the colour was helpful,24.681,29.112,52.272,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27,Women,Normal vision,,Accounting,Moderately knowledgeable,"Bachelor’s degree (For example: BA, AB, BS)",,1.895,34.134,36.478,6,"No, I didn't have any issues. I enjoyed the survey though out",6150dae3ef63aeb6fe89ccff,True,False,False,True,False,True,False,False,False,True,False,False
+2023-08-24 06:44:07,2023-08-24 06:53:26,IP Address,79.169.43.123,100,559,True,2023-08-24 07:08:29,R_w0NaSCi0WsjNej7,,,,,38.731,-9.1373,anonymous,EN,I agree,16.475,29.766,30.448,11,177,10.133,24.339,26.931,2,0,0,15.446,0,F_1LYbd2shIURwj5r,signature.png,5536,image/png,Just saw the heaviest person and made an estimation of the value between 175 and 180 since it was closer to 175 i decided on 177,14.382,21.527,58.398,3,0,0,6.8,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4200,9.864,23.8,24.79,5,,,,,,,,,,False,21.116,21.116,22.771,1,,,,,,,,,,2012,4.192,5.969,6.448,3,,,,,,,,,,Rising,12.125,12.955,13.66,2,,,,,,,,,,False,18.248,18.248,19.313,1,F_2SuHPE9SScjkBry,signature.png,3362,image/png,The number looks pretty similar specially after drawing it,11.205,41.203,67.26,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,345,5.655,9.725,14.266,2,,,,,,,,,,460,165,12.993,17.961,22.186,2,,,,,,,,,,True,,,,,,,,,,False,7.666,7.666,9.682,1,,,,,,,,,,False,19.425,32.548,33.518,3,,,,,,,,,,Shanghai,8.758,9.978,15.334,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,4.126,4.126,6.59,1,,,,,,,,,,Samsung,3.824,9.724,11.787,4,,,,,,,,,,True,5.044,5.044,6.097,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,4.628,4.628,7.473,1,,,,,,,,,,South Korea,,,,,,,,,,98,13,8.701,10.905,21.704,3,,,,,,,,,,4,2.111,16.598,17.98,4,,,,,,,,,,21,Man,Normal vision,,"computer science ",Moderately knowledgeable,Some college but no degree,,0.669,53.342,54.676,12,,5ebd676b0ee54a0379a10188,False,True,False,False,False,False,True,True,False,False,False,False
+2023-08-24 06:44:11,2023-08-24 07:10:02,IP Address,89.77.217.93,100,1551,True,2023-08-24 07:10:06,R_1Nh51toza1THrzb,,,,,52.2296,21.0067,anonymous,EN,I agree,10.445,10.445,11.653,1,177,19.674,58.741,60.019,3,0,0,12.468,0,F_3g1JtOMM5lsshfn,signature.png,5070,image/png,look for the highest dot on the x axis and link it to the y axis,26.327,176.508,196.131,10,0,0,2.718,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44,19.74,19.74,22.162,1,,,,,,,,,,183,16.371,16.371,28.027,1,,,,,,,,,,40,75,9.848,14.664,20.071,2,F_9ttMJX2Y8l8LCXT,signature.png,3618,image/png,checked the x axis and bottom to the top count,8.666,16.203,35.492,5,False,22.479,40.978,42.715,2,,,,,,,,,,I'm not sure,21.613,21.613,23.734,1,F_2scADoWmxHHEXj2,signature.png,2733,image/png,did not provide the correct answer,4.242,7.701,26.838,3,182,28.213,46.197,47.883,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,340,80.251,89.549,90.556,2,,,,,,,,,,150,500,19.932,28.589,31.706,3,F_XFK4iHMMdAV7FEl,signature.png,3789,image/png,I read the total system lenghts - x axis,13.008,35.703,38.729,2,True,,,,,,,,,,False,16.128,16.128,18.249,1,,,,,,,,,,Impossible to answer with this visualization,31.98,31.98,33.732,1,F_323nfKg5RuIKokv,signature.png,2551,image/png,"I did not answer with any figure, the visualization needs a calculation and cannot be shown here",13.812,63.954,66.344,3,Shanghai,65.769,65.769,77.435,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Google,50.244,50.244,61.549,1,,,,,,,,,,Impossible to answer with this visualization.,27.73,27.73,29.585,1,F_vMH9iRJFjW014uR,signature.png,4186,image/png,Different categories,5.884,10.859,22.948,3,Retail,9.261,9.261,12.776,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41,22.503,22.503,32.892,1,,,,,,,,,,South Korea,,,,,,,,,,100,10,13.771,21.636,23.075,3,F_exL5uEPA5ToxEt3,signature.png,4358,image/png,chcked x axis from the lowest covered number of mpbs which all the countries have till the highest one on the graph,4.92,17.06,53.933,5,4,10.731,10.731,20.636,1,,,,,,,,,,38,Man,"Corrected-to-normal vision (glasses, contacts, etc)",,Business Analysis working in Customer Service Quality Assurance,Relatively Skilled,"Bachelor’s degree (For example: BA, AB, BS)",,1.573,65.341,68.181,6,no,611ce596069ee36a6b676706,False,True,False,False,False,False,False,False,False,False,True,True
+2023-08-24 06:45:45,2023-08-24 07:10:21,IP Address,102.67.68.89,100,1476,True,2023-08-24 07:10:23,R_2QxJCYNVaqlSU8Z,,,,,-26.3811,27.8376,anonymous,EN,I agree,10.89,42.071,44.139,54,183,6.172,78.108,80.122,49,22.591,62.217,63.726,25,F_33BgE84XpcfIMFV,signature.png,5500,image/png,no there was nothing confusing because i can read chats,23.284,91.554,124.774,30,0,0,7.665,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,7.871,26.101,34.96,23,,,,,,,,,,Apr,9.534,21.234,24.507,15,,,,,,,,,,58,17,8.036,90.874,95.495,43,,,,,,,,,,Falling,11.436,54.946,57.732,66,,,,,,,,,,27,14.186,103.457,107.325,16,,,,,,,,,,345,10.958,26.981,31.939,13,,,,,,,,,,460,160,9.634,85.468,85.871,45,,,,,,,,,,True,,,,,,,,,,False,18.288,41.579,43.656,24,,,,,,,,,,False,16.694,50.167,51.512,20,,,,,,,,,,Shanghai,11.132,30.217,32.127,23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25,17.91,28.774,45.94,12,,,,,,,,,,Samsung,10.529,21.609,24.187,13,,,,,,,,,,True,13.975,22.845,25.367,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,6.999,17.044,20.9,14,,,,,,,,,,South Korea,,,,,,,,,,12,98,10.673,49.068,49.523,18,F_723xO2TN417xQg9,signature.png,7162,image/png,"given the bar lengths ",24.883,125.805,134.576,43,4,10.079,26.529,28.1,17,,,,,,,,,,28,Women,Normal vision,,engneering,Moderately knowledgeable,Some college but no degree,,2.828,84.442,85.99,55,no problems,6114fe56b5a0fd606bbbb7f4,False,True,False,False,False,True,True,False,False,False,False,False
+2023-08-24 06:45:57,2023-08-24 07:10:52,IP Address,137.215.99.2,100,1495,True,2023-08-24 07:10:55,R_1DNXv3FlZs9Afus,,,,,-25.7599,28.2604,anonymous,EN,I agree,97.54,99.082,100.444,2,177,24.411,63.154,66.691,3,20.246,20.246,23.214,1,F_3RlukWswSHyvZG5,signature.png,6040,image/png,the points on the graph were helpful,20.394,135.377,136.663,24,2.242,2.242,3.124,1,34,36.592,69.558,75.271,4,F_1FxZPr0dWXjIiyu,signature.png,5547,image/png,no,5.763,41.501,42.73,12,Seoul,7.682,57.679,59.227,3,,,,,,,,,,False,11.367,64.645,66.089,5,F_bPWVEfDtooJyd8t,signature.png,3225,image/png,no,2.204,30.742,33.434,9,True,34.627,101.941,103.096,7,F_ylT9uZHi8sdEs01,signature.png,4111,image/png,no,9.201,30.832,33.168,7,41,11.231,39.378,42.378,3,F_1EcvUqaS6xHgUgS,signature.png,4566,image/png,I am unable to read this graph,6.902,72.066,73.606,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.71,19.646,62.451,66.258,4,,,,,,,,,,Nov 2019,,9.692,62.527,65.009,7,,,,,,,,,,0.89,0.74,26.092,70.799,76.365,6,F_129ncRXC1iSHxGV,signature.png,6638,image/png,the wording was a bit confusing,12.162,56.806,82.433,11,Falling,9.552,54.444,55.973,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Google,14.168,23.514,24.703,4,,,,,,,,,,False,14.489,17.187,18.39,3,,,,,,,,,,Retail,6.537,10.024,11.555,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40.5,18.101,19.899,25.889,3,,,,,,,,,,South Korea,,,,,,,,,,99,11,21.994,75.77,77.122,7,,,,,,,,,,4,18.423,19.957,22.356,2,,,,,,,,,,21,Women,Normal vision,,finance,Moderately knowledgeable,Some college but no degree,,1.876,39.085,40.401,13,no,61335a647caf04024dc2c98d,True,True,False,False,False,False,False,False,True,False,False,True
+2023-08-24 06:45:40,2023-08-24 07:20:18,IP Address,196.30.24.79,100,2077,True,2023-08-24 07:20:19,R_2y7xtvadr61q5UO,,,,,-22.8143,30.5061,anonymous,EN,I agree,112.067,112.067,113.975,1,177,83.594,83.594,99.346,1,0,0,13.093,0,F_2duK0nnJb3e7R5S,signature.png,5667,image/png,"Drawing the arrows , helped immensely. I found nothing to be confusing but rather really simple.",28.403,420.584,424.099,16,0,0,3.513,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,345,32.164,32.164,38.937,1,,,,,,,,,,460,160,44.403,97.837,107.379,4,,,,,,,,,,True,,,,,,,,,,False,18.582,26.282,29.09,2,,,,,,,,,,False,57.102,57.102,61.315,1,,,,,,,,,,Shanghai,15.922,19.101,44.863,2,,,,,,,,,,0.715,21.813,21.813,31.601,1,,,,,,,,,,Nov 2019,,42.28,51.815,61.356,2,,,,,,,,,,0.89,0.68,108.273,119.738,136.546,2,,,,,"The images and graphs were a little helpful, yet i found the ranges on the last question to be difficult due to the graph being unclear.",12.58,12.58,121.66,1,Falling,31.607,31.607,34.351,1,,,,,,,,,,Nevada [NV],11.236,46.201,63.925,4,,,,,,,,,,6-8%,62.358,88.094,95.04,5,,,,,,,,,,True,29.629,29.629,41.454,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29,41.142,41.142,49.933,1,,,,,,,,,,Great Britain,32.764,32.764,48.839,1,,,,,,,,,,Australia,10.572,12.788,14.914,2,F_1OC6RZfZ769vjiV,signature.png,5110,image/png,The graph was very clear. There was nothing confusing for me.,38.622,70.561,165.815,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21,Man,Normal vision,,environmental science,Moderately knowledgeable,High school graduate - High school diploma or equivalent (for example: GED),,6.276,86.354,90.97,7,no,61505604478697bee544559f,True,True,False,True,False,False,False,False,False,True,False,False
+2023-08-24 07:02:05,2023-08-24 07:23:00,IP Address,93.89.168.63,100,1254,True,2023-08-24 07:23:02,R_8k9SnNMEftWysdX,,,,,47.5092,19.6671,anonymous,EN,I agree,21.549,32.98,35,2,172,19.942,37.713,43.176,3,0,0,17.665,0,F_1HcLfWlp8IpgD5f,signature.png,5171,image/png,Found it helpful that there are lines every 5 increments,13.389,80.854,97.652,5,0,0,2.045,0,35,43.492,73.195,75.065,4,F_2WSURsnxCnxL7R5,signature.png,7003,image/png,Took 70 as the max value aka 100%.,11.868,92.362,92.692,18,Seoul,16.616,17.766,25.08,2,,,,,,,,,,False,27.353,43.982,45.567,2,F_1Cm3G05UIVSEjPG,signature.png,3338,image/png,Toronto's slightly taller therefore costs more (about 4-5$),8.598,88.329,99.548,16,True,54.167,54.167,55.337,1,F_2SC68sfCXhpFFlK,signature.png,3378,image/png,It maybe false now that I think about it. The ratio in Stockholm is 1.5:1 while NYC is more like 1:1,4.74,169.365,171.174,20,6,26.39,28.062,28.332,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44,28.905,33.697,36.88,2,,,,,,,,,,183,44.827,47.723,52.806,2,,,,,,,,,,74,44,13.48,20.379,22.161,4,,,,,,,,,,False,25.822,25.822,34.865,1,,,,,,,,,,False,29.797,29.797,37.462,1,,,,,,,,,,183,19.33,27.797,39.536,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nevada [NV],3.875,28.117,30.996,5,,,,,,,,,,6-8%,3.432,14.543,15.608,8,,,,,,,,,,True,45.401,45.401,46.352,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,15.148,19.891,21.438,2,,,,,,,,,,South Korea,,,,,,,,,,99,15,7.136,27.647,27.908,8,,,,,,,,,,4,12.315,12.315,13.628,1,,,,,,,,,,21,Man,"Corrected-to-normal vision (glasses, contacts, etc)",,Business IT,Moderately knowledgeable,Some college but no degree,,1.626,31.48,33.555,9,,5f23146c980263089af82961,False,True,False,True,False,False,False,False,True,False,True,False
+2023-08-24 06:44:35,2023-08-24 07:30:21,IP Address,122.58.68.4,100,2746,True,2023-08-24 07:30:25,R_1IZ6Bq7wK0tEo8S,,,,,-36.8506,174.7679,anonymous,EN,I agree,10.236,10.236,11.602,1,177,32.32,32.32,49.572,1,0,0,26.291,0,F_1IgvJFeDzuR0icq,signature.png,6198,image/png,I initially first tried to determine what was the heaviest weight out of all the dots - which appeared to be  at 74 kg. Once i had determined that dot sample was the heaviest - then i  checked to see what it's height was - which appeared to be 177 at a glance.,28.505,85.568,329.51,7,0,0,3.531,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11800,18.409,39.209,46.692,3,F_2tEcYg6q2QOuknx,signature.png,4599,image/png,Seems like I actually made a mistake! I misread the chart and entered the total for 'Olivia' as my answer at 11800.  What I really should've given was 4200 for Amelia as my answer!,20.051,68.368,217.325,7,True,37.575,37.575,42.866,1,F_ONjaYlSWVrFhfqh,signature.png,10965,image/png,From the chart - i could clearly see that over the years that the number of girls  named Isla  was always higher than  Amelia  year after year during  the period stated from 2009 to 2014.,31.573,102.009,175.287,9,2012,12.882,16.353,21.612,2,,,,,,,,,,Rising,55.784,55.784,65.963,1,,,,,,,,,,False,17.881,17.881,25.133,1,F_0iEJQjPSjveGPy9,signature.png,7592,image/png,"It's  clear from analysing the chart that  in 2014 the number of girls named Isla is just under 6000 - while in 2013, the number of girls named  Isla was higher at 9000.   So it's very clear that in 2014, the number of girls named Isla is in fact less. compared to 2013.",30.547,228.626,238.167,17,44.5,35.41,35.41,67.189,1,,,,,,,,,,182.5,63.425,63.425,81.349,1,,,,,,,,,,74,44.5,25.856,55.024,74.189,3,,,,,,,,,,False,36.537,36.537,49.804,1,,,,,,,,,,I'm not sure,30.808,30.808,34.443,1,,,,,Not really much of a thought process - I wasn't sure if I could make such an assessment from the samples provided on the chart!,144.498,206.059,365.235,2,182,31.959,169.186,190.494,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Google,69.97,136.945,169.412,2,,,,,,,,,,Impossible to answer with this visualization.,23.287,23.287,62.859,1,F_232WvfdKHtrRb2W,signature.png,7230,image/png,Although yahoo has a larger square  than Amazon on that chart - that said there are no numbers to specifically state in detail how many unique visitors each site has respectively. Especially since they are sorted in separate categories.,41.114,65.302,180.078,4,Retail,7.81,7.81,14.021,1,,,,,,,,,,25,10.007,15.791,18.913,2,,,,,,,,,,Samsung,13.281,13.281,22.627,1,,,,,,,,,,True,34.201,34.201,45.899,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45,Man,"Corrected-to-normal vision (glasses, contacts, etc)",,Graphic / Web Design,Beginner,"Bachelor’s degree (For example: BA, AB, BS)",,1.6,56.623,71.69,9,No issues really!,614e34945dfd7dfcc9012760,False,False,False,False,False,False,True,True,False,False,True,True
+2023-08-24 06:46:34,2023-08-24 07:30:41,IP Address,197.184.167.173,100,2647,True,2023-08-24 07:30:47,R_3qk9leJglrkmdDB,,,,,-26.3811,27.8376,anonymous,EN,I agree,25.218,68.168,69.851,3,177,19.397,122.086,126.371,18,8.544,37.411,39.186,3,F_1ikW8dR65bDBzoz,signature.png,5455,image/png,I did not find anything confusing. I found it helpful to look for the heaviest person first and then connect them to the height scale.,22.516,75.344,182.13,11,0,0,3.616,0,60,9.651,115.717,118.902,18,F_2BeyzHi952yTs8B,signature.png,7473,image/png,half the number and calculate if they are equal.,5.862,55.53,98.647,12,Helsinki,10.313,90.315,92.614,6,F_1C9mS8zUdAsSGZm,signature.png,4005,image/png,"I think the confusing part is that the bars overlap each other on each city, now i do not know if only the colored part is the number or if they really do overlap each other.",6.261,34.723,138.063,7,I'm not sure,7.495,40.51,42.121,17,F_1n9s63sMCBlr9ux,signature.png,2951,image/png,confused because i can not tell if you measure the blue colored part only or if on each city the bars overlap each other.,7.85,107.847,113.177,8,True,2.973,92.846,94.331,16,F_2fIoPCJUz1aXRQ4,signature.png,2769,image/png,i found it helpful to place a ruler and compare the two.,10.338,77.857,107.836,13,48,24.575,83.227,84.479,5,F_27O7gasZ0nKGpsh,signature.png,2989,image/png,draw a line or place a ruler to find the accurate point.,2.726,19.293,53.042,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29,5.462,23.999,31.52,6,F_3OrxKLcjICtixoh,signature.png,3811,image/png,connected the second point to the cost of oil,3.099,41.648,76.192,12,Apr,16.985,78.355,80.298,14,,,,,,,,,,58,16,9.634,88.387,89.621,27,,,,,,,,,,Falling,5.947,104.555,106.134,15,,,,,,,,,,10,14.97,63.58,67.471,12,F_UoSdstWaHJqb8gp,signature.png,3510,image/png,"nothing, compared the two months",5.345,24.127,47.686,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,635,18.13,136.989,137.91,15,F_1hZ2l7kJ4z8DML4,signature.png,3665,image/png,added the numbers from 20 to 40 travelers.,7.301,72.237,76.066,9,True,7.929,10.844,12.376,3,F_Tdv43PkzG5hMWnn,signature.png,3145,image/png,used the ruler method,3.873,53.84,68.873,16,30 - 40 Km,12.911,20.534,22.834,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29,11.22,153.005,154.08,33,,,,,,,,,,Great Britain,5.131,18.956,20.215,10,,,,,,,,,,Australia,7.373,11.088,12.674,4,F_AMsT6FpMgGoCnBv,signature.png,3486,image/png,the bronze bar was the longest,4.791,18.441,34.734,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28,Women,"Corrected-to-normal vision (glasses, contacts, etc)",,teacher,Beginner,"Bachelor’s degree (For example: BA, AB, BS)",,2.667,45.432,46.786,11,none. thank you.,5fbaf990efe4a5bcf223f9d7,False,False,False,False,True,True,False,False,True,True,False,False
