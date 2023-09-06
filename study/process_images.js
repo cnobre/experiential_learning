@@ -16,9 +16,12 @@ function testQuestionID(input) {
 let data = []
 let objData = []
 let questionMap = {};
+let participants = new Set();
+
+let timeFilter = Date.parse('2023-08-24 20:00:00');
 
 
-fs.createReadStream('vlat_pilot_2.csv')
+fs.createReadStream('vlat_pilot_3.csv')
 
     .pipe(csv.parse({ headers: false }))
     .on('error', error => console.error(error))
@@ -55,16 +58,26 @@ fs.createReadStream('vlat_pilot_2.csv')
             }
 
         })
-        // console.log(objData.filter(d=>d.ResponseId == 'R_2V3XbGtRx4AsXtW'))
-        
 
-        const files = getFiles('vlat_pilot2_annotations');
+        
+        //save filtered data
+        let filteredData = objData.filter(d=>Date.parse(d.StartDate)>=timeFilter && Number(d['Duration (in seconds)']) > 500);
+        console.log(filteredData.length)
+        const csv = new ObjectsToCsv(filteredData);
+
+        // Save to file:
+        csv.toDisk('filtered_data.csv');
+
+
+        const files = getFiles('vlat_annotations_pilot3');
         // console.log(files)
         // imageOverlay(files[20]);
 
-        files.map((file, i) => {
-            imageOverlay(file);
-        })
+   
+        // files.map((file, i) => {
+        //     imageOverlay(file);
+        // })
+        // console.log('processed ', participants.size ,' files')
     });
 
 
@@ -90,108 +103,111 @@ async function imageOverlay(image) {
     //look for 'ResponseId' to find participant data 
     let participantData = objData.filter(d=>d['ResponseId'] == id.trim())[0];
     let keys = Object.keys(participantData);
+
+    //filter out by time 
+    if (Date.parse(participantData.StartDate)>=timeFilter){
+        // console.log(participantData.PROLIFIC_PID)
+        participants.add(participantData.PROLIFIC_PID); //count how many participants are being processed
+        let answerKey = keys.filter(k=>k.trim()== question);
+        let answer; 
+        //question has two parts _1 and _2
+        if (answerKey.length == 0){
+            answerKey = keys.filter(k=>k.includes(question+'_'));
+            answer= answerKey.reduce((accumulator, currentValue) => accumulator + ' / ' + participantData[currentValue], '');
+        }else {
+            answer = participantData[answerKey[0]];
+        }
+
+        // console.log(answerKey, answer)
+
+
+        let explainKey = keys.filter(k=>k.includes(question) && k.includes('textbox'))
+        let explanation = participantData[explainKey];
+
+        // console.log(explainKey,explanation)
+
+
+
     
-    // console.log(question, keys.filter(k=>k.includes(question)))
+
+        let chartType = question.split('Q')[0];
+        //e.g chartType = SB100
 
 
-    let answerKey = keys.filter(k=>k.trim()== question);
-    let answer; 
-    //question has two parts _1 and _2
-    if (answerKey.length == 0){
-        answerKey = keys.filter(k=>k.includes(question+'_'));
-        answer= answerKey.reduce((accumulator, currentValue) => accumulator + ' / ' + participantData[currentValue], '');
-    }else {
-        answer = participantData[answerKey[0]];
+
+        // If chart type has less than two letters (a trial) exit
+        if (chartType.length < 2)
+            return;
+
+        // console.log(fileName)
+        // Reading annotation Image
+        // console.log(image.trim())
+        let annotation = await Jimp.read(image.trim());
+
+
+        // // Reading original chart
+        // console.log(chartType)
+        // console.log('chart', chartType)
+
+        let chart = await Jimp.read('charts/' + chartType + '.png');
+        let background = await Jimp.read('charts/background.png');
+
+        // let width = chart.bitmap.width; //  width of the image
+        // let height = chart.bitmap.height; // height of the image
+
+        let width = 860 //set all images to the same size
+
+        let margin = 120;
+        chart = chart.resize(width,Jimp.AUTO);
+        let height = chart.bitmap.height; // height of the image
+
+
+        annotation = annotation.resize(width,height); // Resizing annotation image to match the underlying chart
+        background = background.resize(width,height + margin); // Resizing background image to make room for the question prompt, the answer, and the rationale
+
+        //overlay annotation on chart
+        chart.composite(annotation, 0, 0, {
+            mode: Jimp.BLEND_SOURCE_OVER,
+            opacityDest: 1,
+            opacitySource: 1
+        })
+
+        //overlay chart on background
+        background.composite(chart, 0, margin, {
+            mode: Jimp.BLEND_SOURCE_OVER,
+            opacityDest: 1,
+            opacitySource: 1
+        })
+
+        //add question prompt to image
+
+        const font = await Jimp.loadFont(Jimp.FONT_SANS_16_BLACK);
+        // console.log(questionMap[question.trim()])
+        let prompt =  question + ": " + questionMap[question.trim()]
+        let maxCharacters = 100;
+        // console.log(typeof prompt)
+        if (prompt){
+                background.print(font, 10, 20, prompt.slice(0,maxCharacters))
+            if (prompt.length>maxCharacters)
+                background.print(font, 10, 40, prompt.slice (maxCharacters))
+        } else {
+            console.log('no prompt for ', question.trim())
+        }
+
+        //add answer and explanation 
+        background.print(font, 10, 60, 'response: ' + answer)
+        if (explanation){
+            background.print(font, 10, 80, 'explanation: ' + explanation.slice(0,maxCharacters))
+            if (explanation.length>maxCharacters)
+                background.print(font, 10, 100, explanation.slice(maxCharacters))
+            
+        }
+    
+
+
+        await background.writeAsync('composite_annotations/' + question + '_' + id + '.png');
+    
     }
-
-    // console.log(answerKey, answer)
-
-
-    let explainKey = keys.filter(k=>k.includes(question) && k.includes('textbox'))
-    let explanation = participantData[explainKey];
-
-    // console.log(explainKey,explanation)
-
-
-
-   
-
-    let chartType = question.split('Q')[0];
-    //e.g chartType = SB100
-
-
-
-    // If chart type has less than two letters (a trial) exit
-    if (chartType.length < 2)
-        return;
-
-    // console.log(fileName)
-    // Reading annotation Image
-    // console.log(image.trim())
-    let annotation = await Jimp.read(image.trim());
-
-
-    // // Reading original chart
-    // console.log(chartType)
-    // console.log('chart', chartType)
-
-    let chart = await Jimp.read('charts/' + chartType + '.png');
-    let background = await Jimp.read('charts/background.png');
-
-    // let width = chart.bitmap.width; //  width of the image
-    // let height = chart.bitmap.height; // height of the image
-
-    let width = 860 //set all images to the same size
-
-    let margin = 120;
-    chart = chart.resize(width,Jimp.AUTO);
-    let height = chart.bitmap.height; // height of the image
-
-
-    annotation = annotation.resize(width,height); // Resizing annotation image to match the underlying chart
-    background = background.resize(width,height + margin); // Resizing background image to make room for the question prompt, the answer, and the rationale
-
-    //overlay annotation on chart
-    chart.composite(annotation, 0, 0, {
-        mode: Jimp.BLEND_SOURCE_OVER,
-        opacityDest: 1,
-        opacitySource: 1
-    })
-
-    //overlay chart on background
-    background.composite(chart, 0, margin, {
-        mode: Jimp.BLEND_SOURCE_OVER,
-        opacityDest: 1,
-        opacitySource: 1
-    })
-
-    //add question prompt to image
-
-    const font = await Jimp.loadFont(Jimp.FONT_SANS_16_BLACK);
-    // console.log(questionMap[question.trim()])
-    let prompt =  question + ": " + questionMap[question.trim()]
-    let maxCharacters = 100;
-    // console.log(typeof prompt)
-    if (prompt){
-            background.print(font, 10, 20, prompt.slice(0,maxCharacters))
-        if (prompt.length>maxCharacters)
-            background.print(font, 10, 40, prompt.slice (maxCharacters))
-    } else {
-        console.log('no prompt for ', question.trim())
-    }
-
-    //add answer and explanation 
-    background.print(font, 10, 60, 'response: ' + answer)
-    if (explanation){
-        background.print(font, 10, 80, 'explanation: ' + explanation.slice(0,maxCharacters))
-        if (explanation.length>maxCharacters)
-            background.print(font, 10, 100, explanation.slice(maxCharacters))
-          
-    }
-   
-
-
-    await background.writeAsync('composite_annotations/' + question + '_' + id + '.png');
 }
 
 
