@@ -43,7 +43,8 @@ let annotationFolder = dir + '/' + files.filter(f => f.includes('annotations'))[
 console.log('data file', dataFile, 'annotationFolder', annotationFolder)
 
 //read in answer key from google sheets
-d3.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vTV7q_PgMiU-Ga7oLNm7kyfDyejGg1YTn3vexGKCsXBKs-bkiS4NqXBUl54p1h078IHZcC4QIJ6iq-H/pub?gid=0&single=true&output=csv')
+d3.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vTV7q_PgMiU-Ga7oLNm7kyfDyejGg1YTn3vexGKCsXBKs-bkiS4NqXBUl54p1h078IHZcC4QIJ6iq-H/pub?gid=1494114716&single=true&output=csv')
+// d3.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vTV7q_PgMiU-Ga7oLNm7kyfDyejGg1YTn3vexGKCsXBKs-bkiS4NqXBUl54p1h078IHZcC4QIJ6iq-H/pub?gid=0&single=true&output=csv')
     .then(data => {
         data.map(d => {
             answers[d['Question ID']] = d
@@ -129,7 +130,7 @@ function loadResults() {
 
             await Promise.all(files.map(async (file, i) => {
                 // if (file.includes('SAQ2')){
-                    await imageOverlay(file, dir,false);   
+                    await imageOverlay(file, dir,true);   
                 // }
                 
             }))
