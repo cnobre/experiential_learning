@@ -49,6 +49,8 @@ d3.csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vTV7q_PgMiU-Ga7oLNm7kyfD
         data.map(d => {
             answers[d['Question ID']] = d
         })
+        
+        // console.log('data', data)
         loadResults();
     })
 
