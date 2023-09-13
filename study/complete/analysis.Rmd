@@ -1,0 +1,169 @@
+---
+title: "VLAT Survey analysis"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+```{r echo = FALSE}
+require(tidyverse)
+library(tidyverse)
+library(ggplot2)
+library(car)
+library(lme4)
+library(emmeans)
+library(pwr)
+library(patchwork)
+library(rstatix)
+library(effectsize)
+library(GPArotation)
+```
+
+Load Data
+
+```{r}
+df <- read.csv("tidy.csv")
+
+# trust in data is the column: bar-data_6
+# trust in vis is the column: bar-vis_6
+```
+
+## Data Cleaning / Types
+
+```{r}
+
+df_acc <- df %>% 
+  filter(measure=="accuracy") 
+
+df_acc$value = as.numeric( as.character(df_acc$value ))
+
+
+df_acc
+```
+
+
+
+## Quick Check Charts
+
+95% CIs + jitter (don't trust those point positions)
+
+
+```{r fig.height=6, fig.width=4}
+
+df %>% 
+  filter(measure == "accuracy" & !is.na(value)) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  ggplot(aes(x = questionId, y = value)) + 
+    stat_summary(fun.data = "mean_cl_boot", colour = "red", size = 0.5, position = position_nudge(x=0.25, y=0), alpha=0.5) +
+    facet_wrap(~ chart, scales = "free_x", ncol = 4) +
+
+    theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+
+```
+
+```{r fig.height=4, fig.width=4}
+
+theme_set(theme_gray())
+
+
+# Calculate mean accuracy for each chart
+task_order <- df %>%
+  filter(measure == "accuracy" & !is.na(value)) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  group_by(task) %>%
+  summarize(mean_accuracy = mean(value, na.rm = TRUE)) %>%
+  arrange(mean_accuracy) %>%
+  pull(task)
+
+# Mutate original dataframe to create ordered factor
+df <- df %>%
+  mutate(task = factor(task, levels = task_order))
+
+
+# Plot
+p <- df %>%
+  filter(measure == "accuracy" & !is.na(value)) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  ggplot(aes(x = value, y = task)) +
+    stat_summary(fun.data = "mean_cl_boot", colour = "red", size = 0.5) +
+    facet_wrap(~ chart, ncol = 2, scales = "free_y") +
+
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p <- p + scale_x_continuous(limits = c(0, 1))
+p <- p + theme(
+  axis.text.x = element_text(angle = 45, hjust = 1),
+  axis.ticks.x = element_line()
+)
+print (p)
+ggsave("task_accuracy.pdf") # Change the file extension for different formats
+
+
+```
+
+
+
+```{r fig.height=4, fig.width=4}
+
+p <- df %>% 
+  filter(measure == "accuracy" & !is.na(value)) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  ggplot(aes(x = value, y = questionId)) + 
+    stat_summary(fun.data = "mean_cl_boot", colour = "red", size = 0.5) +
+    #facet_wrap(~chart, scales = "free_y", nrow = length(unique(df$chart))) +
+    facet_wrap(~chart, scales = "free_y", nrow = 5) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print (p) 
+
+ggsave("plot_name.pdf") # Change the file extension for different formats
+
+
+```
+
+```{r fig.height=2, fig.width=4}
+
+# Calculate mean accuracy for each chart
+chart_order <- df %>%
+  filter(measure == "accuracy" & !is.na(value)) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  group_by(chart) %>%
+  summarize(mean_accuracy = mean(value, na.rm = TRUE)) %>%
+  arrange(mean_accuracy) %>%
+  pull(chart)
+
+# Mutate original dataframe to create ordered factor
+df <- df %>%
+  mutate(chart = factor(chart, levels = chart_order))
+
+# Plot
+p <- df %>% 
+  filter(measure == "accuracy" & !is.na(value)) %>%
+  mutate(value = as.numeric(as.character(value))) %>%
+  ggplot(aes(x = value, y = chart)) + 
+    stat_summary(fun.data = "mean_cl_boot", colour = "red", size = 0.5) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p <- p + scale_x_continuous(limits = c(0, 1))
+
+
+print (p)
+ggsave("mean_accuracy.pdf") # Change the file extension for different formats
+
+
+```
+
+
+
+
+```{r}
+filtered_df <- df %>% filter(measure == "accuracy")
+ggplot(filtered_df, aes(x=value)) + 
+  geom_histogram(binwidth=10, fill="blue", color="black", alpha=0.7) + 
+  labs(title="Histogram of Values", x="Value", y="Frequency") + 
+  theme_minimal()
+```
+
+```{r}
+ggplot(filtered_df, aes(x='Value')) +
+  geom_bar()
+```

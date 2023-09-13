@@ -5,7 +5,8 @@ function convertXLSXToCSV(inputPath, outputPath) {
     const workbook = xlsx.readFile(inputPath);
     const sheetNameList = workbook.SheetNames;
     const csv = xlsx.utils.sheet_to_csv(workbook.Sheets[sheetNameList[0]]);
-    fs.writeFileSync(outputPath, csv);
+    // add column header for the first col 
+    fs.writeFileSync(outputPath, 'participant'+csv);
 }
 
 const inputPath = process.argv[2];
