@@ -87,7 +87,10 @@ class StackedBarChartMini extends Component {
 
                 const color = d3.scaleOrdinal()
                     .domain(subgroups)
-                    .range(['#feb24c', '#bdbdbd', '#cd7f32'])
+                    // .range(['#feb24c', '#bdbdbd', '#cd7f32'])
+                    .range(['#DAA520',
+                        '#C0C0C0',
+                        '#8B4513'])
 
                 //stack the data? --> stack per subgroup
                 const stackedData = d3.stack()
@@ -203,7 +206,9 @@ class StackedBarChartMini extends Component {
                             return 2.5 * length / margin.bottom
                         }
                     })
-                    .attr("fill", "#cd7f32")
+                    // .attr("fill", "#cd7f32")
+                    .attr("fill", "#8B4513")
+                    
 
                 svg.append("rect")
                     .attr("x", function () {
@@ -237,7 +242,9 @@ class StackedBarChartMini extends Component {
                             return 2.5 * length / margin.bottom
                         }
                     })
-                    .attr("fill", "#bdbdbd")
+                    // .attr("fill", "#bdbdbd")
+                    .attr("fill", "#C0C0C0")
+                    
 
                 svg.append("rect")
                     .attr("x", function () {
@@ -271,7 +278,9 @@ class StackedBarChartMini extends Component {
                             return 2.5 * length / margin.bottom
                         }
                     })
-                    .attr("fill", "#feb24c")
+                    // .attr("fill", "#feb24c")
+                    .attr("fill", "#DAA520")
+                    
 
                 svg.append("text")
                     .text("Bronze")

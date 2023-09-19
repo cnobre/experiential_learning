@@ -118,7 +118,12 @@ class StackedBarChart2Mini extends Component {
 
                 const color = d3.scaleOrdinal()
                     .domain(subgroups)
-                    .range(['#7fc97f', '#beaed4', '#fdc086', '#fb9a99', '#386cb0'])
+                    // .range(['#7fc97f', '#beaed4', '#fdc086', '#fb9a99', '#386cb0'])
+                    .range(['#56B4E9',
+                        '#E69F00',
+                        '#7570B3',
+                        '#009E73',
+                        '#D55E00'])
 
                 //stack the data? --> stack per subgroup
                 const stackedData = d3.stack()
@@ -154,6 +159,38 @@ class StackedBarChart2Mini extends Component {
                     .attr("y", function (d) { return yScale(d[1]); })
                     .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
                     .attr("width", xScale.bandwidth())
+                    // .attr("stroke", "white")
+                    // .attr("stroke-width", "1")
+                    .each(function(d, i) {
+                        // For each bar, append two white rectangles on the left and right sides
+                        const barX = xScale(d.data.City);
+                        const barY = yScale(d[1]);
+                        const barHeight = yScale(d[0]) - yScale(d[1]);
+                        const borderWidth = 1;  // Adjust this as needed
+                
+                        // Left border
+                        svg.append("rect")
+                            .attr("x", barX - borderWidth)
+                            .attr("y", barY)
+                            .attr("height", barHeight)
+                            .attr("width", borderWidth)
+                            .attr("fill", "white");
+                
+                        // Right border
+                        svg.append("rect")
+                            .attr("x", barX + xScale.bandwidth())
+                            .attr("y", barY)
+                            .attr("height", barHeight)
+                            .attr("width", borderWidth)
+                            .attr("fill", "white");
+                    });
+                
+                
+                
+                
+                
+                
+
 
                 svg.append("text")
                     .attr("class", "y-label")
@@ -224,7 +261,8 @@ class StackedBarChart2Mini extends Component {
                             return 1.7 * length / margin.left
                         }
                     })
-                    .attr("fill", "#386cb0")
+                    // .attr("fill", "#386cb0")
+                    .attr("fill", "#D55E00")
 
                 svg.append("rect")
                     .attr("x", function () {
@@ -252,7 +290,8 @@ class StackedBarChart2Mini extends Component {
                             return 1.7 * length / margin.left
                         }
                     })
-                    .attr("fill", "#fb9a99")
+                    // .attr("fill", "#fb9a99")
+                    .attr("fill", "#009E73")
 
                 svg.append("rect")
                     .attr("x", function () {
@@ -280,7 +319,8 @@ class StackedBarChart2Mini extends Component {
                             return 1.7 * length / margin.left
                         }
                     })
-                    .attr("fill", "#fdc086")
+                    // .attr("fill", "#fdc086")
+                    .attr("fill", "#7570B3")
 
                 svg.append("rect")
                     .attr("x", function () {
@@ -308,7 +348,8 @@ class StackedBarChart2Mini extends Component {
                             return 1.7 * length / margin.left
                         }
                     })
-                    .attr("fill", "#beaed4")
+                    // .attr("fill", "#beaed4")
+                    .attr("fill", "#E69F00")
 
                 svg.append("rect")
                     .attr("x", function () {
@@ -336,7 +377,8 @@ class StackedBarChart2Mini extends Component {
                             return 1.7 * length / margin.left
                         }
                     })
-                    .attr("fill", "#7fc97f")
+                    // .attr("fill", "#7fc97f")
+                    .attr("fill", "#56B4E9")
 
                 svg.append("text")
                     .text("Vodka")

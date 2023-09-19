@@ -1080,3 +1080,9 @@ img {
 .continue_button{
     padding-top: 5%;
 }
+
+.selected-option {
+    background-color: #4a1212; /* change this to your preferred darker color */
+    color: white;
+  }
+

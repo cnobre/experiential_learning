@@ -8,7 +8,7 @@ import img6 from '../components/data/Mini-VLAT/Histogram.png'
 
 
 
-class HistogramMini extends Component {
+class Histogram_original extends Component {
 
     constructor(props) {
         super(props);
@@ -75,30 +75,10 @@ class HistogramMini extends Component {
                     .domain([d3.min(data, function (d) { return d.Trip_Distance }), 110])     // can use this instead of 1000 to have the max of data: d3.max(data, function(d) { return +d.price })
                     .range([0, width]);
 
-                const tickValues = x.ticks(10).slice(0); // skip the first tick
-                const tickFormat = function(d,i){
-                    if (i === 0) return `0-${tickValues[i]}`;
-                    return `${tickValues[i-1]}-${d}`;
-                }
-
                 svg.append("g")
-                .attr("class", "x-axis")
-                .attr("transform", "translate(0," + height + ")")
-                .call(d3.axisBottom(x).tickValues(tickValues).tickFormat(tickFormat))
-                .selectAll("text")
-                .attr("dx", function(d, i) {
-                    // move half bar
-                    if (i === tickValues.length - 1) return -(x(tickValues[i]) - x(tickValues[i - 1])) / 2;
-                    return -(x(tickValues[i + 1] ? tickValues[i + 1] : d) - x(d)) / 2;
-                });
-               
-            
-
-
-                // svg.append("g")
-                //     .attr("class", "x-axis")
-                //     .attr("transform", "translate(0," + height + ")")
-                //     .call(d3.axisBottom(x))
+                    .attr("class", "x-axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x))
                 //.style("font-size", 1.3*(length/margin.top));
 
                 var histogram = d3.histogram()
@@ -211,4 +191,4 @@ class HistogramMini extends Component {
     }
 }
 
-export default HistogramMini;
+export default Histogram_original;

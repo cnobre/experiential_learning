@@ -72,7 +72,8 @@ class LineChartMini extends Component {
             svg.append("g")
                 //.attr("class", "axis")
                 .attr("transform", `translate(0, ${height})`)
-                .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%B")))
+                // .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%B")))
+                .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%b")))
                 /*
                 .style("font-size", function() {
                     if (length < 700){
@@ -86,17 +87,18 @@ class LineChartMini extends Component {
                 .attr("class", "x-axis")
                 .attr("transform", function () {
                     if (width < 500) {
-                        return "rotate(25)"
-                    }
-                    else {
                         return "rotate(15)"
                     }
-                })
-                .attr("x", function () {
-                    if (length < 900) {
-                        return 2 * length / margin.right
+                    else {
+                        return "rotate(0)"
                     }
                 })
+                // .attr("x", function () {
+                //     if (length < 900) {
+                //         return 2 * length / margin.right
+                //     }
+                // })
+                .attr("x", 0)
                 .attr("y", function () {
                     if (width < 950 && width > 400) {
                         return (2.5) * length / margin.right

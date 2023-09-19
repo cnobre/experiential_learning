@@ -49,16 +49,23 @@ class BarChartMini extends Component {
         }
 
         else {
-            const margin = { top: length / 7, right: length / 7, bottom: length / 7, left: length / 7 },
+            const margin = { top: length / 13, right: length / 13, bottom: length / 13, left: length / 13 },
                 width = length - margin.left - margin.right,
                 height = length - margin.top - margin.bottom;
             d3.select("#graph_box").select("svg").remove();
+            // const svg = d3.select("#graph_box")
+            //     .append("svg")
+            //     .attr("width", width + margin.left + margin.right)
+            //     .attr("height", height + margin.top + margin.bottom)
+            //     .append("g")
+            //     .attr("transform", `translate(${margin.left},${margin.top})`)
             const svg = d3.select("#graph_box")
                 .append("svg")
-                .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
+                .attr("width", length)
+                .attr("height", length)
                 .append("g")
-                .attr("transform", `translate(${margin.left},${margin.top})`)
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
 
             d3.csv(data).then(function (data) {
                 data.forEach(function (d) {
@@ -116,6 +123,8 @@ class BarChartMini extends Component {
                     .attr("width", x.bandwidth())
                     .attr("height", d => height - y(d.Speed))
                     .attr("fill", "#3182bd")
+                    // .attr("stroke", "white")  // add this line to set bar border color
+                    // .attr("stroke-width", "2");  // add this line to set bar border width
 
                 svg.append("text")
                     .attr("class", "y-label")
@@ -125,7 +134,7 @@ class BarChartMini extends Component {
                             return 0.1 * margin.left + (- 3 * margin.top / 2.5) * e.clientWidth / e.clientHeight
                         }
                         else {
-                            return 0 - margin.left + (margin.top / 2.5) * e.clientWidth / e.clientHeight
+                            return 0 - margin.left + (margin.top / 2.5) * e.clientWidth / e.clientHeight -30
                         }
                     })
                     .attr("x", 0 - (height / 1.9))
@@ -137,7 +146,7 @@ class BarChartMini extends Component {
                 svg
                     .append("text")
                     .attr("x", width / 4)
-                    .attr("y", -3 * length / margin.top)    // +20 to adjust position (lower)
+                    .attr("y", -3 * length / margin.top+20)    // +20 to adjust position (lower)
                     .text("Global Internet Speed (Mbps)")
                     .attr("class", "title")
                     .attr("fill", "black")

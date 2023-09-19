@@ -64,13 +64,13 @@ class Tutorial extends Component {
 
                         <p className='head_1'>Intructions</p>
                         <ul>
-                            <li className='int_1'>You will be given 12 multiple-choice questions</li>
+                            <li className='int_1'>You will be given 52 multiple-choice questions</li>
                             <li className='int_1'>Answer to the best of your ability. If you are unsure,you may skip the questions instead of guessing.</li>
                             {/* <li className='int_1'>Please do not take this test if you are color blind. Here is a link to a separate test: <a href='https://colormax.org/color-blind-test/' target="_blank">https://colormax.org/color-blind-test/</a></li> */}
                             {/* <li>We will store information about your mouse interaction (e.g. what you clicked) when answering the survey questions.</li> */}
 
                         </ul>
-                        <p className='head_2'><b>Important: You will have 25 seconds to answer each question.</b> Answer to the best of your ability. You may <b>skip the questions instead of guessing</b> if you are unsure.</p>
+                        <p className='head_2'><b>Important: You will have 30 seconds to answer each question.</b> Answer to the best of your ability. You may <b>skip the questions instead of guessing</b> if you are unsure.</p>
 
                         <div className={'text-center'}>
                             <Button onClick={this.on_experiment_click.bind(this)}

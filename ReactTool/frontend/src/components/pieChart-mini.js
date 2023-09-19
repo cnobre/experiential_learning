@@ -60,7 +60,7 @@ class PieChartMini extends Component {
                 .append("g")
                 .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
-            var data = { Samsung: 17.6, Xiaomi: 15.5, Apple: 15.0, Oppo: 10.2, Vivo: 9.8, Others: 31.9 }
+            var data = { Samsung: 25, Xiaomi: 16, Apple: 15.0, Oppo: 10, Vivo: 10, Others: 24 }
 
             const color = d3.scaleOrdinal()
                 .range(['#0868ac', '#f03b20', '#feb24c', '#78c679', '#ffffb2', '#756bb1'])
@@ -117,8 +117,8 @@ class PieChartMini extends Component {
             svg
                 .append("text")
                 .attr("class", "title")
-                .attr("x", -width / 5.5)
-                .attr("y", -width / 3)    // +20 to adjust position (lower)
+                .attr("x", -width / 5.5+60)
+                .attr("y", -width / 3+220)    // +20 to adjust position (lower)
                 .text("Global Smartphone Market Share in 2021")
                 .attr("fill", "black")
                 .style("font-weight", "bold")

@@ -94,6 +94,31 @@ class TreeMapMini extends Component {
 
             // use this information to add rectangles:
 
+            // Add a box on top of all blocks titled "Websites"
+            let xMin = d3.min(root.leaves(), d => d.x0);
+            let yMin = d3.min(root.leaves(), d => d.y0);
+            let xMax = d3.max(root.leaves(), d => d.x1);
+            let yMax = d3.max(root.leaves(), d => d.y1);
+
+            // svg.append("rect")
+            //     .attr("x", 0)
+            //     .attr("y", 0)
+            //     .attr("width", 1000)
+            //     .attr("height", 1000)
+            //     .style("fill", "black")
+            //     .style("stroke", "black")
+            //     .style("stroke-width", 2);  // adjust as needed
+        
+
+            // svg.append("rect")
+            //     .attr("x", margin.left)
+            //     .attr("y", 0)
+            //     .attr("width", width)
+            //     .attr("height", margin.top)
+            //     .style("fill", "white")
+            //     .style("stroke", "black");
+
+
 
             svg
                 .selectAll("rect")
@@ -126,7 +151,7 @@ class TreeMapMini extends Component {
                 .data(root.leaves())
                 .enter()
                 .append("text")
-                //.attr("class", "tree-text")
+                // .attr("class", "tree-text")
                 .attr("transform", function (d) {
                     if (d.data.name === "LinkedIn" || d.data.name === "MSN/WindowsLive/Bing") {
                         return "translate(" + (d.x0 + 5) + "," + (d.y0 + 20) + ")" + " " + "rotate(90)";
@@ -195,12 +220,20 @@ class TreeMapMini extends Component {
                 .attr("class", "x-label")
 
             // Add title for the 3 groups
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", margin.top / 2-45)
+                .style("text-anchor", "middle")
+                .style("alignment-baseline", "middle")
+                .text("Websites")
+                .style("font-weight", "bold");
+
             svg
                 .append("text")
                 .attr("class", "title")
                 .attr("x", width / margin.left)
                 .attr("y", -length / margin.top)    // +20 to adjust position (lower)
-                .text("The Number of Unique Visitors for Websites")
+                .text("The Number of Unique Visitors for Websites in 2020")
                 .attr("fill", "black")
                 .style("font-weight", "bold")
 

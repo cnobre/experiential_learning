@@ -47,6 +47,7 @@ class ChoroplethMini extends Component {
             .append("g")
 
         svg.append("text").attr("class", 'bubbleTitle').text("Unemployment Rates for States in 2020").style("font-weight", 'bolder').attr('x', 1.2 * margin.top).attr('y', 0.9 * margin.top).style('font-size', 0.04 * height)
+        
 
         var image = svg.append('image').attr('width', 1.4 * width).attr('x', 0).attr('y', margin.top * height / width).attr('xlink:href', img8).attr('height', 1.1 * height)
 

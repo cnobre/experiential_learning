@@ -8,6 +8,7 @@ import img10 from '../components/data/Mini-VLAT/AreaChart.png'
 
 
 
+
 class AreaChartMini extends Component {
 
     constructor(props) {
@@ -64,7 +65,19 @@ class AreaChartMini extends Component {
                 .append("g")
                 .attr("transform", `translate(${margin.left},${margin.top})`)
 
-            var data = [0.8865, 0.8924, 0.8818, 0.8831, 0.8874, 0.8607, 0.8442, 0.8074, 0.7670, 0.8532, 0.8352, 0.7757, 0.7824, 0.7865, 0.7696, 0.7328, 0.7112, 0.7402, 0.7393, 0.7078, 0.7064, 0.6863, 0.7328, 0.7322]
+            // var data = [0.890, 0.8865, 0.8924, 0.8818, 0.8831, 0.8874, 0.8607, 0.8442, 0.8074, 0.7670, 0.8532, 0.8352, 0.7757, 0.7824, 0.7865, 0.7696, 0.7328, 0.7112, 0.7402, 0.7393, 0.7078, 0.7064, 0.6863, 0.7328, 0.7322]
+            var data = [0.790, 0.7865, 0.7818, 0.8231, 0.8274, 0.8007, 0.8442, 0.8074, 0.8670, 0.8532,0.8924, 0.8352, 0.7757, 0.7824, 0.7465, 0.7296, 0.7228, 0.7112, 0.7002, 0.6863, 0.74, 0.7264, 0.7463, 0.7528, 0.7522]
+            // var data = [ 0.7757, 0.7824, 0.7465, 0.7296, 0.7228, 0.7112, 0.7002, 0.6863, 0.7078, 0.7264, 0.7463, 0.7528, 0.7522, 0.790, 0.7865, 0.7818, 0.8231, 0.8274, 0.8007, 0.8442, 0.8074, 0.8670, 0.8532,0.8924, 0.8352]
+
+                
+        //     function multiLineDateFormat(date) {
+        //     let formatterMonth = d3.timeFormat("%B");  // "January", "February", etc.
+        //     let formatterYear = d3.timeFormat("%Y");   // "2020", "2021", etc.
+        //     return formatterMonth(date) + "\n" + '\n' + formatterYear(date);
+        // }
+        let formatterMonth = d3.timeFormat("%B");  // "January", "February", etc.
+        let formatterYear = d3.timeFormat("%Y");   // "2020", "2021", etc.
+
 
             var xScale = d3.scaleTime()
                 .domain([new Date(2018, 0, 1), new Date(2020, 0, 1)])
@@ -73,7 +86,85 @@ class AreaChartMini extends Component {
             svg.append("g")
                 .attr("class", "x-axis")
                 .attr("transform", `translate(0, ${height})`)
-                .call(d3.axisBottom(xScale))
+                .call(d3.axisBottom(xScale).tickFormat(formatterMonth));
+            
+            const yearYPosition = 30;  // 30 is an estimation: 15 for month labels and 15 to push year down
+
+            // svg.select(".x-axis").selectAll("g.tick")
+            //     .append("text")
+            //     .attr("y", yearYPosition)
+            //     .attr("text-anchor", "middle")
+            //     .text(d => formatterYear(d))
+            //     .style("fill", "black")  // Adjust the styling as required
+            //     .attr("font-size", "10px");  // Adjust the font size as required
+
+
+            // svg.select(".x-axis").selectAll("g.tick")
+            // .filter(d => formatterMonth(d) === "January")  // Filter only the January dates
+            // .append("text")
+            // .attr("y", yearYPosition)
+            // .attr("text-anchor", "middle")
+            // .text(d => formatterYear(d))
+            // .style("fill", "black")  // Adjust the styling as required
+            // .attr("font-size", "10px");  // Adjust the font size as required
+
+            // Create x-axis with ticks for every month but without labels
+            svg.append("g")
+            .attr("class", "x-axis")
+            .attr("transform", `translate(0, ${height})`)
+            .call(d3.axisBottom(xScale).ticks(d3.timeMonth.every(1)).tickFormat(""));
+
+            // Add year labels only for January ticks
+            svg.select(".x-axis").selectAll("g.tick")
+            .filter(d => formatterMonth(d) === "January")  // Filter only the January dates
+            .append("text")
+            .attr("y", yearYPosition)
+            .attr("text-anchor", "middle")
+            .text(d => formatterYear(d))
+            .style("fill", "black")  // Adjust the styling as required
+            .attr("font-size", "10px");  // Adjust the font size as required
+
+
+            
+            // svg.append("g")
+            //     .attr("class", "x-axis")
+            //     .attr("transform", `translate(0, ${height})`)
+            //     .call(d3.axisBottom(xScale).tickFormat(""));
+
+            // const ticks = xScale.ticks();
+
+            // svg.select(".x-axis").selectAll("g.tick")
+            //     .data(ticks)
+            //     .enter()
+            //     .append("g")
+            //     .attr("class", "tick")
+            //     .attr("transform", d => `translate(${xScale(d)}, 0)`)
+            //     .append("text")
+            //     .attr("y", height + 15)
+            //     .attr("text-anchor", "middle")
+            //     .text(d => formatterMonth(d));
+
+            // svg.select(".x-axis").selectAll("g.tick")
+            //     .data(ticks)
+            //     .enter()
+            //     .append("g")
+            //     .attr("class", "tick")
+            //     .attr("transform", d => `translate(${xScale(d)}, 0)`)
+            //     .append("text")
+            //     .attr("y", height + 30)
+            //     .attr("text-anchor", "middle")
+            //     .text(d => formatterYear(d));
+
+            
+            // svg.append("g")
+            // .attr("class", "x-axis")
+            // .attr("transform", `translate(0, ${height})`)
+            // .call(d3.axisBottom(xScale).tickFormat(multiLineDateFormat))
+            // .selectAll(".tick text")
+            // .attr("font-size", "12px")
+            // .attr("dy", "1.5em"); 
+
+
 
             var yScale = d3.scaleLinear()
                 .domain([0.5, 0.9])

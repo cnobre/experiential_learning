@@ -1,0 +1,42 @@
+# ---- React related ----
+# Dependencies folder
+/node_modules
+
+# Build output
+/build
+/dist
+
+# Environment configuration files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---- Flask related ----
+# Dependencies folder
+/venv
+*.pyc
+__pycache__/
+
+# Database files
+*.db
+*.sqlite3
+
+# Log files
+*.log
+
+# ---- General rules ----
+# Editor temporary files
+*.swp
+*.swo
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-*
+.vscode/
+.idea/
+
+# System generated files
+.DS_Store
+Thumbs.db

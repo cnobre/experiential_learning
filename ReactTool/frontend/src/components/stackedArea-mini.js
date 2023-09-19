@@ -78,7 +78,11 @@ class StackedAreaPlotMini extends Component {
                     (data)
 
                 const color = d3.scaleOrdinal()
-                    .range(['#3182bd', '#9ecae1', '#deebf7'])
+                    // .range(['#3182bd', '#9ecae1', '#deebf7'])
+                    // .range(['#7fc97f', '#beaed4', '#fdc086'])
+                    .range(['#d95f02',
+                    '#7570b3',
+                    '#1b9e77'])
 
                 const x = d3.scaleLinear()
                     .domain(d3.extent(data, function (d) {
@@ -111,13 +115,13 @@ class StackedAreaPlotMini extends Component {
                     .attr("transform", "rotate(-90)")
                     .attr("y", function () {
                         if (width < 500 && width > 400) {
-                            return -1.4 * margin.left + (margin.top / 1.5) * e.clientWidth / e.clientHeight;
+                            return -1.4 * margin.left + (margin.top / 1.5) * e.clientWidth / e.clientHeight -60 ;
                         }
                         else if (width < 400) {
                             return -1.9 * margin.left + (margin.top / 1.5) * e.clientWidth / e.clientHeight;
                         }
                         else {
-                            return - 1.3 * margin.left + (margin.top / 1.5) * e.clientWidth / e.clientHeight;
+                            return - 1.3 * margin.left + (margin.top / 1.5) * e.clientWidth / e.clientHeight -60;
                         }
                     })
                     .attr("x", 0 - (height / 1.9))
@@ -217,7 +221,9 @@ class StackedAreaPlotMini extends Component {
                             return length / 50;
                         }
                     })
-                    .attr("fill", "#deebf7")
+                    // .attr("fill", "#fdc086")
+                    .attr("fill", "#1b9e77")
+                    
 
                 svg.append("rect")
                     .attr("x", function () {
@@ -245,7 +251,9 @@ class StackedAreaPlotMini extends Component {
                             return length / 50;
                         }
                     })
-                    .attr("fill", "#9ecae1")
+                    // .attr("fill", "#beaed4")
+                    .attr("fill", "#7570b3")
+                    
 
                 svg.append("rect")
                     .attr("x", function () {
@@ -273,7 +281,8 @@ class StackedAreaPlotMini extends Component {
                             return length / 50;
                         }
                     })
-                    .attr("fill", "#3182bd")
+                    // .attr("fill", "#7fc97f")
+                    .attr("fill", "#d95f02")
 
                 svg.append("text")
                     .text("Olivia")
